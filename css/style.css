@@ -3,9 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* definição das fontes */
+@font-face {
+    font-family: "fonte star wars";
+    src: url("../fontes/SF\ Distant\ Galaxy.ttf");
+}
+@font-face{
+    font-family: "bebas kai";
+    src:url("../fontes/BebasKai.ttf");
+}
 body,html{
     font: 16px;
     height: 100%;
+    background-color: #1a1722;
+}
+a{
+    cursor: pointer;
+}
+/* barra de navegação */
+.nav .nav-item a.active{
+    background-color:rgba(58, 58, 228, 0);
+    border:1px solid rgb(255, 179, 14);
+    color:rgb(255, 179, 14);
+}
+.nav .nav-item a{
+    color: rgb(255, 255, 255);
+}
+.nav .nav-item a:hover{
+    color: rgb(255, 179, 14);
+}
+.dropdown-menu a.dropdown-item{
+    color:#1b1919
+}
+/* logo */
+.conteudo-titulo span.titulo_logo{
+    font-family: "fonte star wars";
+}
+/* cards */
+h2{
+    color:rgb(39, 115, 248);
+    padding:0 30px;
+    font-family: "bebas kai";
+    letter-spacing: 1.5px;
+}
+p{
+    text-align: justify;
+    padding: 10px 30px;
+    color:rgb(255, 179, 14);
 }
 /* estilo dos títulos do parallax */
 .conteudo-titulo{
@@ -13,6 +57,11 @@ body,html{
     top:45%;
     width: 100%;
     text-align: center;
+}
+.conteudo-titulo h1.titulo{
+    font-family: "bebas kai";
+    color:rgb(247, 241, 241);
+    text-shadow: 2px 2px 3px #000000;
 }
 /* efeito parallax */
 .parallax{
