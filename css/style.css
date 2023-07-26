@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font: 16px;
+    height: 100%;
+}
+/* estilo dos títulos do parallax */
+.conteudo-titulo{
+    position: absolute;
+    top:45%;
+    width: 100%;
+    text-align: center;
+}
+/* efeito parallax */
+.parallax{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 1;
+    position: relative;
+}
+/* imagens do parallax */
+.img1{
+    background-image: url("../imagens/fundo_estrelado.png");
+}
+.img2{
+    background-image: url("../imagens/fundo_estrelado.png");
+}
+.img3{
+    background-image: url("../imagens/nave.png");
+}
+.img4{
+    background-image: url("../imagens/estrela_morte.png");
+}
+.img5{
+    background-image: url("../imagens/bilheteria_fundo.png");
+}
+.img6{
+    background-image: url("../imagens/tatooine_fundo.png");
+}
+.img7{
+    background-image: url("../imagens/bilheteria2_fundo.png");
+}
+.img8{
+    background-image: url("../imagens/yoda_fundo.png");
+}
+.img9{
+    background-image: url("../imagens/jedi_sith_fundo.png");
+}
+.img10{
+    background-image: url("../imagens/sabre_fundo.png");
+}
+.img11{
+    background-image: url("../imagens/vader_fundo.png");
+}
