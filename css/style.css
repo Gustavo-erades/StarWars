@@ -35,6 +35,17 @@ a{
 .dropdown-menu a.dropdown-item{
     color:#1b1919
 }
+.nav .nav-item .dropdown-menu{
+    background-color: #1a1722;
+    color:#fff;
+}
+.nav .nav-item .dropdown-menu a:hover{
+    background-color: #000000;
+    color:rgb(255, 179, 14);
+}
+.nav .nav-item .dropdown-menu a{
+    color:#fff;
+}
 /* logo */
 .conteudo-titulo span.titulo_logo{
     font-family: "fonte star wars";
@@ -51,10 +62,27 @@ p{
     padding: 10px 30px;
     color:rgb(255, 179, 14);
 }
+.conteudo ul{
+    list-style:none;
+    text-align: center;
+    color:rgb(255, 179, 14);
+}
+/* cards de bilheteria */
+.card .card-header .nav .nav-item a:hover{
+    border:1px solid rgb(255, 179, 14);
+}
+.card .card-body .card-title, .card-subtitle{
+    color: aliceblue;
+}
+/* citação */
+blockquote{
+    text-align: center;
+    color:rgb(39, 115, 248);
+}
 /* estilo dos títulos do parallax */
 .conteudo-titulo{
     position: absolute;
-    top:45%;
+    top:40%;
     width: 100%;
     text-align: center;
 }
