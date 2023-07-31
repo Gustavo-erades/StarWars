@@ -79,6 +79,11 @@ blockquote{
     text-align: center;
     color:rgb(39, 115, 248);
 }
+.media img.align-self-center{
+    width:150px;
+    border-radius:8px;
+    box-shadow: 2px 2px 3px #000;
+}
 /* estilo dos títulos do parallax */
 .conteudo-titulo{
     position: absolute;
