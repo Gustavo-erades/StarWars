@@ -1,9 +1,3 @@
-p.lead{
-    text-shadow: 2px 2px 3px #000;   
-}
-.conteudo h2{
-    margin-top: 8px;
-}
 /* imagend do parallax */
 .img1{
     background-image: url("../imagens/fundo_estrelado.png");
