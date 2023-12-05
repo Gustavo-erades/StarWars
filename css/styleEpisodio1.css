@@ -1,24 +1,47 @@
+p.lead{
+    text-shadow: 2px 2px 3px #000;   
+}
+.conteudo h2{
+    margin-top: 8px;
+}
+/* imagend do parallax */
+.img1{
+    background-image: url("../imagens/fundo_estrelado.png");
+    box-shadow: 2px 3px 20px #000;
+}
+.img2{
+    background-image: url("../imagens/fundo_estrelado.png");
+    box-shadow: 2px 3px 20px #000;
+}
 .img3{
     background-image: url("../imagens/Ameaca_Fantasma.png");
+    box-shadow: 2px 3px 20px #000;
 }
 .img4{
     background-image: url("../imagens/naboo.jpg");
+    box-shadow: 2px 3px 20px #000;
 }
 .img5{
     background-image: url("../imagens/pequeno_anakin.png");
+    box-shadow: 2px 3px 20px #000;
 }
 .img6{
     background-image: url("../imagens/Conselho_Jedi_e_Anakin.png");
+    box-shadow: 2px 3px 20px #000;
 }
 .img7{
     background-image: url("../imagens/naboo2.jpeg");
+    box-shadow: 2px 3px 20px #000;
 }
 .img8{
     background-image: url("../imagens/darth_maul.png");
+    box-shadow: 2px 3px 20px #000;
 }
 .img9{
     background-image: url("../imagens/kenobi.png");
+    box-shadow: 2px 3px 20px #000;
 }
 .img10{
     background-image: url("../imagens/Naboo_celebration.png");
+    box-shadow: 2px 3px 20px #000;
 }

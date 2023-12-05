@@ -5,27 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erro 404</title>
     <style>
-        @font-face {
-            font-family: "fonte star wars";
-            src: url("../fontes/SF\ Distant\ Galaxy.ttf");
-        }
         @font-face{
             font-family: "bebas kai";
             src:url("../fontes/BebasKai.ttf");
         }
         body{
-            background: #000 url("../imagens/fundo_estrelado.png") fixed;
+            background: #000 url("./imagens/fundo_estrelado.png") fixed;
             background-size: cover;
             text-align: center;
-            font-family:"fonte star wars";
+            font-family:"bebas kai";
             color:#fff;
         }
         h1{
             font-size: 8em;
             margin-top: 200px;
+            letter-spacing: 0.05em;
         }
         p{
-            font-family:"bebas kai";
             font-size: 1.5em;
             letter-spacing: 0.05em;
             color:rgb(255, 179, 14);
@@ -38,6 +34,19 @@
         }
         cite{
             color:#6c6c6c;
+        }
+        button{
+            cursor: pointer;
+            padding: 10px 15px 10px 15px;
+            font-size: 1.2em;
+            border-radius: 8px;
+            background-color: rgb(255, 179, 14);
+            color:#000;
+            outline: none;
+            border:none;
+        }
+        button:hover{
+            background-color: rgb(188, 135, 21);
         }
     </style>
 </head>
@@ -52,5 +61,13 @@
         "Paciência, jovem padawan, deve ter!"
         <cite>- Yoda, mestre jedi</cite>
     </blockquote>
+    <button onclick="voltar()">
+        voltar
+    </button>
+    <script>
+        function voltar(){
+            history.go(-1);
+        }
+    </script>
 </body>
 </html>
