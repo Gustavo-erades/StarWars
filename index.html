@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css" media="all">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js" defer></script>
     <title>Star Wars</title>
   </head>
   <body>
@@ -115,27 +116,27 @@
         <div class="card-header">
           <ul class="nav nav-tabs card-header-tabs bg-transparent justify-content-center">
             <li class="nav-item">
-              <a class="nav-link active">Episódio I</a>
+              <a class="nav-link" id="episodio1">Episódio I</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Episódio II</a>
+              <a class="nav-link" id="episodio2">Episódio II</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Episódio III</a>
+              <a class="nav-link" id="episodio3">Episódio III</a>
             </li>
           </ul>
         </div>
         <div class="card-body bg-dark media">
           <div class="media-body">
-            <h4 class="card-title">Episódio I</h4>
-            <h6 class="card-subtitle">A ameaça fantasma</h6>
-            <p class="card-text lead">
+            <h4 class="card-title" id="tituloEpisodio">Episódio I</h4>
+            <h6 class="card-subtitle" id="subtituloEpisodio">A ameaça fantasma</h6>
+            <p class="card-text lead" id="paragrafoEpisodio">
               A Federação de Comércio entra em conflito com a República Galática ao bloquear as rotas comerciais do planeta Naboo, o que gera conflitos entre o planeta e a Federação.
               Secretamente, dois jedis são mandados para resolver o conflito que aparenta ser mais profundo. A mando do lorde sith Darth Sidius a Federação envia Darth Maul para assassinar o mestre jedi Qui-Gon e seu padawan Obi-Wan ao mesmo tempo que inicia uma invasão militar em Naboo.  
             </p>
-            <a class="btn btn-warning">Ver história</a>
+            <a class="btn btn-warning" href="./episodios/episodio1.html" id="linkEpisodio">Ver história</a>
           </div>
-          <img src="./imagens/ep1.png" alt="A ameaça fantasma" class="align-self-center">
+          <img src="./imagens/ep1.png" alt="A ameaça fantasma" class="align-self-center" id="imagemEpisodio">
         </div>
       </div>
     </div>
