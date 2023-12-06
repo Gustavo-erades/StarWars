@@ -166,25 +166,15 @@
         <h1 class="titulo display-2">Produção</h1>
       </div>
     </div>
-    <div class="container">
-     <p class="lead">
-        Diretor-><?= $filme->getDiretor()?>
-     </p>
-     <p class="lead">
-        Roteirista-><?= $filme->getRoterista()?>
-     </p>
-     <p class="lead">
-        Data de Lançamento-><?= $filme->getDataLancamento()?>
-     </p>
-     <p class="lead">
-        Bilheteria-><?= $filme->getBilheteria()?>
-     </p>
-     <p class="lead">
-        Atores-><?= $filme->getAtores()?>
-     </p>
-     <p class="lead">
-        Duração-><?= $filme->getDuracao()?>
-     </p>
+    <div class="container conteudo">
+      <ul class="lead">
+        <li>Diretor-><?= $filme->getDiretor()?></li>
+        <li>Roteirista-><?= $filme->getRoterista()?></li>
+        <li>Data de Lançamento-><?= $filme->getDataLancamento()?></li>
+        <li>Bilheteria-><?= $filme->getBilheteria()?></li>
+        <li>Atores-><?= $filme->getAtores()?></li>
+        <li>Duração-><?= $filme->getDuracao()?></li>
+      </ul>
     </div>
     <!-- parallax 1 -->
     <div class="parallax img1">
@@ -192,19 +182,17 @@
         <h1 class="titulo display-2">Notas</h1>
       </div>
     </div>
-    <div class="container">
-     <p class="lead">
-        IMDB-><?= $filme->getNotaIMDB()?>
-     </p>
-     <p class="lead">
-        Roten Tomatoes-><?= $filme->getnotaRotenTomatoes()?>
-     </p>
-     <p class="lead">
-        Meta Critica-><?= $filme->getnotaMetaCritica()?>
-     </p>
-     <p class="lead">
+    <div class="container conteudo">
+      <ul class="lead">
+        <li>IMDB-><?= $filme->getNotaIMDB()?></li>
+        <li>Roten Tomatoes-><?= $filme->getnotaRotenTomatoes()?></li>
+        <li>Meta Critica-><?= $filme->getnotaMetaCritica()?></li>
+      </ul>
+      <p class="lead">
         <?= $filme->getQtVotosIMDB()?> Votos no IMDB
-        <a href="https://www.imdb.com/title/<?=$filme->getIdIMDB()?>/" target="_blank">confira aqui o IMDB desse filme</a>
+      </p>
+      <p class="lead">
+        <a href="https://www.imdb.com/title/<?=$filme->getIdIMDB()?>/" target="_blank" id="idIMDB">confira aqui o IMDB desse filme</a>
       </p>
     </div>
     <div class="parallax img1">
