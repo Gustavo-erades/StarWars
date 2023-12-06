@@ -5,3 +5,6 @@
     function formataBilheteria($bilheteria){
         return str_replace(array("$",","),array("R$","."),$bilheteria);
     }
+    function formataVotos($votos){
+        return str_replace(",",".",$votos);
+    }

@@ -2,6 +2,8 @@
     class Filmes{
         private $dataLancamento;
         private $notaIMDB;
+        private $idIMDB;
+        private $qtVotosIMDB;
         private $notaRotenTomatoes;
         private $notaMetaCritica;
         private $diretor;
@@ -22,6 +24,20 @@
         }
         public function setNotaIMDB($notaIMDB){
             $this->notaIMDB=$notaIMDB;
+        }
+        // Id IMDB
+        public function getIdIMDB(){
+            return $this->idIMDB;
+        }
+        public function setIdIMDB($idIMDB){
+            $this->idIMDB=$idIMDB;
+        }
+        // Quantidade de votos no IMDB
+        public function getQtVotosIMDB(){
+            return $this->qtVotosIMDB;
+        }
+        public function setQtVotosIMDB($qtVotosIMDB){
+            $this->qtVotosIMDB=$qtVotosIMDB;
         }
         // Roten Tomatoes
         public function getnotaRotenTomatoes(){

@@ -8,6 +8,8 @@
     $dados=consumirAPI("IV");
     $filme->setDataLancamento(formataData($dados->Released));
     $filme->setNotaIMDB($dados->Ratings[0]->Value);
+    $filme->setIdIMDB($dados->imdbID);
+    $filme->setQtVotosIMDB(formataVotos($dados->imdbVotes));
     $filme->setNotaRotenTomatoes($dados->Ratings[1]->Value);
     $filme->setnotaMetaCritica($dados->Ratings[2]->Value);
     $filme->setDiretor($dados->Director);

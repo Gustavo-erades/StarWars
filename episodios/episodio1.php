@@ -202,6 +202,10 @@
      <p class="lead">
         Meta Critica-><?= $filme->getnotaMetaCritica()?>
      </p>
+     <p class="lead">
+        <?= $filme->getQtVotosIMDB()?> Votos no IMDB
+        <a href="https://www.imdb.com/title/<?=$filme->getIdIMDB()?>/" target="_blank">confira aqui o IMDB desse filme</a>
+      </p>
     </div>
     <div class="parallax img1">
       <div class="conteudo-titulo">
