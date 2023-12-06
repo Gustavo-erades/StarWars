@@ -179,7 +179,7 @@
     <!-- parallax 1 -->
     <div class="parallax img1">
       <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Notas</h1>
+        <h1 class="titulo display-2">Avaliação</h1>
       </div>
     </div>
     <div class="container conteudo">
