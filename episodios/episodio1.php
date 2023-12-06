@@ -168,19 +168,23 @@
     </div>
     <div class="container">
      <p class="lead">
-      Vazio. Por enquanto...
+        Diretor-><?= $filme->getDiretor()?>
      </p>
-    </div>
-    <!-- volta o parallax 1 -->
-    <div class="parallax img1">
-      <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Elenco</h1>
-      </div>
-    </div>
-    <div class="container">
-      <p class="lead">
-        Vazio. Por enquanto...<?= $filme->getBilheteria() ?>
-       </p>
+     <p class="lead">
+        Roteirista-><?= $filme->getRoterista()?>
+     </p>
+     <p class="lead">
+        Data de Lançamento-><?= $filme->getDataLancamento()?>
+     </p>
+     <p class="lead">
+        Bilheteria-><?= $filme->getBilheteria()?>
+     </p>
+     <p class="lead">
+        Atores-><?= $filme->getAtores()?>
+     </p>
+     <p class="lead">
+        Duração-><?= $filme->getDuracao()?>
+     </p>
     </div>
     <!-- parallax 1 -->
     <div class="parallax img1">
@@ -190,7 +194,13 @@
     </div>
     <div class="container">
      <p class="lead">
-      Vazio. Por enquanto...
+        IMDB-><?= $filme->getNotaIMDB()?>
+     </p>
+     <p class="lead">
+        Roten Tomatoes-><?= $filme->getnotaRotenTomatoes()?>
+     </p>
+     <p class="lead">
+        Meta Critica-><?= $filme->getnotaMetaCritica()?>
      </p>
     </div>
     <div class="parallax img1">
