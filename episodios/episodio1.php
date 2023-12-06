@@ -166,7 +166,8 @@
         <h1 class="titulo display-2">Produção</h1>
       </div>
     </div>
-    <div class="container conteudo">
+    <div class="container conteudo media">
+      <img src="<?=$filme->getUrlImagem()?>" alt="poster star wars a ameaça fantasma" class="align-self-center" id="imagemEpisodio">
       <ul class="lead">
         <li>Diretor-><?= $filme->getDiretor()?></li>
         <li>Roteirista-><?= $filme->getRoterista()?></li>
@@ -192,7 +193,7 @@
         <?= $filme->getQtVotosIMDB()?> Votos no IMDB
       </p>
       <p class="lead">
-        <a href="https://www.imdb.com/title/<?=$filme->getIdIMDB()?>/" target="_blank" id="idIMDB">confira aqui o IMDB desse filme</a>
+        <a href="https://www.imdb.com/title/<?=$filme->getIdIMDB()?>/" target="_blank" id="idIMDB">confira aqui a avaliação no IMDB desse filme</a>
       </p>
     </div>
     <div class="parallax img1">

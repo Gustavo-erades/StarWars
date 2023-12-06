@@ -17,3 +17,4 @@
     $filme->setRoterista($dados->Writer);
     $filme->setDuracao($dados->Runtime);
     $filme->setBilheteria(formataBilheteria($dados->BoxOffice));
+    $filme->setUrlImagem($dados->Poster);

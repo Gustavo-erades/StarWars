@@ -11,6 +11,7 @@
         private $roterista;
         private $duracao;
         private $bilheteria;
+        private $urlImagem;
         // Data de lançamento
         public function getDataLancamento(){
             return $this->dataLancamento;
@@ -86,5 +87,12 @@
         }
         public function setBilheteria($bilheteria){
             return $this->bilheteria=$bilheteria;
+        }
+        // Imagem
+        public function getUrlImagem(){
+            return $this->urlImagem;
+        }
+        public function setUrlImagem($urlImagem){
+            return $this->urlImagem=$urlImagem;
         }
     }
