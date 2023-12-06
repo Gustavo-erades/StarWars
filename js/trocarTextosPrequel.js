@@ -13,7 +13,7 @@ function trocarTextoEpisodio1(){
     titulo.textContent="Episodio I";
     subtitulo.textContent="A ameaça fantasma";
     paragrafo.textContent="A Federação de Comércio entra em conflito com a República Galática ao bloquear as rotas comerciais do planeta Naboo, o que gera conflitos entre o planeta e a Federação. Secretamente, dois jedis são mandados para resolver o conflito que aparenta ser mais profundo. A mando do lorde sith Darth Sidius a Federação envia Darth Maul para assassinar o mestre jedi Qui-Gon e seu padawan Obi-Wan ao mesmo tempo que inicia uma invasão militar em Naboo.";
-    link.setAttribute("href","./episodios/episodio1.html");
+    link.setAttribute("href","./episodios/episodio1.php");
     img.setAttribute("src","./imagens/ep1.png");
 }
 // função que troca o texto (episódio 2)

@@ -1,5 +1,8 @@
 <!doctype html>
 <html lang="pt-br">
+  <?php
+    include_once("../objetos/objEpisodio1.php");
+  ?>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -178,6 +181,17 @@
       <p class="lead">
         Vazio. Por enquanto...
        </p>
+    </div>
+    <!-- parallax 1 -->
+    <div class="parallax img1">
+      <div class="conteudo-titulo">
+        <h1 class="titulo display-2">Notas</h1>
+      </div>
+    </div>
+    <div class="container">
+     <p class="lead">
+      Vazio. Por enquanto...
+     </p>
     </div>
     <div class="parallax img1">
       <div class="conteudo-titulo">
