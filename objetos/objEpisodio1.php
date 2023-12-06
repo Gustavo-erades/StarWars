@@ -1,7 +1,17 @@
 <?php 
-    include_once("../APIs/API_starWarsFilme.php");
-    include_once("../classes/StarWarsFilmes.php");
-    include_once("../funcoesPHP/formatarData.php");
+    // inclui os arquivos para trabalhar com a API, mexer com classes e converter a data
+    include_once("../APIs/API_filmes.php");
+    include_once("../classes/Filmes.php");
+    include_once("../funcoesPHP/formatarValores.php");
     // usa os métodos setters para armazenar valores específicos retornados da API
-    $filme= new StarWarsFilmes();
-    $filme->setLancamento(data($dadosStarWarsFilme->results[0]->release_date));
+    $filme= new Filmes();
+    $dados=consumirAPI("IV");
+    $filme->setDataLancamento(formataData($dados->Released));
+    $filme->setNotaIMDB($dados->Ratings[0]->Value);
+    $filme->setNotaRotenTomatoes($dados->Ratings[1]->Value);
+    $filme->setnotaMetaCritica($dados->Ratings[2]->Value);
+    $filme->setDiretor($dados->Director);
+    $filme->setAtores($dados->Actors);
+    $filme->setRoterista($dados->Writer);
+    $filme->setDuracao($dados->Runtime);
+    $filme->setBilheteria(formataBilheteria($dados->BoxOffice));

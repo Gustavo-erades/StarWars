@@ -179,7 +179,7 @@
     </div>
     <div class="container">
       <p class="lead">
-        Vazio. Por enquanto...
+        Vazio. Por enquanto...<?= $filme->getBilheteria() ?>
        </p>
     </div>
     <!-- parallax 1 -->
