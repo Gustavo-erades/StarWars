@@ -167,27 +167,24 @@
         <h1 class="titulo display-2">Produção</h1>
       </div>
     </div>
-    <div class="container conteudo media">
-      <div class="grid">
+    <div class="container conteudo">
+      <div class="grid" id="conteudoAPI">
         <div class="row">
-          <!--
           <div class="col-2">
             <img src="<?=$filme->getUrlImagem()?>" alt="poster star wars a ameaça fantasma" class="align-self-center" id="imagemEpisodio">
           </div>
--->
-          <div class="col-12" style="border:1px solid red; color:#fff">
+          <div class="col-10">
             <div class="row">
-              <span>
-                <h4>Diretor</h4>
+              <span class="col-4 spanAPI">
+                <h4 class="tituloAPI">Diretor</h4>
                 <p><?= $filme->getDiretor()?></p>
               </span>
-              <span>
-                <h4>Roteirista</h4>
+              <span class="col-4 spanAPI">
+                <h4 class="tituloAPI">Roteirista</h4>
                 <p><?= $filme->getRoterista()?></p>
               </span>
-              <span>
-              <h4>Elenco</h4>
-              
+              <span class="col-4 spanAPI">
+              <h4 class="tituloAPI">Atores</h4>
               <?php
                 foreach($filme->getAtores() as $ator){
                   echo "<ul>";
@@ -195,20 +192,19 @@
                   echo "</ul>";
                 }
               ?>
-                
             </div>
             <div class="row">
-              <span>
-                <h4>Bilheteria</h4>
+              <span class="col-4 spanAPI">
+                <h4 class="tituloAPI">Bilheteria</h4>
                 <p><?= $filme->getBilheteria()?></p>
               </span>
-              <span>
-              <h4>Lançamento</h4>
+              <span class="col-4 spanAPI">
+              <h4 class="tituloAPI">Lançamento</h4>
                 <p><?= $filme->getDataLancamento()?></p>
               </span>
               </span>
-              <span>
-                <h4>Duração</h4>
+              <span class="col-4 spanAPI">
+                <h4 class="tituloAPI">Duração</h4>
                 <p><?= $filme->getDuracao()?></p>
               </span>
             </div>
@@ -223,13 +219,27 @@
       </div>
     </div>
     <div class="container conteudo">
-      <ul class="lead">
-        <li>IMDB-><?= $filme->getNotaIMDB()?></li>
-        <li>Roten Tomatoes-><?= $filme->getnotaRotenTomatoes()?></li>
-        <li>Meta Critica-><?= $filme->getnotaMetaCritica()?></li>
-      </ul>
+      <div class="grid" id="conteudoAPI">
+        <div class="row">
+          <span class="col-4 spanAPI">
+            <h4 class="tituloAPI">IMDB</h4>
+            <p><?= $filme->getNotaIMDB()?></p>
+          </span>
+          <span class="col-4 spanAPI">
+            <h4 class="tituloAPI">Roten Tomatoes</h4>
+            <p><?= $filme->getnotaRotenTomatoes()?></p>
+          </span>
+          <span class="col-4 spanAPI">
+            <h4 class="tituloAPI">Metacritic</h4>
+            <p><?= $filme->getnotaMetaCritica()?></p>
+          </span>
+        </div>
+      </div>         
       <p class="lead">
-        <?= $filme->getQtVotosIMDB()?> Votos no IMDB
+        <?= $filme->getQtVotosIMDB()?> Votos no Internet Movie Database
+      </p>
+      <p class="lead">
+        Código no Internet Movie Database: <?=$filme->getIdIMDB()?>
       </p>
       <p class="lead">
         <a href="https://www.imdb.com/title/<?=$filme->getIdIMDB()?>/" target="_blank" id="idIMDB">confira aqui a avaliação no IMDB desse filme</a>
