@@ -1,7 +1,7 @@
 div#conteudoAPI{
     margin-top: 10px;
 }
-span.spanAPI p,li{
+span.spanAPI p,#conteudoAPI li{
     text-align: center;
     font-size: 1.2em;
 }
