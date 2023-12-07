@@ -8,3 +8,6 @@
     function formataVotos($votos){
         return str_replace(",",".",$votos);
     }
+    function formataAtores($atores){
+        return explode(",",$atores);
+    }

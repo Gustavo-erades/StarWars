@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css" media="all">
     <link rel="stylesheet" href="../css/styleEpisodio1.css" media="all">
+    <link rel="stylesheet" href="../css/episodios.css" media="all">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../imagens/icone3.png" type="image/x-icon">
     <title>Star Wars- Episódio I</title>
@@ -167,15 +168,53 @@
       </div>
     </div>
     <div class="container conteudo media">
-      <img src="<?=$filme->getUrlImagem()?>" alt="poster star wars a ameaça fantasma" class="align-self-center" id="imagemEpisodio">
-      <ul class="lead">
-        <li>Diretor-><?= $filme->getDiretor()?></li>
-        <li>Roteirista-><?= $filme->getRoterista()?></li>
-        <li>Data de Lançamento-><?= $filme->getDataLancamento()?></li>
-        <li>Bilheteria-><?= $filme->getBilheteria()?></li>
-        <li>Atores-><?= $filme->getAtores()?></li>
-        <li>Duração-><?= $filme->getDuracao()?></li>
-      </ul>
+      <div class="grid">
+        <div class="row">
+          <!--
+          <div class="col-2">
+            <img src="<?=$filme->getUrlImagem()?>" alt="poster star wars a ameaça fantasma" class="align-self-center" id="imagemEpisodio">
+          </div>
+-->
+          <div class="col-12" style="border:1px solid red; color:#fff">
+            <div class="row">
+              <span>
+                <h4>Diretor</h4>
+                <p><?= $filme->getDiretor()?></p>
+              </span>
+              <span>
+                <h4>Roteirista</h4>
+                <p><?= $filme->getRoterista()?></p>
+              </span>
+              <span>
+              <h4>Elenco</h4>
+              
+              <?php
+                foreach($filme->getAtores() as $ator){
+                  echo "<ul>";
+                  echo "<li>".$ator."</li>";
+                  echo "</ul>";
+                }
+              ?>
+                
+            </div>
+            <div class="row">
+              <span>
+                <h4>Bilheteria</h4>
+                <p><?= $filme->getBilheteria()?></p>
+              </span>
+              <span>
+              <h4>Lançamento</h4>
+                <p><?= $filme->getDataLancamento()?></p>
+              </span>
+              </span>
+              <span>
+                <h4>Duração</h4>
+                <p><?= $filme->getDuracao()?></p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- parallax 1 -->
     <div class="parallax img1">

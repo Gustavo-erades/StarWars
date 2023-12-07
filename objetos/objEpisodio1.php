@@ -13,7 +13,7 @@
     $filme->setNotaRotenTomatoes($dados->Ratings[1]->Value);
     $filme->setnotaMetaCritica($dados->Ratings[2]->Value);
     $filme->setDiretor($dados->Director);
-    $filme->setAtores($dados->Actors);
+    $filme->setAtores(formataAtores($dados->Actors));
     $filme->setRoterista($dados->Writer);
     $filme->setDuracao($dados->Runtime);
     $filme->setBilheteria(formataBilheteria($dados->BoxOffice));
