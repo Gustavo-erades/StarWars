@@ -121,15 +121,15 @@ blockquote{
 .img4{
     background-image: url("../imagens/estrela_morte.png");
 }
-.img5{
+/*.img5{
     background-image: url("../imagens/bilheteria_fundo.png");
-}
+}*/
 .img6{
     background-image: url("../imagens/tatooine_fundo.png");
 }
-.img7{
+/*.img7{
     background-image: url("../imagens/bilheteria2_fundo.png");
-}
+}*/
 .img8{
     background-image: url("../imagens/yoda_fundo.png");
 }
@@ -137,10 +137,10 @@ blockquote{
     background-image: url("../imagens/jedi_sith_fundo.png");
 }
 .img10{
-    background-image: url("../imagens/sabre_fundo.png");
+    background-image: url("../imagens/sabreVader.jpg");
 }
 .img11{
-    background-image: url("../imagens/vader_fundo.png");
+    background-image: url("../imagens/fundo_estrelado.png");
 }
 /* media querys */
 @media (max-width:768px){
