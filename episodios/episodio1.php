@@ -46,7 +46,7 @@
       </ul><!-- fim da barra de navegação -->
     </div>
     <!-- imagem parallax 1 -->
-    <div class="parallax img2">
+    <div class="parallax img1">
         <div class="conteudo-titulo">
             <h1 class="text-light">Episódio I</h1>
             <h1 class="titulo display-2">A ameaça fantasma</h1>
@@ -162,7 +162,7 @@
      </p>
     </div>
     <!-- volta o parallax 1 -->
-    <div class="parallax img1">
+    <div class="parallax img2">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">Produção</h1>
       </div>
@@ -213,7 +213,7 @@
       </div>
     </div>
     <!-- parallax 1 -->
-    <div class="parallax img1">
+    <div class="parallax img2_1">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">Avaliação</h1>
       </div>
