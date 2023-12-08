@@ -6,7 +6,7 @@
  }
 @media (min-width: 365px) and (max-width: 456.98px) { 
     h1.display-2{
-        font-size: 2.4em;
+        font-size: 2.5em;
     }
  }
 @media (min-width: 425.98px) and (max-width: 456.98px) { 
@@ -16,7 +16,7 @@
  }
 @media (min-width: 457px) and (max-width: 575.98px) { 
     h1.display-2{
-        font-size: 3em;
+        font-size: 3.1em;
     }
  }
 @media (max-width:575.98px){
@@ -24,13 +24,13 @@
         background-image: url("../imagens/sabreWindu.jpg");
     }
     h2{
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     blockquote.blockquote{
         font-size: 1.1em;
     }
     p.lead{
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
 }
 
