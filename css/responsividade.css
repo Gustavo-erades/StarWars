@@ -23,6 +23,15 @@
     .img10{
         background-image: url("../imagens/sabreWindu.jpg");
     }
+    h2{
+        font-size: 1.5em;
+    }
+    blockquote.blockquote{
+        font-size: 1.1em;
+    }
+    p.lead{
+        font-size: 1.1em;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px)*/
