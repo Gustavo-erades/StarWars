@@ -1,17 +1,19 @@
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-   
+    h1.display-2{
+        font-size: 3em;
+    }
  }
 
 /* Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) { 
     h1.display-2{
         font-size: 3.5em;
     }
  }
 
 /* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) { 
     h1.display-2{
         font-size: 4em;
     }
