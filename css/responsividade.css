@@ -20,6 +20,9 @@
     }
  }
 @media (max-width:575.98px){
+    .img6{
+        background-image: url("../imagens/tatooine_fundoCelular.png");
+    }
     .img10{
         background-image: url("../imagens/sabreWindu.jpg");
     }
@@ -31,6 +34,9 @@
     }
     p.lead{
         font-size: 0.9em;
+    }
+    ul.lead li{
+        font-size: 0.8em;
     }
 }
 
