@@ -20,11 +20,8 @@
     }
  }
 @media (max-width:575.98px){
-    .img6{
-        background-image: url("../imagens/tatooine_fundoCelular.png");
-    }
-    .img10{
-        background-image: url("../imagens/sabreWindu.jpg");
+    .img2_1{
+        background-image: url("../imagens/leia_responsividade.jpg");
     }
     h2{
         font-size: 1.4em;
@@ -33,13 +30,22 @@
         font-size: 1.1em;
     }
     p.lead{
-        font-size: 0.9em;
+        font-size: 1em;
     }
     ul.lead li{
-        font-size: 0.8em;
+        font-size: 1em;
     }
     span.titulo_logo{
         font-size:4em;
+    }
+    h4.tituloAPI{
+        font-size: 1em;
+    }
+    span.spanAPI p{
+        font-size: 1em;
+    }
+    span.spanAPI ul{
+        font-size: 0.8em;
     }
 }
 

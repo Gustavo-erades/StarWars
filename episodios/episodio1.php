@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/style.css" media="all">
     <link rel="stylesheet" href="../css/styleEpisodio1.css" media="all">
     <link rel="stylesheet" href="../css/episodios.css" media="all">
+    <link rel="stylesheet" href="../css/responsividadeEpisodio.css" media="all">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../imagens/icone3.png" type="image/x-icon">
     <title>Star Wars- Episódio I</title>
@@ -170,10 +171,10 @@
     <div class="container conteudo">
       <div class="grid" id="conteudoAPI">
         <div class="row">
-          <div class="col-2">
+          <div class="d-none d-lg-block   col-lg-2">
             <img src="<?=$filme->getUrlImagem()?>" alt="poster star wars a ameaça fantasma" class="align-self-center" id="imagemEpisodio">
           </div>
-          <div class="col-10">
+          <div class="col-12 col-lg-10">
             <div class="row">
               <span class="col-4 spanAPI">
                 <h4 class="tituloAPI">Diretor</h4>
@@ -184,14 +185,14 @@
                 <p><?= $filme->getRoterista()?></p>
               </span>
               <span class="col-4 spanAPI">
-              <h4 class="tituloAPI">Atores</h4>
-              <?php
-                foreach($filme->getAtores() as $ator){
-                  echo "<ul>";
-                  echo "<li>".$ator."</li>";
-                  echo "</ul>";
-                }
-              ?>
+                <h4 class="tituloAPI">Atores</h4>
+                <?php
+                  foreach($filme->getAtores() as $ator){
+                    echo "<ul>";
+                    echo "<li>".$ator."</li>";
+                    echo "</ul>";
+                  }
+                ?>
             </div>
             <div class="row">
               <span class="col-4 spanAPI">
