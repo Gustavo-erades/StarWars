@@ -9,7 +9,7 @@
     background-image: url("../imagens/leia.jpg");
 }
 .img3{
-    background-image: url("../imagens/Ameaca_Fantasma.png");
+    background-image: url("../imagens/morteAosJedis_responsividade.jpg");
 }
 .img4{
     background-image: url("../imagens/naboo.jpg");
@@ -31,4 +31,15 @@
 }
 .img10{
     background-image: url("../imagens/Naboo_celebration.png");
+}
+@media (max-width:575.98px){
+    .img2_1{
+        background-image: url("../imagens/leia_responsividade.jpg");
+    }
+    .img3{
+        background-image: url("../imagens/morteAosJedis_responsividade.jpg");
+    }
+    .img9{
+        background-image: url("../imagens/kenobi_responsividade.png");
+    }
 }
