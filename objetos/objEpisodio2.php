@@ -5,7 +5,7 @@
     include_once("../funcoesPHP/formatarValores.php");
     // usa os métodos setters para armazenar valores específicos retornados da API
     $filme= new Filmes();
-    $dados=consumirAPI("I");
+    $dados=consumirAPI("II");
     $filme->setDataLancamento(formataData($dados->Released));
     $filme->setNotaIMDB($dados->Ratings[0]->Value);
     $filme->setIdIMDB($dados->imdbID);

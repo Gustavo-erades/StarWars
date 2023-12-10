@@ -1,19 +1,19 @@
 <!doctype html>
 <html lang="pt-br">
   <?php
-    include_once("../objetos/objEpisodio1.php");
+    include_once("../objetos/objEpisodio2.php");
   ?>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css" media="all">
-    <link rel="stylesheet" href="../css/styleEpisodio1.css" media="all">
+    <link rel="stylesheet" href="../css/styleEpisodio2.css" media="all">
     <link rel="stylesheet" href="../css/episodios.css" media="all">
     <link rel="stylesheet" href="../css/responsividadeEpisodio.css" media="all">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../imagens/icone3.png" type="image/x-icon">
-    <title>Star Wars- Episódio I</title>
+    <title>Star Wars- Episódio II</title>
   </head>
   <body>
     <!-- imagem parallax 1 -->
@@ -30,8 +30,8 @@
         <li class="nav-item dropdown">
           <a class="nav-link active dropdown-toggle bg-transparent" data-toggle="dropdown" >Episódios</a>
           <div class="dropdown-menu">
-            <a href="#" class="dropdown-item text-warning">Episódio I</a>
-            <a href="episodio2.php" class="dropdown-item">Episódio II</a>
+            <a href="episodio1.php" class="dropdown-item text-warning">Episódio I</a>
+            <a href="#" class="dropdown-item">Episódio II</a>
             <a href="../erro404.html" class="dropdown-item">Episódio III</a>
             <a href="../erro404.html" class="dropdown-item">Episódio IV</a>
             <a href="../erro404.html" class="dropdown-item">Episódio V</a>
@@ -49,15 +49,15 @@
     <!-- imagem parallax 1 -->
     <div class="parallax img1">
         <div class="conteudo-titulo">
-            <h1 class="text-light">Episódio I</h1>
-            <h1 class="titulo display-2">A ameaça fantasma</h1>
+            <h1 class="text-light">Episódio II</h1>
+            <h1 class="titulo display-2">Ataque dos Clones</h1>
         </div>
     </div>
     <!-- conteúdo card 1-->
     <div class="container conteudo">
       <h2>Contexto</h2>
       <p class="lead">
-        A República Galáctica está em grande tumulto. Em disputa estão os impostos sobre as rotas comerciais para os sistemas estelares exteriores. Na esperança de resolver o assunto com um bloqueio de implacáveis naves de guerra, a gananciosa federação de comércio interrompe todos os carregamentos para o pequeno planeta Naboo. Enquanto o Congresso da República debate incessantemente esta alarmante cadeia de acontecimentos, o Supremo Chanceler mandava secretamente dois Cavaleiros Jedi, guardiões da paz e da justiça na galáxia, para resolver o conflito.
+         Uma inquietação toma conta do Senado Galáctico. Milhares de sistemas solares declararam suas intenções em deixar a República. Esse movimento separatista, sob a liderança do misterioso Conde Dookan, tem criado dificuldades para o limitado número de Cavaleiros Jedi manter a paz e a ordem na galáxia. Senadora Amidala, a antiga rainha de Naboo está retornando ao Senado Galáctico para a votação da proposta crítica de criação de um Exército da República, para auxiliar os sobrecarregados Jedi....
       </p>
     </div>
     <!-- imagem parallax 2 -->
@@ -138,7 +138,7 @@
      <!-- conteúdo parallax 8 -->
      <div class="parallax img8">
       <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Darth Maul</h1>
+        <h1 class="titulo display-2">Yoda vs Conde Dooku</h1>
       </div>
     </div>
     <!-- conteúdo card 8 -->

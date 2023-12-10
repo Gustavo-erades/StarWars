@@ -1,0 +1,39 @@
+/* imagend do parallax */
+.img1{
+    background-image: url("../imagens/fundo_estrelado.png");
+}
+.img2{
+    background-image: url("../imagens/r2d2.png");
+}
+.img2_1{
+    background-image: url("../imagens/leia.jpg");
+}
+.img3{
+    background-image: url("../imagens/clone_fundo.png");
+}
+.img4{
+    background-image: url("../imagens/naboo.jpg");
+}
+.img5{
+    background-image: url("../imagens/pequeno_anakin.png");
+}
+.img6{
+    background-image: url("../imagens/Conselho_Jedi_e_Anakin.png");
+}
+.img7{
+    background-image: url("../imagens/naboo2.jpeg");
+}
+.img8{
+    background-image: url("../imagens/dooku.png");
+}
+.img9{
+    background-image: url("../imagens/kenobi.png");
+}
+.img10{
+    background-image: url("../imagens/Naboo_celebration.png");
+}
+@media (max-width:575.98px){
+    .img8{
+        background-image: url("../imagens/dooku_responsividade.jpg");
+    }
+}
