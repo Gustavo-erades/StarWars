@@ -24,7 +24,7 @@
     background-image: url("../imagens/naboo2.jpeg");
 }
 .img8{
-    background-image: url("../imagens/dooku.png");
+    background-image: url("../imagens/dookuXyoda.jpg");
 }
 .img9{
     background-image: url("../imagens/kenobi.png");
@@ -33,7 +33,7 @@
     background-image: url("../imagens/Naboo_celebration.png");
 }
 @media (max-width:575.98px){
-    .img8{
-        background-image: url("../imagens/dooku_responsividade.jpg");
+   .img8{
+        background-image: url("../imagens/dookuXyoda_responsividade.jpg");
     }
 }
