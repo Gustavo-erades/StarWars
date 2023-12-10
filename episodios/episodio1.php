@@ -255,12 +255,17 @@
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center mb-3">
           <li class="nav-item">
-            <a class="nav-link px-2 text-muted"><i class="fa-brands fa-github fa-bounce" style="font-size:2.5em"></i></a>
+            <a class="nav-link px-2 text-muted"><i class="fa-brands fa-github fa-bounce"></i></a>
           </li>
           <li class="nav-item">
             <a class="nav-link px-2 text-muted">&copy; 2023 por Gustavo Êrades </a>
           </li>
         </ul>
+        <span id="span-footer-redes">
+          fale comigo: 
+          <a href="https://www.linkedin.com/in/gustavo-%C3%AA-22a357231/" target="_blank"  class="footer-redes"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:eradesvilarinho@gmail.com" target="_blank" class="footer-redes"><i class="fa-solid fa-envelope"></i></a>
+        </span>
       </footer>
     </div>
     <!-- JavaScript -->

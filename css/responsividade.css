@@ -56,3 +56,15 @@
         font-size: 4em;
     }
  }
+
+@media (max-width:768px){
+    /* esconde a imagem do episódio para medium devices e estiliza 
+    botão de modo diferente */
+    .media img{
+        display: none;
+    }
+    .card .card-body a.btn{
+        width: 100%;
+        font-size:1.2em;
+    }
+}

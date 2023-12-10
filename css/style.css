@@ -142,15 +142,14 @@ blockquote{
 .img11{
     background-image: url("../imagens/fundo_estrelado.png");
 }
-/* media querys */
-@media (max-width:768px){
-    /* esconde a imagem do episódio para medium devices e estiliza 
-    botão de modo diferente */
-    .media img{
-        display: none;
-    }
-    .card .card-body a.btn{
-        width: 100%;
-        font-size:1.2em;
-    }
+i.fa-github{
+    font-size:2.5em
 }
+span#span-footer-redes{
+    color:#6C757D;
+}
+a.footer-redes i{
+    color:#6C757D;
+    font-size: 1.2em;
+}
+
