@@ -24,7 +24,7 @@
     background-image: url("../imagens/naboo2.jpeg");
 }
 .img8{
-    background-image: /*url("../imagens/darth_maul.png");*/ url("https://i.gifer.com/I3Nb.gif")
+    background-image: url("../imagens/darth_maul.png");
 }
 .img9{
     background-image: url("../imagens/kenobi.png");
@@ -41,6 +41,9 @@
     }
     .img5{
         background-image: url("../imagens/pequeno_anakin.png");
+    }
+    .img8{
+        background-image: url("https://i.gifer.com/I3Nb.gif");
     }
     .img9{
         background-image: url("../imagens/kenobi_responsividade.png");
