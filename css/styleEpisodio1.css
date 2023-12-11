@@ -15,7 +15,7 @@
     background-image: url("../imagens/naboo.jpg");
 }
 .img5{
-    background-image: url("../imagens/pequeno_anakin.png");
+    background-image: url("http://68.media.tumblr.com/0a0ec3e8d4037727d15608bd7d1633ea/tumblr_inline_o5a1g8gQlQ1seaxdv_500.gif");
 }
 .img6{
     background-image: url("../imagens/Conselho_Jedi_e_Anakin.png");
@@ -38,6 +38,9 @@
     }
     .img3{
         background-image: url("../imagens/morteAosJedis_responsividade.jpg");
+    }
+    .img5{
+        background-image: url("../imagens/pequeno_anakin.png");
     }
     .img9{
         background-image: url("../imagens/kenobi_responsividade.png");
