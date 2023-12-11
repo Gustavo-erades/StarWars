@@ -30,8 +30,8 @@
         <li class="nav-item dropdown">
           <a class="nav-link active dropdown-toggle bg-transparent" data-toggle="dropdown" >Episódios</a>
           <div class="dropdown-menu">
-            <a href="episodio1.php" class="dropdown-item text-warning">Episódio I</a>
-            <a href="#" class="dropdown-item">Episódio II</a>
+            <a href="episodio1.php" class="dropdown-item">Episódio I</a>
+            <a href="#" class="dropdown-item text-warning">Episódio II</a>
             <a href="../erro404.html" class="dropdown-item">Episódio III</a>
             <a href="../erro404.html" class="dropdown-item">Episódio IV</a>
             <a href="../erro404.html" class="dropdown-item">Episódio V</a>
@@ -63,77 +63,65 @@
     <!-- imagem parallax 2 -->
     <div class="parallax img3">
       <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Morte aos jedis</h1>
+        <h1 class="titulo display-2">Anakin e Obi-Wan perseguem Zam Wesell</h1>
       </div>
     </div>
     <!-- conteúdo card 3 -->
     <div class="container conteudo">
       <p class="lead">
-        O ano 32 ABY é marcado pela disputa comercial entre a Federação de Comércio e o Planeta Naboo que se encontra bloqueado para fins comerciais. Na tentativa de resolver o conflito Chanceler Finis Valorum da República Galáctica secretamente envia dois Jedi, Qui-Gon Jinn e seu Padawan Obi-Wan Kenobi, como embaixadores à nave-capitânia Saak'ak para encontrar com o Vice-rei da Federação de Comércio Nute Gunray.
+        A República Galáctica está em crise. Um movimento separatista (secretamente formado pelo ex-Jedi Conde Dookan) ameaçou a paz. A Senadora Padmé Amidala, ex-Rainha de Naboo, retorna ao Senado Galáctico para oferecer um voto contra a criação de um Exército da República, até porque não há Jedi suficientes para manter a paz e ordem na Galáxia.
       </p>
-      <blockquote class="blockquote">
-        "Estou com um mal pressentimento. Não tem a ver com a missão, mestre. É uma coisa...no ar...indefinível."
-        <footer class="blockquote-footer">
-          <cite class="blockquote-cite"> Kenobi Obi-Wan</cite>
-        </footer>
-      </blockquote>
       <p class="lead">
-        A mando do misterioso Darth Sidious, com quem mantém relação secreta, a Federação de Comércio ordena a morte dos dois Jedi e inicia a Invasão ao planeta Naboo. Assim, a nave dos embaixadores, a Radiant VII, é destruída. Qui-Gon e Obi-Wan escapam da tentativa de assassinato da Federação enfrentando droides de batalha, mas se vêem obrigados a fugir para Naboo.
+        Naquela noite, uma misteriosa caçadora de recompensas faz outro atentado à vida de Amidala, e o Conselho Jedi pede a Obi-Wan para seguir a assassina. Enquanto isso, é dado a Anakin a tarefa de proteger a Senadora e escoltá-la de volta para seu planeta natal de Naboo. Anakin recebe bem a oportunidade, como ele ficava irritado com as críticas de Obi-Wan, e está contente de estar sozinho nessa missão. O Representante Jar Jar Binks assume as tarefas da Senadora durante sua ausência.
+      </p>
+      <p class="lead">
+        Em sua chegada, ela escapa de um atentado a assassinato. Como resultado, o Supremo Chanceler Palpatine pede que os Jedi Obi-Wan Kenobi e Anakin Skywalker a protejam até a votação.
       </p>
     </div>
     <!-- conteúdo parallax 4 -->
     <div class="parallax img4">
       <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Naboo</h1>
+        <h1 class="titulo display-2">Obi-Wan vs Jango Fett</h1>
       </div>
     </div>
     <!-- conteúdo card 4 -->
     <div class="container conteudo">
       <p class="lead">
-        Na superfície do planeta, os Jedi encontram o nativo local Jar Jar Binks, após ter sua vida salva por Qui-Gon, os leva para Otoh Gunga, uma cidade Gungan debaixo d'água, para escapar do exército da Federação de Comércio. Enquanto isso, a Federação invade Naboo e captura a líder do planeta, a Rainha Amidala. Os Jedi têm uma audiência com o líder Gungan, Rugor Nass, e pedem o apoio dos Gungans para ajudar as pessoas de Naboo. Sem muita disposição para ajudar, oferece apenas um bongo para que os Jedi cheguem à Theed. Ao chegarem à capital de Naboo, os Jedi, acompanhados de Jar Jar Binks, resgatam a Rainha Amidala do exército da Federação de Comércio. Eles planejam ir até Coruscant, o planeta capital da República Galáctica, para pedir ajuda ao Senado.
+        Durante a investigação, Obi-Wan é levado para o misterioso planeta Kamino (que não estava nos arquivos da República), onde ele descobre um exército de clones secreto sendo desenvolvido para a República. Os nativos dizem que o exército foi pedido há dez anos antes por um Jedi chamado Zaifo Vias — acreditado morto pelo Conselho Jedi. Um caçador de recompensas chamado Jango Fett foi contratado para ser a predefinição dos clones. Obi-Wan encontra Fett em Kamino, e acredita ser ele o assassino que procura. Depois de uma tentativa de captura falha de Obi-Wan, ele coloca um dispositivo de rastreamento em sua nave e o segue para o planeta Geonosis.
+      </p>
+      <p class="lead">
+        Em Geonosis, Obi-Wan escuta uma conversa entre Conde Dookan e Vice-rei Nute Gunray, e descobre que eles estão por trás do movimento separatista e construíram um novo exército de droides. Ele também descobre que Gunray estava por trás da tentativa de assassinato de Padmé Amidala, como vingança da Batalha de Naboo. Obi-Wan então manda uma mensagem gravada para o Conselho Jedi para informá-los sobre o que acabou de ouvir um pouco antes de ser capturado.
       </p>
     </div>
     <!-- conteúdo parallax 5 -->
     <div class="parallax img5">
       <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Pequeno Anakin</h1>
+        <h1 class="titulo display-2">Anakin e Padmé</h1>
       </div>
     </div>
     <!-- conteúdo card 5 -->
     <div class="container conteudo">
       <p class="lead">
-        A nave da Rainha sofre danos graves ao tentar furar o bloqueio da Federação de Comércio que orbita Naboo. No entanto um droide chamado R2-D2 heroicamente consegue fazer reparos suficientes, possibilitando a entrada no hiper-espaço. Ao saber da fuga, Darth Sidious envia seu aprendiz, Darth Maul, para matar os dois Jedi e recapturar a Rainha.
+        Enquanto isso, Anakin e Padmé têm ficado muito tempo juntos em Naboo. Eles haviam se beijado em um dos primeiros dias no planeta e, numa noite, Anakin revela seu amor profundo por ela. Embora sentisse o mesmo por ele, Padmé resiste, dizendo que seria impossível os dois ficarem juntos, já que ela é uma Senadora e ele um Jedi. Anakin se revolta por isso, e experiencia um conflito interno sobre seu desejo por ela e seus deveres como Jedi.
       </p>
       <p class="lead">
-        Devido ao ataque, a nave é forçada a fazer escala no planeta deserto de Tatooine para reparos. Enquanto procuram pelas partes necessárias, eles fazem amizade com o pequeno Anakin Skywalker, um garoto escravo, cujo mestre é Watto, um Toydariano dono de um ferro-velho. Anakin tem dons para pilotagem e mecânica (ele construiu quase completamente um droide chamado C-3PO). Qui-Gon Jinn sente uma forte presença da Força em Anakin, e percebe que ele possa ser o Escolhido, que irá trazer equilíbrio à Força.
-      </p>
-      <p class="lead">
-        Ao inscrever Anakin numa corrida de pods, Qui-Gon faz uma aposta com Watto, na qual fica acertado que, caso o garoto vença a corrida, o Toydariano concederia as peças necessárias para o conserto da nave e libertaria Anakin. Se o menino perdesse, a nave seria de Watto. Com a vitória de Anakin, Qui-Gon conversa com a mãe de Anakin sobre as habilidades do garoto, e ela acaba por autorizar que o filho vá para Coruscant, para ser apresentado ao Conselho Jedi.
+        Anakin também é perturbado por um sentimento que sua mãe está em perigo grave, e parte para Tatooine com Padmé (desobedeçendo as ordens de Obi-Wan de ficar em Naboo). Ao chegar, ele descobre que sua mãe foi sequestrada um mês atrás pelos Tuskens. Quando chega ao acampamento, ele encontra sua mãe em estado pobre. Em momentos, ela morre em seus braços. Enraivado, ele mata toda a comunidade Tusken. De volta em Coruscant, Yoda sente uma grande escuridão na Força, vindo de Anakin.
       </p>
     </div>
     <!-- conteúdo parallax 6 -->
     <div class="parallax img6">
       <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Conselho Jedi</h1>
+        <h1 class="titulo display-2">A batalha de Geonosis</h1>
       </div>
     </div>
     <!-- conteúdo card 6 -->
     <div class="container conteudo">
         <p class="lead">
-          Em Coruscant, Qui-Gon Jinn informa ao Conselho Jedi sobre o misterioso ataque sofrido por ele em Tatooine. Devido ao fato do atacante ter profundos conhecimento da Força, o Conselho teme que esse acontecimento indique o reaparecimento dos Sith, uma ordem de seguidores do Lado Sombrio da Força que todos pensavam haver se extinguido há tempos. Qui-Gon também relata ao Conselho o encontro com Anakin, na esperança que este seja aceito para o treinamento Jedi. Após os testes com o garoto e deliberações a respeito, o Conselho nega permissão para treinamento alegando que, de acordo com o Código Jedi, Anakin é muito velho para ser treinado. A decisão também levou em consideração sentimento de medo no garoto.
+          Agora que o Conselho Jedi sabe do exército de Dookan, o Jedi Mace Windu lidera uma equipe para Geonosis. Sem que eles soubessem, Anakin e Padmé também vão resgatar Obi-Wan. Enquanto isso, o Representativo Binks pede para que Chanceler Palpatine tenha poderes de emergência, já que a existência do exército de droides foi descoberta pelo Senado.
         </p>
-    </div>
-    <!-- conteúdo parallax 7 -->
-    <div class="parallax img7">
-      <div class="conteudo-titulo">
-        <h1 class="titulo display-2">De volta a Naboo</h1>
-      </div>
-    </div>
-    <!-- conteúdo card 7 -->
-    <div class="container conteudo">
-      <p class="lead">
-        Sem ver nenhuma outra alternativa e, dada sua frustração com a falta de atitude do Senado, a Rainha decide retornar ao seu planeta natal para repelir a invasão ao lado de seu povo. Os dois Jedi são designados para acompanhar a Rainha de volta para Naboo, tanto para protegê-la como para tentar obter mais informações sobre o possível envolvimento dos Sith. De volta em Naboo, Rainha Amidala consegue convencer os Gungans a formarem uma aliança e lutarem juntos contra a Federação de Comércio. Os Gungans se defendem da artilharia dos droides usando o escudo de tecnologia Gungan. Porém os droides de batalha entram em ação e começam a subjugar os Gungans. A derrota para a aliança parece iminente. Mas a vitória é conseguida quando o pequeno Anakin Skywalker acidentalmente pilota um caça em meio a batalha na órbita de Naboo e destrói a Nave de Comando dos Droides da Federação, desativando o exército de droides. Enquanto isso, a Rainha Amidala e sua frota invadem o palácio e capturam Nute Gunray.
-      </p>
+        <p class="lead">
+          Anakin e Padmé chegam ao planeta, mas são rapidamente capturados e sentenciados à morte, junto à Obi-Wan. Antes de serem levados à arena para morrerem, Padmé admite a Anakin que o ama também, e eles se beijam. Durante a tentativa de sobrevivência dos três, o Mestre Windu chega com seus Jedi, que batalham com os droides de Dookan. Mesmo com Windu matando Jango Fett, a derrota parecia iminente. Então é aí que Yoda chega com o novo Exército de clones da República. Uma grande batalha, chamada de Batalha de Geonosis, começa entre o exército de clones da República e as forças droides Separatistas.
+        </p>
     </div>
      <!-- conteúdo parallax 8 -->
      <div class="parallax img8">
@@ -144,23 +132,14 @@
     <!-- conteúdo card 8 -->
     <div class="container conteudo">
       <p class="lead">
-        Ao mesmo tempo, Darth Maul entrou em combate com Qui-Gon e Obi-Wan usando seu sabre de luz duplo. Durante a luta, Obi-Wan acaba se separando de seu mestre pelo campo de força na entrada da sala de geradores. Jinn e o Sith continuam sua batalha observados por Obi-Wan. Em meio ao confronto, Maul atinge Qui-Gon Jinn no rosto e, aproveitando o atordoamento de seu adversário, acerta-o no peito com o sabre de luz, ferindo-o mortalmente. Obi-Wan luta com Darth Maul vigorosamente, conseguindo, inclusive, partir o sabre-duplo de Maul ao meio. O Sith obtém vantagem jogando o padawan no fosso da sala de geradores. Obi-Wan escapa da queda segurando-se na beira do fosso. Darth Maul chuta o sabre de luz do Jedi no fosso e prepara-se para executá-lo. O Padawan utiliza da Força para pular fora do fosso ao mesmo tempo que puxa de volta o sabre de luz de seu mestre. Ao pousar atrás do supreso Sith, Obi-Wan ativa o sabre em suas mãos e corta ao meio Darth Maul, cujo cadáver cai dentro do fosso. Pouco antes de falecer, Qui-Gon pede que Obi-Wan treine Anakin e faça dele um Jedi.
+        Conde Dookan tenta escapar, mas Anakin e Obi-Wan o seguem até um hangar secreto, onde eles começam um combate. Infelizmente, eles não eram páreos para o conhecimento de Dookan da Força, que então machuca Obi-Wan e corta a mão direita de Anakin com o Sabre de luz. Yoda aparece bem na hora em que eles iam ser executados, e os dois mestres na Força vão num combate de sabres-de-luz. Depois de Yoda se revelar superior, Dookan tenta derrubar uma pilastra nos dois Jedi caídos, e usa desta distração para fugir, enquanto Yoda usa a Força para tirar a pilastra de cima de Obi-Wan e Anakin.
       </p>
-    </div>
-     <!-- conteúdo parallax 9 -->
-     <div class="parallax img9">
-      <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Surge um novo jedi</h1>
-      </div>
-    </div>
-    <!-- conteúdo card 9 -->
-    <div class="container conteudo">
-     <p class="lead">
-      Após a batalha, na qual derrotou sozinho um Sith, o Conselho Jedi nomeou Obi-Wan como um Cavaleiro Jedi. Kenobi informa para Yoda sobre o pedido de Qui-Gon acerca do jovem Anakin Skywalker. O Mestre Jedi relutantemente o permite treinar o garoto. Durante a cerimônia de cremação do corpo de Qui-Gon Jinn, Mace Windu e Yoda concordam que o incidente foi definitivamente causado pelos Sith. Sabendo que sempre há somente dois Sith (um Mestre e um aprendiz), os dois Mestres Jedi acreditam que ainda há um outro Sith a ser descoberto. Palpatine, o recém-eleito novo Chanceler, chega à Naboo para parabenizar a Rainha Amidala em sua vitória contra a Federação, enquanto Nute Gunray é mandado para ser sentenciado por seus crimes.
-     </p>
-     <p class="lead">
-      Termina com uma grande celebração em Theed pela liberação da Federação de Comércio e pela união entre os povos de Naboo. Rainha Amidala presenteia Chefe Nass a fim de simbolizar a estima e amizade resultantes da união.
-     </p>
+      <p class="lead">
+        De volta a Coruscant, Obi-Wan informa ao Conselho Jedi do aviso de Dookan que Darth Sidious está controlando o Senado. Yoda hesita ao acreditar nisso, alegando que o Lado Sombrio é capaz de criar medo e desconfiança. Ele e Windu decidem, no entanto, que devem ficar de olho no Senado.
+      </p>
+      <p class="lead">
+        O filme termina com Anakin e Padmé casando-se secretamente em Naboo, apenas com R2-D2 e C-3PO como testemunhas.
+      </p>
     </div>
     <!-- volta o parallax 1 -->
     <div class="parallax img2">

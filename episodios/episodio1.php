@@ -132,7 +132,13 @@
     <!-- conteúdo card 7 -->
     <div class="container conteudo">
       <p class="lead">
-        Sem ver nenhuma outra alternativa e, dada sua frustração com a falta de atitude do Senado, a Rainha decide retornar ao seu planeta natal para repelir a invasão ao lado de seu povo. Os dois Jedi são designados para acompanhar a Rainha de volta para Naboo, tanto para protegê-la como para tentar obter mais informações sobre o possível envolvimento dos Sith. De volta em Naboo, Rainha Amidala consegue convencer os Gungans a formarem uma aliança e lutarem juntos contra a Federação de Comércio. Os Gungans se defendem da artilharia dos droides usando o escudo de tecnologia Gungan. Porém os droides de batalha entram em ação e começam a subjugar os Gungans. A derrota para a aliança parece iminente. Mas a vitória é conseguida quando o pequeno Anakin Skywalker acidentalmente pilota um caça em meio a batalha na órbita de Naboo e destrói a Nave de Comando dos Droides da Federação, desativando o exército de droides. Enquanto isso, a Rainha Amidala e sua frota invadem o palácio e capturam Nute Gunray.
+        Sem ver nenhuma outra alternativa e, dada sua frustração com a falta de atitude do Senado, a Rainha decide retornar ao seu planeta natal para repelir a invasão ao lado de seu povo. Os dois Jedi são designados para acompanhar a Rainha de volta para Naboo, tanto para protegê-la como para tentar obter mais informações sobre o possível envolvimento dos Sith. 
+      </p>
+      <p class="lead">
+        De volta em Naboo, Rainha Amidala consegue convencer os Gungans a formarem uma aliança e lutarem juntos contra a Federação de Comércio. Os Gungans se defendem da artilharia dos droides usando o escudo de tecnologia Gungan. 
+      </p>
+      <p class="lead">
+        Porém os droides de batalha entram em ação e começam a subjugar os Gungans. A derrota para a aliança parece iminente. Mas a vitória é conseguida quando o pequeno Anakin Skywalker acidentalmente pilota um caça em meio a batalha na órbita de Naboo e destrói a Nave de Comando dos Droides da Federação, desativando o exército de droides. Enquanto isso, a Rainha Amidala e sua frota invadem o palácio e capturam Nute Gunray.
       </p>
     </div>
      <!-- conteúdo parallax 8 -->
@@ -144,7 +150,13 @@
     <!-- conteúdo card 8 -->
     <div class="container conteudo">
       <p class="lead">
-        Ao mesmo tempo, Darth Maul entrou em combate com Qui-Gon e Obi-Wan usando seu sabre de luz duplo. Durante a luta, Obi-Wan acaba se separando de seu mestre pelo campo de força na entrada da sala de geradores. Jinn e o Sith continuam sua batalha observados por Obi-Wan. Em meio ao confronto, Maul atinge Qui-Gon Jinn no rosto e, aproveitando o atordoamento de seu adversário, acerta-o no peito com o sabre de luz, ferindo-o mortalmente. Obi-Wan luta com Darth Maul vigorosamente, conseguindo, inclusive, partir o sabre-duplo de Maul ao meio. O Sith obtém vantagem jogando o padawan no fosso da sala de geradores. Obi-Wan escapa da queda segurando-se na beira do fosso. Darth Maul chuta o sabre de luz do Jedi no fosso e prepara-se para executá-lo. O Padawan utiliza da Força para pular fora do fosso ao mesmo tempo que puxa de volta o sabre de luz de seu mestre. Ao pousar atrás do supreso Sith, Obi-Wan ativa o sabre em suas mãos e corta ao meio Darth Maul, cujo cadáver cai dentro do fosso. Pouco antes de falecer, Qui-Gon pede que Obi-Wan treine Anakin e faça dele um Jedi.
+        Ao mesmo tempo, Darth Maul entrou em combate com Qui-Gon e Obi-Wan usando seu sabre de luz duplo. Durante a luta, Obi-Wan acaba se separando de seu mestre pelo campo de força na entrada da sala de geradores. Jinn e o Sith continuam sua batalha observados por Obi-Wan. 
+      </p>
+      <p class="lead">
+        Em meio ao confronto, Maul atinge Qui-Gon Jinn no rosto e, aproveitando o atordoamento de seu adversário, acerta-o no peito com o sabre de luz, ferindo-o mortalmente. Obi-Wan luta com Darth Maul vigorosamente, conseguindo, inclusive, partir o sabre-duplo de Maul ao meio. 
+      </p>
+      <p class="lead">
+        O Sith obtém vantagem jogando o padawan no fosso da sala de geradores. Obi-Wan escapa da queda segurando-se na beira do fosso. Darth Maul chuta o sabre de luz do Jedi no fosso e prepara-se para executá-lo. O Padawan utiliza da Força para pular fora do fosso ao mesmo tempo que puxa de volta o sabre de luz de seu mestre. Ao pousar atrás do supreso Sith, Obi-Wan ativa o sabre em suas mãos e corta ao meio Darth Maul, cujo cadáver cai dentro do fosso. Pouco antes de falecer, Qui-Gon pede que Obi-Wan treine Anakin e faça dele um Jedi.
       </p>
     </div>
      <!-- conteúdo parallax 9 -->
@@ -156,7 +168,10 @@
     <!-- conteúdo card 9 -->
     <div class="container conteudo">
      <p class="lead">
-      Após a batalha, na qual derrotou sozinho um Sith, o Conselho Jedi nomeou Obi-Wan como um Cavaleiro Jedi. Kenobi informa para Yoda sobre o pedido de Qui-Gon acerca do jovem Anakin Skywalker. O Mestre Jedi relutantemente o permite treinar o garoto. Durante a cerimônia de cremação do corpo de Qui-Gon Jinn, Mace Windu e Yoda concordam que o incidente foi definitivamente causado pelos Sith. Sabendo que sempre há somente dois Sith (um Mestre e um aprendiz), os dois Mestres Jedi acreditam que ainda há um outro Sith a ser descoberto. Palpatine, o recém-eleito novo Chanceler, chega à Naboo para parabenizar a Rainha Amidala em sua vitória contra a Federação, enquanto Nute Gunray é mandado para ser sentenciado por seus crimes.
+      Após a batalha, na qual derrotou sozinho um Sith, o Conselho Jedi nomeou Obi-Wan como um Cavaleiro Jedi. Kenobi informa para Yoda sobre o pedido de Qui-Gon acerca do jovem Anakin Skywalker. O Mestre Jedi relutantemente o permite treinar o garoto. Durante a cerimônia de cremação do corpo de Qui-Gon Jinn, Mace Windu e Yoda concordam que o incidente foi definitivamente causado pelos Sith. 
+     </p>
+     <p class="lead">
+      Sabendo que sempre há somente dois Sith (um Mestre e um aprendiz), os dois Mestres Jedi acreditam que ainda há um outro Sith a ser descoberto. Palpatine, o recém-eleito novo Chanceler, chega à Naboo para parabenizar a Rainha Amidala em sua vitória contra a Federação, enquanto Nute Gunray é mandado para ser sentenciado por seus crimes.
      </p>
      <p class="lead">
       Termina com uma grande celebração em Theed pela liberação da Federação de Comércio e pela união entre os povos de Naboo. Rainha Amidala presenteia Chefe Nass a fim de simbolizar a estima e amizade resultantes da união.
