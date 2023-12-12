@@ -1,0 +1,51 @@
+/* imagend do parallax */
+.img1{
+    background-image: url("../imagens/fundo_estrelado.png");
+}
+.img2{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F38.media.tumblr.com%2Fa7636088de394a20a8d4469ff5e91844%2Ftumblr_n94trq5qdd1si2x44o3_500.gif&f=1&nofb=1&ipt=dbac1f0606b457bf6ceef145ff59b34fc2ab40750bd3f0168ed69bc0584027ab&ipo=images");
+}
+.img2_1{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F66.media.tumblr.com%2F8b2d72d5944d4586b59f50374e1aec5a%2Ftumblr_oq1gpej9Sl1w5zrl0o6_540.gifv&f=1&nofb=1&ipt=130fdac7f4fd3199ea36361adcdfb127d021093ba766ae6eae45e9b3a621a713&ipo=images");
+}
+.img3{
+    background-image: url("../imagens/corousant.png");
+}
+.img4{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcc%2Fa0%2F69%2Fcca06980073245f359e5d9103fc88e05.gif&f=1&nofb=1&ipt=9e745b9e8fdf298edd6647cce724aa270dc6d2dbaf9d0c94cc69d072bb03a1b1&ipo=images");
+}
+.img5{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpa1.narvii.com%2F6029%2F44ca35b6dfba29cbdddd49c96bd4dd59377ba217_hq.gif&f=1&nofb=1&ipt=10196a6a71c27438236924b3be7c2ca31d5a0bf5efee9d86cfbbe15d0f52f5a9&ipo=images");
+}
+.img6{
+    background-image: url("../imagens/conselho\ jedi.webp");
+}
+.img7{
+    background-image: url("../imagens/DARTH\ PLAGUEIS.png");
+}
+.img8{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F66.media.tumblr.com%2F2c45674fef60499fae92c8c783bc5b3d%2F1dfead87a4fb7703-6a%2Fs540x810%2Fc12ab369c1d83114cb5daa6edaab09fab3a11f4a.gifv&f=1&nofb=1&ipt=683ab493a509fd6784899840d7ef4c351bb0be9c5fdee26f1ee76f98fa7497f8&ipo=images");
+}
+.img9{
+    background-image: url("../imagens/levante\ vader.jpeg");
+}
+.img10{
+    background-image: url("");
+}
+@media (max-width:575.98px){
+    .img2_1{
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-xWBxpwrWBx4%2FVgdqs5XXe8I%2FAAAAAAAAOJU%2FAgdO9kf0mhE%2Fs1600%2FAnakin-Kills-Younglings-GIF-Revenge-of-the-Sith.gif&f=1&nofb=1&ipt=297d1cddc5c44ff1b074c7983a5d6ef6c232037360e7c394cc5e0a4be5e01311&ipo=images");
+    }
+    .img4{
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F64.media.tumblr.com%2Ff2fa5fc43efac655fcee5a4a2d42bd3f%2F76668a7cf01c67e2-d8%2Fs540x810%2F0d8f325af89baf9a75ddd1ebe3554e66cd8ba986.gifv&f=1&nofb=1&ipt=953c44764cf597d2081b9dc573d19c9f9ff18e9f69476003958f7c570d209152&ipo=images");
+    }
+    .img5{
+        background-image:url("../imagens/grievous");
+    }
+    .img7{
+        background-image: url("../imagens/DARTH\ PLAGUEIS_responsividade.png");
+    }
+    .img8{
+        background-image: url("../imagens/obiWanvsGrievous");
+    }
+}

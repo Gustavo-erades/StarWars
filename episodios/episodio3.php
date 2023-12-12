@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css" media="all">
-    <link rel="stylesheet" href="../css/styleEpisodio2.css" media="all">
+    <link rel="stylesheet" href="../css/styleEpisodio3.css" media="all">
     <link rel="stylesheet" href="../css/episodios.css" media="all">
     <link rel="stylesheet" href="../css/responsividadeEpisodio.css" media="all">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
@@ -133,7 +133,7 @@
         </p>
     </div>
      <!-- conteúdo parallax 8 -->
-     <div class="parallax img8">
+     <div class="parallax img7">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">A tragédia de Darth Plagueis</h1>
       </div>
@@ -165,7 +165,7 @@
       </p>
     </div>
 
-    <div class="parallax img8">
+    <div class="parallax img2">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">Sidious revelado</h1>
       </div>
@@ -182,7 +182,7 @@
       </p>
     </div>
 
-    <div class="parallax img8">
+    <div class="parallax img9">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">Levante-se, lorde Vader</h1>
       </div>
@@ -199,9 +199,9 @@
       </p>
     </div>
 
-    <div class="parallax img8">
+    <div class="parallax img2_1">
       <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Ordem 66</h1>
+        <h1 class="titulo display-2">Executar Ordem 66</h1>
       </div>
     </div>
     <div class="container conteudo">
@@ -222,7 +222,7 @@
       </p>
     </div>
 
-    <div class="parallax img8">
+    <div class="parallax img10">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">Nascimento do Império</h1>
       </div>
@@ -248,7 +248,7 @@
       </p>
     </div>
 
-    <div class="parallax img8">
+    <div class="parallax img11">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">Confronto de titãs</h1>
       </div>
@@ -277,7 +277,7 @@
       </p>
     </div>
 
-    <div class="parallax img8">
+    <div class="parallax img12">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">Batalha de heróis</h1>
       </div>
@@ -300,7 +300,7 @@
       </p>
     </div>
 
-    <div class="parallax img8">
+    <div class="parallax img13">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">Nascimento e renascimento</h1>
       </div>
@@ -326,7 +326,7 @@
       </p>
     </div>
 
-    <div class="parallax img8">
+    <div class="parallax img14">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">A separação das crianças</h1>
       </div>
@@ -358,7 +358,7 @@
 
 
     <!-- volta o parallax 1 -->
-    <div class="parallax img2">
+    <div class="parallax img1">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">Produção</h1>
       </div>
@@ -409,7 +409,7 @@
       </div>
     </div>
     <!-- parallax 1 -->
-    <div class="parallax img2_1">
+    <div class="parallax img1">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">Avaliação</h1>
       </div>
