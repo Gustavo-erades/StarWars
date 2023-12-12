@@ -29,7 +29,7 @@ function trocarTextoEpisodio3(){
     titulo.textContent="Episodio III";
     subtitulo.textContent="A vingança dos Sith";
     paragrafo.textContent="Guerra! A República está desmoronando sob o ataque do impiedoso Lord Sith, Conde Dookan. Há heróis de ambos os lados. O Mal está por toda parte. Em uma manobra surpreendente, o diabólico líder Droide, General Grievous, invadiu a capital da República e sequestrou o Chanceler Palpatine, Líder do Senado Galáctico. Enquanto o Exército Separatista de Droides tenta escapar da capital sitiada com seu valioso refém, dois cavaleiros Jedi lideram uma missão desesperada para resgatar o Chanceler preso....";
-    link.setAttribute("href","./erro404.html");
+    link.setAttribute("href","./episodios/episodio3.php");
     img.setAttribute("src","./imagens/ep3.png");
 }
 // botão para o episódio 1
