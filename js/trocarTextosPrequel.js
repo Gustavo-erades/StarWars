@@ -21,7 +21,7 @@ function trocarTextoEpisodio2(){
     titulo.textContent="Episodio II";
     subtitulo.textContent="Ataque dos clones";
     paragrafo.textContent="Uma inquietação toma conta do Senado Galáctico. Milhares de sistemas solares declararam suas intenções em deixar a República. Esse movimento separatista, sob a liderança do misterioso Conde Dookan, tem criado dificuldades para o limitado número de Cavaleiros Jedi manter a paz e a ordem na galáxia. Senadora Amidala, a antiga rainha de Naboo está retornando ao Senado Galáctico para a votação da proposta crítica de criação de um Exército da República, para auxiliar os sobrecarregados Jedi....";
-    link.setAttribute("href","./erro404.html");
+    link.setAttribute("href","./episodios/episodio2.php");
     img.setAttribute("src","./imagens/ep2.png");
 }
 // função que troca o texto (episódio 3)
