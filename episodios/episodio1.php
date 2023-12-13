@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="pt-br">
   <?php
+    session_start();
     include_once("../objetos/objEpisodio1.php");
+    include_once("../funcoesPHP/gerenciarAcessos.php");
   ?>
   <head>
     <meta charset="utf-8">
