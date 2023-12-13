@@ -32,7 +32,7 @@
           <div class="dropdown-menu">
             <a href="episodio1.php" class="dropdown-item">Episódio I</a>
             <a href="#" class="dropdown-item text-warning">Episódio II</a>
-            <a href="../erro404.html" class="dropdown-item">Episódio III</a>
+            <a href="episodio3.php" class="dropdown-item">Episódio III</a>
             <a href="../erro404.html" class="dropdown-item">Episódio IV</a>
             <a href="../erro404.html" class="dropdown-item">Episódio V</a>
             <a href="../erro404.html" class="dropdown-item">Episódio VI</a>
