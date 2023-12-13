@@ -1,5 +1,9 @@
 <!doctype html>
 <html lang="pt-br">
+  <?php
+    session_start();
+    include_once("./funcoesPHP/gerenciarAcessos.php");
+  ?>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -283,7 +287,7 @@
             </span>
             <span id="span-footer-acessos" class="col-xl-6">
               <span>
-                Esse site já teve <span id="quantidade_acessos"></span> acessos.
+                <?=$quantidade?> acessos.
               </span>
             </span>
           </div>
