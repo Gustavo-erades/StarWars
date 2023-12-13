@@ -30,7 +30,19 @@
     background-image: url("../imagens/levante\ vader.jpeg");
 }
 .img10{
-    background-image: url("");
+    background-image: url("../imagens/clone_fundo.png");
+}
+.img11{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F66.media.tumblr.com%2F909ae09978627a89e3b0d3705fe50df6%2Ftumblr_pv0pd34wb61w4t7wqo2_540.gifv&f=1&nofb=1&ipt=43611b8ea8e737f85ad9719b9e3b5156a6808b4621a2e5cbc0baab7728e7fae1&ipo=images");
+}
+.img12{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2Foriginals%2Fd4%2F9b%2F8a%2Fd49b8a22c03d0cf6682dc112649be78b.gif&f=1&nofb=1&ipt=135afdae20806dddfa318b5123ebb0c24678ec58efc678be80043f41f06088fc&ipo=images");
+}
+.img13{
+    background-image: url("../imagens/vader_darth_vader.png");
+}
+.img14{
+    background-image: url("../imagens/obi-wan-beru.jpg");
 }
 @media (max-width:575.98px){
     .img2_1{
@@ -47,5 +59,17 @@
     }
     .img8{
         background-image: url("../imagens/obiWanvsGrievous");
+    }
+    .img10{
+        background-image: url("../imagens/clone_fundo_responsividade.png");
+    }
+    .img11{
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffondos-animados.com%2Fgifs%2Fmaestro-yoda-con-espada-laser.gif&f=1&nofb=1&ipt=0595551da7a71ea8ab1fc0c68acd6e68280d3504b5b5264ee18d6a095f7d6ae8&ipo=images");
+    }
+    .img12{
+        background-image: url("../imagens/luta_fundo.png");
+    }
+    .img13{
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.guarulhoshoje.com.br%2Fwp-content%2Fuploads%2F2022%2F12%2Fdarth-vader-vilao-de-star-wars-1603244856543_v2_4x3-scaled.jpg&f=1&nofb=1&ipt=6646bd6d588c90a5adf88e74cc9d18b1d584ceff5dfda79ccfc9e1d2a02b9aeb&ipo=images");
     }
 }

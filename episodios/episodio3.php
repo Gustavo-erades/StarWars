@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
   <?php
-    include_once("../objetos/objEpisodio2.php");
+    include_once("../objetos/objEpisodio3.php");
   ?>
   <head>
     <meta charset="utf-8">
@@ -31,8 +31,8 @@
           <a class="nav-link active dropdown-toggle bg-transparent" data-toggle="dropdown" >Episódios</a>
           <div class="dropdown-menu">
             <a href="episodio1.php" class="dropdown-item">Episódio I</a>
-            <a href="episodio2.php" class="dropdown-item text-warning">Episódio II</a>
-            <a href="#" class="dropdown-item">Episódio III</a>
+            <a href="episodio2.php" class="dropdown-item">Episódio II</a>
+            <a href="#" class="dropdown-item text-warning">Episódio III</a>
             <a href="../erro404.html" class="dropdown-item">Episódio IV</a>
             <a href="../erro404.html" class="dropdown-item">Episódio V</a>
             <a href="../erro404.html" class="dropdown-item">Episódio VI</a>
