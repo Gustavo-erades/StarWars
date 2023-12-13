@@ -145,11 +145,13 @@ blockquote{
 i.fa-github{
     font-size:2.5em
 }
-span#span-footer-redes{
+span#span-footer-redes, span#span-footer-acessos{
     color:#6C757D;
 }
 a.footer-redes i{
     color:#6C757D;
     font-size: 1.2em;
 }
-
+span#span-footer-acessos span{
+    float:right;
+}

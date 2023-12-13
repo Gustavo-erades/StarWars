@@ -300,7 +300,7 @@
     </div>
     <div class="container conteudo">
       <blockquote class="blockquote">
-        "Você era o escolhido! Foi dito que você iria trazer equilíbrio para força...destruir os Sith não se unir a eles."
+        "Você era o escolhido! Foi dito que você iria destruir os Sith, não se unir a eles. Trazer o equilíbrio para força, não joga-la nas trevas!"
         <footer class="blockquote-footer">
           <cite class="blockquote-cite">
             Kenobi, Obi-Wan
