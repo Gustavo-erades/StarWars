@@ -25,7 +25,7 @@
       <!-- barra de navegação (menu hambúrger e dropdown) -->
       <ul class="nav nav-pills justify-content-center">
         <li class="nav-item">
-          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="../index.php">Home</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link active dropdown-toggle bg-transparent" data-toggle="dropdown" >Episódios</a>
