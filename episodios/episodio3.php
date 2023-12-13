@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../css/responsividadeEpisodio.css" media="all">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../imagens/icone3.png" type="image/x-icon">
-    <title>Star Wars- Episódio II</title>
+    <title>Star Wars- Episódio III</title>
   </head>
   <body>
     <!-- imagem parallax 1 -->
@@ -205,6 +205,14 @@
       </div>
     </div>
     <div class="container conteudo">
+      <blockquote class="blockquote">
+        "Comandante, a hora chegou. Execute a ordem 66!"
+        <footer class="blockquote-footer">
+          <cite class="blockquote-cite">
+            Sidius, Darth
+          </cite>
+        </footer>
+      </blockquote>
       <p class="lead">
         Enquanto isso, de seu escritório, Palpatine ordena à todos os comandantes pela Galáxia; para cumprir a Ordem 66, dando início ao Grande Purgo Jedi e a Guerra Civil Galáctica.
       </p>
@@ -250,10 +258,18 @@
 
     <div class="parallax img11">
       <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Confronto de titãs</h1>
+        <h1 class="titulo display-2">O poder absoluto do lado sombrio</h1>
       </div>
     </div>
     <div class="container conteudo">
+      <blockquote class="blockquote">
+        "Sua arrogância o cegou, mestre yoda...e agora vai sentir o poder absoluto do lado sombrio da força"
+        <footer class="blockquote-footer">
+          <cite class="blockquote-cite">
+            Sidius, Darth
+          </cite>
+        </footer>
+      </blockquote>
       <p class="lead">
         Após livrar-se dos guardas que guardavam o gabinete do chanceler com o Empurrão da Força Yoda encontra-se com Palpatine. Depois de um breve diálogo, inicia-se o duelo entre o Grande Mestre Jedi e o Lorde Negro dos Sith.
       </p>
@@ -279,10 +295,18 @@
 
     <div class="parallax img12">
       <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Batalha de heróis</h1>
+        <h1 class="titulo display-2">Não me obrigue a te matar</h1>
       </div>
     </div>
     <div class="container conteudo">
+      <blockquote class="blockquote">
+        "Você era o escolhido! Foi dito que você iria trazer equilíbrio para força...destruir os Sith não se unir a eles."
+        <footer class="blockquote-footer">
+          <cite class="blockquote-cite">
+            Kenobi, Obi-Wan
+          </cite>
+        </footer>
+      </blockquote>
       <p class="lead">
         A nave pousa em Mustafar. Vader e Padmé se abraçam. Ela revela sua conversa com Obi-Wan. Quando ela implora que ele fuja com ela para criar a criança em paz, Vader diz que eles não precisam mais fugir, pois ele havia trazido paz para a República e poderia até tomar o lugar de Palpatine, onde os dois governariam a Galáxia juntos. Se afastando com horror e tristeza, e percebendo que aquele já não era mais Anakin, Padmé diz que ele está partindo seu coração e que está indo por um caminho que ela não pode seguir.
       </p>
@@ -306,6 +330,14 @@
       </div>
     </div>
     <div class="container conteudo">
+      <blockquote class="blockquote">
+        "Consegue me ouvir? Lorde Vader..."
+        <footer class="blockquote-footer">
+          <cite class="blockquote-cite">
+            Sidius, Darth
+          </cite>
+        </footer>
+      </blockquote>
       <p class="lead">
         Darth Sidious chega a Mustafar com um batalhão de Shock trooper Clone. Eles salvam Darth Vader da beira da morte usando um pod-stacis e medicina Sith da nave de Sidious.
       </p>
@@ -351,13 +383,6 @@
         Em Tatooine, Obi-Wan traz Luke Skywalker para sua nova família: seu tio, Owen, e sua tia, Beru. Obi-Wan vai embora em um eopie, indo para seu exílio no Deserto Jundland. Owen e Beru, segurando o pequeno Luke, olham no horizonte e observam os dois sóis de Tatooine se pondo, esperando por uma Nova Esperança.
       </p>
     </div>
-<!------------------------------------------------------->
-
-
-
-
-
-    <!-- volta o parallax 1 -->
     <div class="parallax img1">
       <div class="conteudo-titulo">
         <h1 class="titulo display-2">Produção</h1>
