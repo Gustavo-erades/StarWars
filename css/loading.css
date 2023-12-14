@@ -1,0 +1,46 @@
+body{
+    background: #000 url("../imagens/fundo_estrelado.png") fixed;
+    background-size: cover;
+    text-align: center;
+}
+.conteudo-load{
+    margin-top: 250px;
+}
+.load div{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(163, 163, 163);
+    margin-left: 4px;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+.load img{
+    animation: andar 1.2s ease-in-out infinite alternate;
+}
+@keyframes andar {
+    from{
+        transform: translateX(-100%);
+    }to{
+        transform: translateX(100%);
+    }
+}
+blockquote{
+    color:rgb(39, 115, 248);
+    font: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    animation: fade 1s ease-in;
+}
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+cite{
+    color:#6c6c6c;
+    display: block;
+    animation: fade 1.3s ease-in;
+}
