@@ -18,8 +18,9 @@
         }
         h1{
             font-size: 8em;
-            margin-top: 200px;
+            margin-top: 130px;
             letter-spacing: 0.05em;
+            animation: fade 1.2s ease-in;
         }
         p{
             font-size: 1.5em;
@@ -31,9 +32,20 @@
             font: 2em;
             font-family: 'Courier New', Courier, monospace;
             font-weight: bold;
+            animation: fade 1s ease-in;
+        }
+        @keyframes fade {
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
         }
         cite{
             color:#6c6c6c;
+            display: block;
+            animation: fade 1.3s ease-in;
         }
         button{
             cursor: pointer;
@@ -44,6 +56,7 @@
             color:#000;
             outline: none;
             border:none;
+            display: inline-block;
         }
         button:hover{
             background-color: rgb(188, 135, 21);
@@ -56,25 +69,37 @@
                 font-size: 1.3em;
             }
          }
+         #conteudo img{
+            width: 64px;
+            animation: andar 1.2s ease-in-out infinite alternate;
+        }
+        @keyframes andar {
+            from{
+                transform: translateX(-100%);
+            }to{
+                transform: translateX(100%);
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="load">
-        <img width="60" height="60" src="https://img.icons8.com/color/48/r2-d2.png" alt="r2-d2"/>
-    </div>
-    <h1>
-       404
-    </h1>
-    <p>
-        Essa página ainda está sendo desenvolvida em uma galáxia muito, muito distante...
-    </p>
-    <blockquote>
-        "Paciência, jovem padawan, deve ter!"
-        <cite>- Yoda, mestre jedi</cite>
-    </blockquote>
-    <button onclick="voltar()">
-        voltar
-    </button>
+   <div id="conteudo">
+     <h1>
+        404
+     </h1>
+     
+     <img src="./imagens/icons8-r2d2-96.png" alt="">
+     <p>
+         Essa página ainda está sendo desenvolvida em uma galáxia muito distante...
+     </p>
+     <blockquote>
+         "Paciência, jovem padawan, deve ter!"
+         <cite>- Yoda, mestre jedi</cite>
+     </blockquote>
+     <button onclick="voltar()">
+         voltar
+     </button>
+   </div>
     <script>
         function voltar(){
             history.go(-1);
