@@ -477,7 +477,8 @@
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center mb-3">
             <li class="nav-item">
-              <a class="nav-link px-2 text-muted"><i class="fa-brands fa-github fa-bounce"></i></a>
+              <a class="nav-link px-2 text-muted"
+              href="https://github.com/Gustavo-erades" target="_blank"><i class="fa-brands fa-github fa-bounce"></i></a>
             </li>
             <li class="nav-item">
               <a class="nav-link px-2 text-muted">&copy; 2023 por Gustavo Êrades </a>
