@@ -286,6 +286,7 @@
           </span>
         </footer>
       </div>
+      <a href="#start" id="de_volta_ao_topo">&#9650;</a>
     </div>
     <!-- loading -->
     <div id="loading" style="display: block">
