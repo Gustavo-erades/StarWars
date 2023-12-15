@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/styleEpisodio2.css" media="all">
     <link rel="stylesheet" href="../css/episodios.css" media="all">
     <link rel="stylesheet" href="../css/responsividadeEpisodio.css" media="all">
+    <link rel="stylesheet" href="../css/styleLoading.css">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../imagens/icone3.png" type="image/x-icon">
     <title>Star Wars- Episódio II</title>
@@ -247,9 +248,17 @@
         </span>
       </footer>
     </div>
+    <!-- loading -->
+    <div id="loading">
+        <img src="../imagens/icons8-r2d2-96.png" alt="Droide R2D2 passeando por aí">
+        <blockquote>
+            Carregando, por favor aguarde &#128512; 
+        </blockquote>
+    </div>
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/loading.js"></script>
   </body>
 </html>

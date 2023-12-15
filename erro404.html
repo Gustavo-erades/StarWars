@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styleLoading.css">
     <title>Erro 404</title>
     <style>
         @font-face{
@@ -69,26 +70,10 @@
                 font-size: 1.3em;
             }
          }
-         #loading img{
-            width: 82px;
-            animation: andar 1.2s ease-in-out infinite alternate;
-        }
-        #loading{
-            text-align: center;
-            margin-top: 250px;
-        }
-        @keyframes andar {
-            from{
-                transform: translateX(-100%);
-            }to{
-                transform: translateX(100%);
-            }
-        }
-        
     </style>
 </head>
 <body>
-    <div id="content" style="display: none">
+    <div id="preload" style="display: none">
         <h1>
             404
         </h1>
@@ -103,22 +88,17 @@
             voltar
         </button>
     </div>
-    <div id="loading" style="display: block">
-        <img src="./imagens/icons8-r2d2-96.png" alt="">
+    <div id="loading">
+        <img src="./imagens/icons8-r2d2-96.png" alt="Droide R2D2 passeando por aí">
         <blockquote style="font-size: 1.3em;">
-            Carregando, por favor aguarde :)
+            Carregando, por favor aguarde &#128512; 
         </blockquote>
     </div>
     <script>
         function voltar(){
             history.go(-1);
         }
-        var i = setInterval(function () {
-            clearInterval(i);
-            document.getElementById("loading").style.display = "none";
-            document.getElementById("content").style.display = "block";
-           
-        }, 2000);
     </script>
+    <script src="./js/loading.js"></script>
 </body>
 </html>

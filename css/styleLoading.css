@@ -1,0 +1,42 @@
+blockquote{
+    color:rgb(39, 115, 248);
+    font: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    animation: fade 1s ease-in;
+}
+#loading img{
+    width: 82px;
+    animation: andar 1.2s ease-in-out infinite alternate;
+}
+#loading{
+    display: block;
+    background-size: cover;
+    text-align: center;
+    margin-top: 250px;
+}
+#loading blockquote{
+    font-size: 1.3em;
+}
+@keyframes andar {
+    from{
+        transform: translateX(-100%);
+    }to{
+        transform: translateX(100%);
+    }
+}
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* faz o load funcionar na index */
+#preload{
+    display: none;
+}
+/* faz o load funcionar no episodio1 */
+/* faz o load funcionar no episodio2 */
+/* faz o load funcionar no episodio3 */

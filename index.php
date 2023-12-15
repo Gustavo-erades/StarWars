@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css" media="all">
     <link rel="stylesheet" href="./css/responsividade.css" media="all">
+    <link rel="stylesheet" href="./css/styleLoading.css">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <script src="./js/trocarTextosPrequel.js" defer></script>
     <script src="./js/trocarTextosClassico.js" defer></script>
@@ -17,286 +18,296 @@
     <title>Star Wars</title>
   </head>
   <body>
-    <!-- imagem parallax 1 -->
-    <div class="parallax img1" id="start">
-      <div class="conteudo-titulo">
-        <span class="titulo_logo text-warning display-1">Star Wars</span>
-      </div>
-      <br>
-      <!-- barra de navegação (menu hambúrger e dropdown) -->
-      <ul class="nav nav-pills justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle bg-transparent" data-toggle="dropdown" >Episódios</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="./episodios/episodio1.php">Episódio I</a>
-            <a class="dropdown-item" href="./episodios/episodio2.php">Episódio II</a>
-            <a class="dropdown-item"  href="./episodios/episodio3.php">Episódio III</a>
-            <a href="./erro404.html" class="dropdown-item">Episódio IV</a>
-            <a href="./erro404.html" class="dropdown-item">Episódio V</a>
-            <a href="./erro404.html" class="dropdown-item">Episódio VI</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="./erro404.html" class="nav-link">Créditos</a>
-        </li>
-        <li class="nav-item">
-          <a href="./erro404.html" class="nav-link">Sobre</a>
-        </li>
-      </ul><!-- fim da barra de navegação -->
-    </div>
-    <!-- conteúdo card 1 -->
-    <div class="container conteudo">
-      <h2>Há muito tempo atrás, numa galáxia distante...</h2>
-      <p class="lead">
-        Star Wars é uma franquia de filmes, séries, revistas em quadrinhos e desenhos animados. Uma trama política espacial com direito a 
-        espadas brilhantes, naves espaciais, robôs, alienígenas, viagens na velocidade da luz e explosões, por algum motivo, sonoras. A trama 
-        idealizada por George Lucas foi iniciada no fim da década de 1970 com o filme Star Wars: Uma Nova Esperança. O primeiro filme 
-        acompanhava um jovem com uma ligação mistica com a galáxia (Luke Skywalker), um contrabandista espacial e seu fiel escudeiro 
-        (Han Solo e Chewbacca), uma princesa de um planeta distante (Leia Organa) e dois robôs (C-3P0 e R2-D2), o quarteto viajava pela galáxia 
-        lutando contra o temível império e as tropas de clones do terrível Darth Vader e do Imperador Palpatine. Com esse filme, chamado 
-        posteriormente de Episódio IV, uma das maiores franquias da história do cinema começou. Portanto, Jovem padawan, caso queira conhecer 
-        a história do início ao fim da era jedi, da ascensão à queda do temível império, da origem ao fim daquele que amedrontou a galáxia 
-        por anos conhecido como Darth Vader, então acompanhe a história dos seis primeiros episódios da saga Star Wars e, como diziam os 
-        velhos mestre jedi, que a força esteja com você!
-      </p>
-    </div>
-    <!-- imagem parallax 2 -->
-    <div class="parallax img2">
-      <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Divirta-se padawan!</h1>
-      </div>
-    </div>
-    <!-- conteúdo card 2-->
-    <div class="container conteudo">
-      <h2>O início da jornada</h2>
-      <p class="lead">
-        George Walton Lucas Junior foi o grande idealizador do universo de Star Wars, seja como produtor, roteirista ou diretor, ele 
-        esteve presente durante todo o desenvolvimento dos seis primeiros filmes da saga. George Lucas fazia parte da nova geração de 
-        diretores de cinema na década de 1970 e escreveu o roteiro de um filme que teria 6 horas de duração, após receber diversos "não" 
-        de estúdios que não apoiavam a ideia, acabou dividindo essas seis horas em seis filmes (surgia aí os seis primeiros filmes da 
-        saga). Após diveros problemas com o estúdio, equipe de produção, prazos e elenco a história de Star Wars finalmente começou em 
-        1977, começando já com o quarto capítulo e segiu até 1983, durante esse período foi produzida a primeira trilogia que ficou 
-        conhecida como "trilogia clássica". Em 1999 chegou aos cinemas o filme "Star Wars: A Ameaça fantasma" e esse filme deu início a 
-        trilogia que se passaria antes dos três filmes originais e ficaria conhecida como "trilogia prequel". Esses seis primeiros filmes 
-        modelaram todo o universo de star wars e são eles que contam a história princial dessa saga, das batalhas entre Jedis e Siths, da 
-        ascensão à queda dos jedis e dos confrontos entre rebeldes e o império até a derrocada do lado sombrio da força.
-      </p>
-    </div>
-    <!-- imagem parallax 3 -->
-    <div class="parallax img3">
-      <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Uma história Star Wars</h1>
-      </div>
-    </div>
-    <!-- conteúdo card 3 -->
-    <div class="container conteudo">
-      <p class="lead">
-        O tempo em Star Wars é contado como ABY | DBY, ou seja, antes e depois da batalha de Yavin, batalha essa que foi o maior 
-        confronto entre a Aliança Rebelde e o Império Galático na Guerra Civil Galática, foi nessa batalha que a primeira estrela da 
-        morte foi destruida. O episódio IV conta a história dessa batalha e, devido a sua importância, a data dessa batalha é considerada 
-        o ano 0, portanto os anos dos eventos em Star Wars são contado como antes, durante ou depois dessa batalha. Assim o universo de 
-        Star Wars é dividido em 7 principais eras:
-      </p>
-      <ul class="lead">
-        <li>era Pré-República</li>
-        <li>era da Velha República</li>
-        <li>era da Ascensão do Império</li>
-        <li>era da Rebelião</li>
-        <li>era da Nova República</li>
-        <li>era da Nova Ordem Jedi</li>
-        <li>era do Legado</li>
-      </ul>
-      <p class="lead">A trilogia prequel se passa no final da era da Ascensão do Império e a trilogia clássica se passa no período da era da Rebelião.</p>
-    </div>
-    <!-- conteúdo parallax 4 -->
-    <div class="parallax img4">
-      <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Trilogia Prequel</h1>
-      </div>
-    </div>
-    <!-- conteúdo card 4 -->
-    <div class="conteudo">
-      <div class="card bg-transparent">
-        <div class="card-header">
-          <ul class="nav nav-tabs card-header-tabs bg-transparent justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" id="episodio1">Episódio I</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="episodio2">Episódio II</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="episodio3">Episódio III</a>
-            </li>
-          </ul>
+   <div id="preload">
+      <!-- imagem parallax 1 -->
+      <div class="parallax img1" id="start">
+        <div class="conteudo-titulo">
+          <span class="titulo_logo text-warning display-1">Star Wars</span>
         </div>
-        <div class="card-body bg-dark media">
-          <div class="media-body">
-            <h4 class="card-title" id="tituloEpisodio">Episódio I</h4>
-            <h6 class="card-subtitle" id="subtituloEpisodio">A ameaça fantasma</h6>
-            <p class="card-text lead" id="paragrafoEpisodio">
-              A Federação de Comércio entra em conflito com a República Galática ao bloquear as rotas comerciais do planeta Naboo, o que gera conflitos entre o planeta e a Federação.
-              Secretamente, dois jedis são mandados para resolver o conflito que aparenta ser mais profundo. A mando do lorde sith Darth Sidius a Federação envia Darth Maul para assassinar o mestre jedi Qui-Gon e seu padawan Obi-Wan ao mesmo tempo que inicia uma invasão militar em Naboo.  
-            </p>
-            <a class="btn btn-warning" href="./episodios/episodio1.php" id="linkEpisodio">Ver história</a>
-          </div>
-          <img src="./imagens/ep1.png" alt="A ameaça fantasma" class="align-self-center" id="imagemEpisodio">
-        </div>
-      </div>
-    </div>
-    <!-- conteúdo parallax 6 -->
-    <div class="parallax img6">
-      <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Trilogia clássica</h1>
-      </div>
-    </div>
-    <!-- conteúdo card 6 -->
-    <div class="conteudo">
-      <div class="card bg-transparent">
-        <div class="card-header">
-          <ul class="nav nav-tabs card-header-tabs bg-transparent justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" id="episodio4">Episódio IV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="episodio5">Episódio V</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="episodio6">Episódio VI</a>
-            </li>
-          </ul>
-        </div>
-        <div class="card-body bg-dark media">
-          <div class="media-body">
-            <h4 class="card-title" id="tituloEpisodioClassico">Episódio IV</h4>
-            <h6 class="card-subtitle" id="subtituloEpisodioClassico">Uma nova esperança</h6>
-            <p class="card-text lead" id="paragrafoEpisodioClassico">
-              19 anos após os acontecimentos do episódio III a galáxia está sob poder do Império que é governado com mão de ferro pelo Imperador Palpatine e seu braço direito Lorde Darth Vader.
-              Os rebeldes liderados pela princesa Leia Organa conseguem roubar a planta de construção de uma arma bélica conhecida como Estrela da Morte e implantá-la no droide R2-D2 que segue para Tatooine buscando seu dono Obi-Wan Kenobi.
-              Após o assassinato brutal de seus tios, Luke Skywalker descobre o passado sobre os jedis e, junto de Obi-Wan, Leia e dois caçadores de recompensa (Han Solo e Chewbacca), tenta parar os planos maléficos do Império. 
-            </p>
-            <a href="erro404.html" class="btn btn-warning" id="linkEpisodioClassico">Ver história</a>
-          </div>
-          <img src="./imagens/ep4.png" alt="Uma nova esperança" class="align-self-center" id="imgEpisodioClassico">
-        </div>
-      </div>
-    </div>
-     <!-- conteúdo parallax 8 -->
-     <div class="parallax img8">
-      <div class="conteudo-titulo">
-        <h1 class="titulo display-2">A força</h1>
-      </div>
-    </div>
-    <!-- conteúdo card 8 -->
-    <div class="container conteudo">
-      <blockquote class="blockquote">
-        "Um campo de energia criado por todas as coisas vivas. Ele nos envolve e penetra, é o que mantém a galáxia unida"
-        <footer class="blockquote-footer">
-          <cite class="blockquote-cite"> Kenobi Obi-Wan</cite>
-        </footer>
-      </blockquote>
-      <p class="lead">
-        A força é a fonte de poder no universo de Star Wars, seja você um lorde sith, um mestre jedi, um caçador de recompensas, 
-        android ou qualquer outro, qualquer ser tem ligação com a força, o que diferencia é a capacidade que o ser tem de se conectar 
-        com ela. Nas células dos seres vivos existe um microorganismo microscópico chamado de Midi-Chlorians, esse microorganismo 
-        facilita a interação com a força e contabilazando o tanto desses organismos existentes no seres é possível medir a sensibilidade 
-        de cada ser à força, porém, há formas artificiais de se ligar a força e utilizar seu poder.
-      </p>
-    </div>
-     <!-- conteúdo parallax 9 -->
-     <div class="parallax img9">
-      <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Jedi x Sith</h1>
-      </div>
-    </div>
-    <!-- conteúdo card 9 -->
-    <div class="container conteudo">
-      <h2>A força possui dois lados...</h2>
-      <p class="lead">
-        A forma com que um indivíduo se conecta e usa a força impacta diretamente em sua personalidade. A força se divide em dois lados:
-      </p>
-      <ul class="lead">
-        <li>Ashla -> lado luminoso</li>
-        <li>Bogan -> lado sombrio</li>
-      </ul>
-      <p class="lead">
-        O lado sombrio da força é, de forma geral, ultilizado pelos lordes Sith (Darth Vader, Darth Maul, Imperador Palpatine). 
-        Os usuários desse lado costumam ser mais agressivos e letais em seus ataques, acessam a força pelo ódio e sentimentos negativos. 
-        Em contra partida, o outro lado da força é acessado por meio de meditação e concentração extrema e pregam o afastamento emocional. Os mestres jedai (Yoda, Obi-Wan, Mace Windu) evitam usar a força para ferir e preferem ser letais apenas em último caso, buscam usar seus poderes jedi para buscar o equilíbrio e bem-estar da galáxia.
-      </p>
-      <p class="lead">
-        Por seguirem filosofias tão diferentes os mestre jedi e os lordes sith travam batalhas que se rastam por gerações, no fim, só 
-        conseguem concordar em uma coisa: o perigo que o amor pode trazer. Para o lado negro o amor poder trazer compaixão e afeto, para 
-        o lado jedi o amor pode trazer sentimentos como ciúme e raiva.
-      </p>
-      <p class="lead">
-        Porém, o que Star Wars mostra durante toda a saga é que ambos os lados existem dentro dos seres e o melhor caminho para uso da 
-        força é na ralidade buscar o equilíbrio entre eles, assim o usuário pode combinar as habilidades dos dois lados se tornando um 
-        usuário poderoso da força, como fez Luke Skaywalker.
-      </p>
-    </div>
-    <!-- conteúdo parallax 10 -->
-    <div class="parallax img10">
-      <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Os sabres de luz</h1>
-      </div>
-    </div>
-    <!-- conteúdo card 10 -->
-    <div class="container conteudo">
-      <p class="lead">
-        Os sabres de luz são espadas de plasma feitas a partir de um cristal raro que é energizado com o poder do usuário do sabre, 
-        assim o sabre recebe sua cor (verde, azul, roxo, vermelho), por isso os usuários do lado sombrio costumam possuir um sabre de luz 
-        vermelho, pois energizam o cristal com sentimentos negativos, é por isso também que os sabres de luz costumam carregar a energia 
-        do usuário original, energia essa que pode ser sentida por pessoas sensitivas a força, a exemplo do sabre de luz de Anakin 
-        Skaywalker.
-      </p>
-      <p class="lead">
-        Há, porém, na galáxia sabres de luz artificiais e mesmo não sendo um usuário da força é possivel usar a espada luminosa.
-      </p>
-      <p class="lead"> 
-        Ela serve tanto para ataque quanto para defesa, há diversos formatos(uma, duas e até três pontas), podem bloquear tiros de 
-        blasters, cortar praticamnete tudo e, claro, são extremamente letais. Até por esse motivo é mais comum ver apenas usuários 
-        legítimos da força os ultilizando, o que fez com que a arma se tornasse quase que a identificação de um usuário da força.
-      </p>
-    </div>
-    <!-- conteúdo parallax 11 -->
-    <div class="parallax img11">
-      <div class="conteudo-titulo">
-        <h1 class="titulo display-2">Que a força esteja com você!</h1>
-      </div>
-    </div>
-    <div class="container">
-      <footer class="py-3 my-4">
-        <ul class="nav justify-content-center mb-3">
+        <br>
+        <!-- barra de navegação (menu hambúrger e dropdown) -->
+        <ul class="nav nav-pills justify-content-center">
           <li class="nav-item">
-            <a class="nav-link px-2 text-muted"><i class="fa-brands fa-github fa-bounce" style="font-size:2.5em"></i></a>
+            <a class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle bg-transparent" data-toggle="dropdown" >Episódios</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./episodios/episodio1.php">Episódio I</a>
+              <a class="dropdown-item" href="./episodios/episodio2.php">Episódio II</a>
+              <a class="dropdown-item"  href="./episodios/episodio3.php">Episódio III</a>
+              <a href="./erro404.html" class="dropdown-item">Episódio IV</a>
+              <a href="./erro404.html" class="dropdown-item">Episódio V</a>
+              <a href="./erro404.html" class="dropdown-item">Episódio VI</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-2 text-muted">&copy; 2023 por Gustavo Êrades </a>
+            <a href="./erro404.html" class="nav-link">Créditos</a>
           </li>
+          <li class="nav-item">
+            <a href="./erro404.html" class="nav-link">Sobre</a>
+          </li>
+        </ul><!-- fim da barra de navegação -->
+      </div>
+      <!-- conteúdo card 1 -->
+      <div class="container conteudo">
+        <h2>Há muito tempo atrás, numa galáxia distante...</h2>
+        <p class="lead">
+          Star Wars é uma franquia de filmes, séries, revistas em quadrinhos e desenhos animados. Uma trama política espacial com direito a 
+          espadas brilhantes, naves espaciais, robôs, alienígenas, viagens na velocidade da luz e explosões, por algum motivo, sonoras. A trama 
+          idealizada por George Lucas foi iniciada no fim da década de 1970 com o filme Star Wars: Uma Nova Esperança. O primeiro filme 
+          acompanhava um jovem com uma ligação mistica com a galáxia (Luke Skywalker), um contrabandista espacial e seu fiel escudeiro 
+          (Han Solo e Chewbacca), uma princesa de um planeta distante (Leia Organa) e dois robôs (C-3P0 e R2-D2), o quarteto viajava pela galáxia 
+          lutando contra o temível império e as tropas de clones do terrível Darth Vader e do Imperador Palpatine. Com esse filme, chamado 
+          posteriormente de Episódio IV, uma das maiores franquias da história do cinema começou. Portanto, Jovem padawan, caso queira conhecer 
+          a história do início ao fim da era jedi, da ascensão à queda do temível império, da origem ao fim daquele que amedrontou a galáxia 
+          por anos conhecido como Darth Vader, então acompanhe a história dos seis primeiros episódios da saga Star Wars e, como diziam os 
+          velhos mestre jedi, que a força esteja com você!
+        </p>
+      </div>
+      <!-- imagem parallax 2 -->
+      <div class="parallax img2">
+        <div class="conteudo-titulo">
+          <h1 class="titulo display-2">Divirta-se padawan!</h1>
+        </div>
+      </div>
+      <!-- conteúdo card 2-->
+      <div class="container conteudo">
+        <h2>O início da jornada</h2>
+        <p class="lead">
+          George Walton Lucas Junior foi o grande idealizador do universo de Star Wars, seja como produtor, roteirista ou diretor, ele 
+          esteve presente durante todo o desenvolvimento dos seis primeiros filmes da saga. George Lucas fazia parte da nova geração de 
+          diretores de cinema na década de 1970 e escreveu o roteiro de um filme que teria 6 horas de duração, após receber diversos "não" 
+          de estúdios que não apoiavam a ideia, acabou dividindo essas seis horas em seis filmes (surgia aí os seis primeiros filmes da 
+          saga). Após diveros problemas com o estúdio, equipe de produção, prazos e elenco a história de Star Wars finalmente começou em 
+          1977, começando já com o quarto capítulo e segiu até 1983, durante esse período foi produzida a primeira trilogia que ficou 
+          conhecida como "trilogia clássica". Em 1999 chegou aos cinemas o filme "Star Wars: A Ameaça fantasma" e esse filme deu início a 
+          trilogia que se passaria antes dos três filmes originais e ficaria conhecida como "trilogia prequel". Esses seis primeiros filmes 
+          modelaram todo o universo de star wars e são eles que contam a história princial dessa saga, das batalhas entre Jedis e Siths, da 
+          ascensão à queda dos jedis e dos confrontos entre rebeldes e o império até a derrocada do lado sombrio da força.
+        </p>
+      </div>
+      <!-- imagem parallax 3 -->
+      <div class="parallax img3">
+        <div class="conteudo-titulo">
+          <h1 class="titulo display-2">Uma história Star Wars</h1>
+        </div>
+      </div>
+      <!-- conteúdo card 3 -->
+      <div class="container conteudo">
+        <p class="lead">
+          O tempo em Star Wars é contado como ABY | DBY, ou seja, antes e depois da batalha de Yavin, batalha essa que foi o maior 
+          confronto entre a Aliança Rebelde e o Império Galático na Guerra Civil Galática, foi nessa batalha que a primeira estrela da 
+          morte foi destruida. O episódio IV conta a história dessa batalha e, devido a sua importância, a data dessa batalha é considerada 
+          o ano 0, portanto os anos dos eventos em Star Wars são contado como antes, durante ou depois dessa batalha. Assim o universo de 
+          Star Wars é dividido em 7 principais eras:
+        </p>
+        <ul class="lead">
+          <li>era Pré-República</li>
+          <li>era da Velha República</li>
+          <li>era da Ascensão do Império</li>
+          <li>era da Rebelião</li>
+          <li>era da Nova República</li>
+          <li>era da Nova Ordem Jedi</li>
+          <li>era do Legado</li>
         </ul>
-        <div class="grid">
-          <div class="row">
-            <span id="span-footer-redes" class="col-xl-6">
-              fale comigo: 
-              <a href="https://www.linkedin.com/in/gustavo-%C3%AA-22a357231/" target="_blank" class="footer-redes"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="mailto:eradesvilarinho@gmail.com" target="_blank" class="footer-redes"><i class="fa-solid fa-envelope"></i></a>
-            </span>
-            <span id="span-footer-acessos" class="col-xl-6">
-              <span>
-                <?=$quantidade?> acessos.
-              </span>
-            </span>
+        <p class="lead">A trilogia prequel se passa no final da era da Ascensão do Império e a trilogia clássica se passa no período da era da Rebelião.</p>
+      </div>
+      <!-- conteúdo parallax 4 -->
+      <div class="parallax img4">
+        <div class="conteudo-titulo">
+          <h1 class="titulo display-2">Trilogia Prequel</h1>
+        </div>
+      </div>
+      <!-- conteúdo card 4 -->
+      <div class="conteudo">
+        <div class="card bg-transparent">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs bg-transparent justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" id="episodio1">Episódio I</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="episodio2">Episódio II</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="episodio3">Episódio III</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body bg-dark media">
+            <div class="media-body">
+              <h4 class="card-title" id="tituloEpisodio">Episódio I</h4>
+              <h6 class="card-subtitle" id="subtituloEpisodio">A ameaça fantasma</h6>
+              <p class="card-text lead" id="paragrafoEpisodio">
+                A Federação de Comércio entra em conflito com a República Galática ao bloquear as rotas comerciais do planeta Naboo, o que gera conflitos entre o planeta e a Federação.
+                Secretamente, dois jedis são mandados para resolver o conflito que aparenta ser mais profundo. A mando do lorde sith Darth Sidius a Federação envia Darth Maul para assassinar o mestre jedi Qui-Gon e seu padawan Obi-Wan ao mesmo tempo que inicia uma invasão militar em Naboo.  
+              </p>
+              <a class="btn btn-warning" href="./episodios/episodio1.php" id="linkEpisodio">Ver história</a>
+            </div>
+            <img src="./imagens/ep1.png" alt="A ameaça fantasma" class="align-self-center" id="imagemEpisodio">
           </div>
         </div>
-      </footer>
+      </div>
+      <!-- conteúdo parallax 6 -->
+      <div class="parallax img6">
+        <div class="conteudo-titulo">
+          <h1 class="titulo display-2">Trilogia clássica</h1>
+        </div>
+      </div>
+      <!-- conteúdo card 6 -->
+      <div class="conteudo">
+        <div class="card bg-transparent">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs bg-transparent justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" id="episodio4">Episódio IV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="episodio5">Episódio V</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="episodio6">Episódio VI</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body bg-dark media">
+            <div class="media-body">
+              <h4 class="card-title" id="tituloEpisodioClassico">Episódio IV</h4>
+              <h6 class="card-subtitle" id="subtituloEpisodioClassico">Uma nova esperança</h6>
+              <p class="card-text lead" id="paragrafoEpisodioClassico">
+                19 anos após os acontecimentos do episódio III a galáxia está sob poder do Império que é governado com mão de ferro pelo Imperador Palpatine e seu braço direito Lorde Darth Vader.
+                Os rebeldes liderados pela princesa Leia Organa conseguem roubar a planta de construção de uma arma bélica conhecida como Estrela da Morte e implantá-la no droide R2-D2 que segue para Tatooine buscando seu dono Obi-Wan Kenobi.
+                Após o assassinato brutal de seus tios, Luke Skywalker descobre o passado sobre os jedis e, junto de Obi-Wan, Leia e dois caçadores de recompensa (Han Solo e Chewbacca), tenta parar os planos maléficos do Império. 
+              </p>
+              <a href="erro404.html" class="btn btn-warning" id="linkEpisodioClassico">Ver história</a>
+            </div>
+            <img src="./imagens/ep4.png" alt="Uma nova esperança" class="align-self-center" id="imgEpisodioClassico">
+          </div>
+        </div>
+      </div>
+      <!-- conteúdo parallax 8 -->
+      <div class="parallax img8">
+        <div class="conteudo-titulo">
+          <h1 class="titulo display-2">A força</h1>
+        </div>
+      </div>
+      <!-- conteúdo card 8 -->
+      <div class="container conteudo">
+        <blockquote class="blockquote">
+          "Um campo de energia criado por todas as coisas vivas. Ele nos envolve e penetra, é o que mantém a galáxia unida"
+          <footer class="blockquote-footer">
+            <cite class="blockquote-cite"> Kenobi Obi-Wan</cite>
+          </footer>
+        </blockquote>
+        <p class="lead">
+          A força é a fonte de poder no universo de Star Wars, seja você um lorde sith, um mestre jedi, um caçador de recompensas, 
+          android ou qualquer outro, qualquer ser tem ligação com a força, o que diferencia é a capacidade que o ser tem de se conectar 
+          com ela. Nas células dos seres vivos existe um microorganismo microscópico chamado de Midi-Chlorians, esse microorganismo 
+          facilita a interação com a força e contabilazando o tanto desses organismos existentes no seres é possível medir a sensibilidade 
+          de cada ser à força, porém, há formas artificiais de se ligar a força e utilizar seu poder.
+        </p>
+      </div>
+      <!-- conteúdo parallax 9 -->
+      <div class="parallax img9">
+        <div class="conteudo-titulo">
+          <h1 class="titulo display-2">Jedi x Sith</h1>
+        </div>
+      </div>
+      <!-- conteúdo card 9 -->
+      <div class="container conteudo">
+        <h2>A força possui dois lados...</h2>
+        <p class="lead">
+          A forma com que um indivíduo se conecta e usa a força impacta diretamente em sua personalidade. A força se divide em dois lados:
+        </p>
+        <ul class="lead">
+          <li>Ashla -> lado luminoso</li>
+          <li>Bogan -> lado sombrio</li>
+        </ul>
+        <p class="lead">
+          O lado sombrio da força é, de forma geral, ultilizado pelos lordes Sith (Darth Vader, Darth Maul, Imperador Palpatine). 
+          Os usuários desse lado costumam ser mais agressivos e letais em seus ataques, acessam a força pelo ódio e sentimentos negativos. 
+          Em contra partida, o outro lado da força é acessado por meio de meditação e concentração extrema e pregam o afastamento emocional. Os mestres jedai (Yoda, Obi-Wan, Mace Windu) evitam usar a força para ferir e preferem ser letais apenas em último caso, buscam usar seus poderes jedi para buscar o equilíbrio e bem-estar da galáxia.
+        </p>
+        <p class="lead">
+          Por seguirem filosofias tão diferentes os mestre jedi e os lordes sith travam batalhas que se rastam por gerações, no fim, só 
+          conseguem concordar em uma coisa: o perigo que o amor pode trazer. Para o lado negro o amor poder trazer compaixão e afeto, para 
+          o lado jedi o amor pode trazer sentimentos como ciúme e raiva.
+        </p>
+        <p class="lead">
+          Porém, o que Star Wars mostra durante toda a saga é que ambos os lados existem dentro dos seres e o melhor caminho para uso da 
+          força é na ralidade buscar o equilíbrio entre eles, assim o usuário pode combinar as habilidades dos dois lados se tornando um 
+          usuário poderoso da força, como fez Luke Skaywalker.
+        </p>
+      </div>
+      <!-- conteúdo parallax 10 -->
+      <div class="parallax img10">
+        <div class="conteudo-titulo">
+          <h1 class="titulo display-2">Os sabres de luz</h1>
+        </div>
+      </div>
+      <!-- conteúdo card 10 -->
+      <div class="container conteudo">
+        <p class="lead">
+          Os sabres de luz são espadas de plasma feitas a partir de um cristal raro que é energizado com o poder do usuário do sabre, 
+          assim o sabre recebe sua cor (verde, azul, roxo, vermelho), por isso os usuários do lado sombrio costumam possuir um sabre de luz 
+          vermelho, pois energizam o cristal com sentimentos negativos, é por isso também que os sabres de luz costumam carregar a energia 
+          do usuário original, energia essa que pode ser sentida por pessoas sensitivas a força, a exemplo do sabre de luz de Anakin 
+          Skaywalker.
+        </p>
+        <p class="lead">
+          Há, porém, na galáxia sabres de luz artificiais e mesmo não sendo um usuário da força é possivel usar a espada luminosa.
+        </p>
+        <p class="lead"> 
+          Ela serve tanto para ataque quanto para defesa, há diversos formatos(uma, duas e até três pontas), podem bloquear tiros de 
+          blasters, cortar praticamnete tudo e, claro, são extremamente letais. Até por esse motivo é mais comum ver apenas usuários 
+          legítimos da força os ultilizando, o que fez com que a arma se tornasse quase que a identificação de um usuário da força.
+        </p>
+      </div>
+      <!-- conteúdo parallax 11 -->
+      <div class="parallax img11">
+        <div class="conteudo-titulo">
+          <h1 class="titulo display-2">Que a força esteja com você!</h1>
+        </div>
+      </div>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center mb-3">
+            <li class="nav-item">
+              <a class="nav-link px-2 text-muted"><i class="fa-brands fa-github fa-bounce" style="font-size:2.5em"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2 text-muted">&copy; 2023 por Gustavo Êrades </a>
+            </li>
+          </ul>
+          <div class="grid">
+            <div class="row">
+              <span id="span-footer-redes" class="col-xl-6">
+                fale comigo: 
+                <a href="https://www.linkedin.com/in/gustavo-%C3%AA-22a357231/" target="_blank" class="footer-redes"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:eradesvilarinho@gmail.com" target="_blank" class="footer-redes"><i class="fa-solid fa-envelope"></i></a>
+              </span>
+              <span id="span-footer-acessos" class="col-xl-6">
+                <span>
+                  <?=$quantidade?> acessos.
+                </span>
+              </span>
+            </div>
+          </div>
+        </footer>
+      </div>
+   </div>
+    <!-- loading -->
+    <div id="loading">
+        <img src="./imagens/icons8-r2d2-96.png" alt="Droide R2D2 passeando por aí">
+        <blockquote>
+            Carregando, por favor aguarde &#128512; 
+        </blockquote>
     </div>
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/loading.js"></script>
   </body>
 </html>

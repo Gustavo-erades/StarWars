@@ -49,6 +49,15 @@ a{
 /* logo */
 .conteudo-titulo span.titulo_logo{
     font-family: "fonte star wars";
+    animation: fade 1s ease-in;
+}
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 /* cards */
 h2{
@@ -154,4 +163,7 @@ a.footer-redes i{
 }
 span#span-footer-acessos span{
     float:right;
+}
+div#conteudoPagina{
+    display: none;
 }
