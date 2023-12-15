@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* scrollbar */
+body{
+    scrollbar-width: thin;
+    scrollbar-color: rgb(28, 28, 28) #ffbe00;;
+}
+::-webkit-scrollbar{
+	width: 12px;
+	background-color: rgb(28, 28, 28); 
+}
+::-webkit-scrollbar-thumb{
+	background-color: #ffbe00;
+	border-radius: 3px;
+}
 /* definição das fontes */
 @font-face {
     font-family: "fonte star wars";
