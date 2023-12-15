@@ -80,7 +80,7 @@
           </footer>
         </blockquote>
         <p class="lead">
-          A mando do misterioso Darth Sidious, com quem mantém relação secreta, a Federação de Comércio ordena a morte dos dois Jedi e inicia a Invasão ao planeta Naboo. Assim, a nave dos embaixadores, a Radiant VII, é destruída. Qui-Gon e Obi-Wan escapam da tentativa de assassinato da Federação enfrentando droides de batalha, mas se vêem obrigados a fugir para Naboo.
+          A mando do misterioso Darth Sidious, com quem mantém relação secreta, a Federação de Comércio ordena a morte dos dois Jedi e inicia a invasão ao planeta Naboo. Assim, a nave dos embaixadores, a Radiant VII, é destruída. Qui-Gon e Obi-Wan escapam da tentativa de assassinato da Federação enfrentando droides de batalha, mas se vêem obrigados a fugir para Naboo.
         </p>
       </div>
       <!-- conteúdo parallax 4 -->
