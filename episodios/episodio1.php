@@ -86,7 +86,7 @@
       <!-- conteúdo parallax 4 -->
       <div class="parallax img4  preload">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Planeta Naboo</h1>
+          <h1 class="titulo display-2">Um novo companheiro</h1>
         </div>
       </div>
       <!-- conteúdo card 4 -->

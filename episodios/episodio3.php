@@ -238,6 +238,14 @@
         </div>
       </div>
       <div class="container conteudo">
+        <blockquote class="blockquote">
+          "Então é assim que a liberdade morre, Com um estrondoso aplauso."
+          <footer class="blockquote-footer">
+            <cite class="blockquote-cite">
+                Amidala, Padmé
+            </cite>
+          </footer>
+        </blockquote>
         <p class="lead">
           Em Mustafar, Vader é bem vindo pelo Vice-rei Nute Gunray mas rapidamente começa seu massacre dos líderes Separatistas, chegando ao fim, quando mata Nute Gunray. Neste ponto a primeira manifestação física do Lado Sombrio em Vader começou a se revelar: seus olhos se tornam amarelo pálido.  
         </p>
