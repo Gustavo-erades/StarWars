@@ -51,7 +51,8 @@
       </div>
       <!-- conteúdo card 1 -->
       <div class="container conteudo">
-        <h2>Há Muito tempo atrás, numa galáxia muito, muito distante....</h2>
+        <h2 class="d-none d-md-block">Há Muito tempo atrás, numa galáxia muito, muito distante....</h2>
+        <h2 class="d-block d-md-none">Há Muito tempo atrás, numa galáxia  distante....</h2>
         <p class="lead">
           Star Wars é uma franquia de filmes, séries, revistas em quadrinhos e desenhos animados. Uma trama política espacial com direito a 
           espadas brilhantes, naves espaciais, robôs, alienígenas, viagens na velocidade da luz, exércitos de droides e explosões. A trama 
@@ -64,7 +65,7 @@
             posteriormente de Episódio IV, uma das maiores franquias da história do cinema começou. 
         </p>
         <p class="lead">
-            Portanto, Jovem padawan, caso queira conhecer a história do início ao fim da era jedi, da ascensão à queda do temível império, da origem ao fim daquele que amedrontou a galáxia por anos conhecido como Darth Vader, então acompanhe a história dos seis primeiros episódios da saga Star Wars e, como diziam os velhos mestre jedi, que a força esteja com você!
+            Portanto, Jovem padawan, caso queira conhecer a história do início ao fim da era jedi, da ascensão à queda do temível império, da origem ao fim daquele que amedrontou a galáxia por anos conhecido como Darth Vader, então acompanhe a história dos seis primeiros episódios da saga Star Wars e, como diziam os velhos mestre jedi, que a Força esteja com você!
         </p>
       </div>
       <!-- imagem parallax 2 -->
@@ -90,7 +91,7 @@
           trilogia que se passaria antes dos três filmes originais e ficaria conhecida como "trilogia prequel".
         </p>
         <p class="lead">
-          Esses seis primeiros filmes modelaram todo o universo de star wars e são eles que contam a história princial dessa saga, das batalhas entre Jedis e Siths, da queda da república e dos confrontos entre rebeldes e o império até a derrocada do lado sombrio da força.
+          Esses seis primeiros filmes modelaram todo o universo de star wars e são eles que contam a história princial dessa saga, das batalhas entre Jedis e Siths, da queda da república e dos confrontos entre rebeldes e o império até a derrocada do lado sombrio da Força.
         </p>
       </div>
       <!-- imagem parallax 3 -->
@@ -195,7 +196,7 @@
       <!-- conteúdo parallax 8 -->
       <div class="parallax img8">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">A força</h1>
+          <h1 class="titulo display-2">A Força</h1>
         </div>
       </div>
       <!-- conteúdo card 8 -->
@@ -203,18 +204,18 @@
         <blockquote class="blockquote">
           "Um campo de energia criado por todas as coisas vivas. Ele nos envolve e penetra, é o que mantém a galáxia unida"
           <footer class="blockquote-footer">
-            <cite class="blockquote-cite"> Kenobi Obi-Wan</cite>
+            <cite class="blockquote-cite"> Kenobi, Obi-Wan</cite>
           </footer>
         </blockquote>
         <p class="lead">
-          A força é a fonte de poder no universo de Star Wars, seja você um lorde sith, um mestre jedi, um caçador de recompensas, 
-          android ou qualquer outro, qualquer ser tem ligação com a força e pode usá-la! O que diferencia é a capacidade que o ser tem de se conectar 
+          A Força é a fonte de poder no universo de Star Wars, seja você um lorde sith, um mestre jedi, um caçador de recompensas, 
+          android ou qualquer outro, qualquer ser tem ligação com a Força e pode usá-la! O que diferencia é a capacidade que o ser tem de se conectar 
           com ela. 
         </p>
         <p class="lead">
           Nas células dos seres vivos existe um microorganismo microscópico chamado de Midi-Chlorians, esse microorganismo 
-          facilita a interação com a força e contabilazando o tanto desses organismos existentes no seres vivos é possível medir a sensibilidade 
-          de cada um à força, porém, há formas artificiais de se ligar a força e utilizar seu poder.
+          facilita a interação com a Força e contabilazando o tanto desses organismos existentes no seres vivos é possível medir a sensibilidade 
+          de cada um à Força, porém, há formas artificiais de se ligar a Força e utilizar seu poder.
         </p>
       </div>
       <!-- conteúdo parallax 9 -->
@@ -225,19 +226,19 @@
       </div>
       <!-- conteúdo card 9 -->
       <div class="container conteudo">
-        <h2>A força possui dois lados...</h2>
+        <h2>A Força possui dois lados...</h2>
         <p class="lead">
-          A forma com que um indivíduo se conecta e usa a força impacta diretamente em sua personalidade e vice versa. A força se divide em dois lados:
+          A forma com que um indivíduo se conecta e usa a Força impacta diretamente em sua personalidade e vice versa. A Força se divide em dois lados:
         </p>
         <ul class="lead">
           <li>Ashla -> lado luminoso</li>
           <li>Bogan -> lado sombrio</li>
         </ul>
         <p class="lead">
-          O lado sombrio da força é, de forma geral, ultilizado pelos lordes Sith (Darth Vader, Darth Maul, Darth Tyranus).Os usuários desse lado costumam ser mais agressivos e letais em seus ataques, acessam a força pelo ódio e sentimentos negativos. 
+          O lado sombrio da Força é, de forma geral, ultilizado pelos lordes Sith (Darth Vader, Darth Maul, Darth Tyranus).Os usuários desse lado costumam ser mais agressivos e letais em seus ataques, acessam a Força pelo ódio e sentimentos negativos. 
         </p>
         <p class="lead">
-          Em contra partida, o outro lado da força é acessado por meio da meditação e concentração extrema. Os mestres jedi (Yoda, Obi-Wan, Mace Windu) evitam usar a força para ferir e preferem ser letais apenas em último caso,  pregam o afastamento emocional e usam seus poderes jedi para buscar o equilíbrio e bem-estar da galáxia.
+          Em contra partida, o outro lado da Força é acessado por meio da meditação e concentração extrema. Os mestres jedi (Yoda, Obi-Wan, Mace Windu) evitam usar a Força para ferir e preferem ser letais apenas em último caso,  pregam o afastamento emocional e usam seus poderes jedi para buscar o equilíbrio e bem-estar da galáxia.
         </p>
         <p class="lead">
           Por seguirem filosofias tão diferentes os mestre jedi e os lordes sith travam batalhas que se rastam por gerações, no fim, só 
@@ -246,7 +247,7 @@
         </p>
         <p class="lead">
           Porém, o que Star Wars mostra durante toda a saga é que ambos os lados existem dentro dos seres e o melhor caminho para uso da 
-          força é buscar o equilíbrio entre eles, assim o usuário pode combinar as habilidades dos dois lados se tornando um usuário poderoso da força, como fez Luke Skywalker.
+          Força é buscar o equilíbrio entre eles, assim o usuário pode combinar as habilidades dos dois lados se tornando um usuário poderoso da Força, como fez Luke Skywalker.
         </p>
       </div>
       <!-- conteúdo parallax 10 -->
@@ -265,20 +266,20 @@
         </p>
         <p class="lead">
           É por isso também que os sabres de luz costumam carregar a energia 
-          do usuário original, energia essa que pode ser sentida por pessoas sensitivas a força, a exemplo do sabre de luz de Anakin Skywalker
+          do usuário original, energia essa que pode ser sentida por pessoas sensitivas a Força, a exemplo do sabre de luz de Anakin Skywalker
         </p>
         <p class="lead">
-          Há, porém, na galáxia sabres de luz artificiais e mesmo não sendo um usuário da força é possivel usar a espada luminosa.
+          Há, porém, na galáxia sabres de luz artificiais e mesmo não sendo um usuário da Força é possivel usar a espada luminosa.
         </p>
         <p class="lead"> 
           O sabre serve tanto para ataque quanto para defesa, há diversas formas de usá-los em combate e formatos(uma, duas e até três pontas), podem bloquear tiros de blasters, cortar praticamnete tudo e, claro, são extremamente letais. Até por esse motivo é mais comum ver apenas usuários 
-          legítimos da força os ultilizando, o que fez com que a arma se tornasse quase que a identificação de um usuário da força.
+          legítimos da Força os ultilizando, o que fez com que a arma se tornasse quase que a identificação de um usuário da Força.
         </p>
       </div>
       <!-- conteúdo parallax 11 -->
       <div class="parallax img11">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Que a força esteja com você!</h1>
+          <h1 class="titulo display-2">Que a Força esteja com você!</h1>
         </div>
       </div>
       <div class="container">

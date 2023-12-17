@@ -253,7 +253,7 @@
       </div>
       <div class="parallax img1">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Que a força esteja com você!</h1>
+          <h1 class="titulo display-2">Que a Força esteja com você!</h1>
         </div>
       </div>
       <div class="container">

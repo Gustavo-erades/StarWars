@@ -158,7 +158,7 @@
       <!-- conteúdo card 8 -->
       <div class="container conteudo preload">
         <p class="lead">
-          Ao mesmo tempo, Darth Maul entrou em combate com Qui-Gon e Obi-Wan usando seu sabre de luz duplo. Durante a luta, Obi-Wan acaba se separando de seu mestre pelo campo de força na entrada da sala de geradores. Jinn e o Sith continuam sua batalha observados por Obi-Wan. 
+          Ao mesmo tempo, Darth Maul entrou em combate com Qui-Gon e Obi-Wan usando seu sabre de luz duplo. Durante a luta, Obi-Wan acaba se separando de seu mestre pelo campo de Força na entrada da sala de geradores. Jinn e o Sith continuam sua batalha observados por Obi-Wan. 
         </p>
         <p class="lead">
           Em meio ao confronto, Maul atinge Qui-Gon Jinn no rosto e, aproveitando o atordoamento de seu adversário, acerta-o no peito com o sabre de luz, ferindo-o mortalmente. Obi-Wan luta com Darth Maul vigorosamente, conseguindo, inclusive, partir o sabre-duplo de Maul ao meio. 
@@ -185,7 +185,7 @@
           Após a batalha, na qual derrotou sozinho um Sith, o Conselho Jedi nomeou Obi-Wan como um Cavaleiro Jedi. Kenobi informa para Yoda sobre o pedido de Qui-Gon acerca do jovem Anakin Skywalker. O Mestre Jedi relutantemente o permite treinar o garoto. Durante a cerimônia de cremação do corpo de Qui-Gon Jinn, Mace Windu e Yoda concordam que o incidente foi definitivamente causado pelos Sith. 
         </p>
         <p class="lead">
-          Yoda e Mace Windu, dois mestres jedi experientes, têm um mal pressentimenteo sobre o futuro da galáxia e acreditam que há mais usuários do lado sombrio da força a serem descobertos. 
+          Yoda e Mace Windu, dois mestres jedi experientes, têm um mal pressentimenteo sobre o futuro da galáxia e acreditam que há mais usuários do lado sombrio da Força a serem descobertos. 
         </p>
         <p class="lead">
           Palpatine, o recém-eleito novo Chanceler, chega à Naboo para parabenizar a Rainha Amidala em sua vitória contra a Federação, enquanto Nute Gunray é mandado para ser sentenciado por seus crimes.
@@ -277,7 +277,7 @@
       </div>
       <div class="parallax img1  preload">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Que a força esteja com você!</h1>
+          <h1 class="titulo display-2">Que a Força esteja com você!</h1>
         </div>
       </div>
       <div class="container  preload">

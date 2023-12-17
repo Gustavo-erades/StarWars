@@ -297,7 +297,7 @@
       </div>
       <div class="container conteudo">
         <blockquote class="blockquote">
-          "Sua arrogância o cegou, mestre yoda...e agora vai sentir o poder absoluto do lado sombrio da força"
+          "Sua arrogância o cegou, mestre yoda...e agora vai sentir o poder absoluto do lado sombrio da Força"
           <footer class="blockquote-footer">
             <cite class="blockquote-cite">
               Sidius, Darth
@@ -305,7 +305,7 @@
           </footer>
         </blockquote>
         <p class="lead">
-          Após livrar-se dos guardas que guardavam o gabinete do chanceler com o empurrão da força, Yoda encontra-se com Palpatine. Depois de um breve diálogo, inicia-se o duelo entre o Grande Mestre Jedi e o Lorde Sombrio Sith.
+          Após livrar-se dos guardas que guardavam o gabinete do chanceler com o empurrão da Força, Yoda encontra-se com Palpatine. Depois de um breve diálogo, inicia-se o duelo entre o Grande Mestre Jedi e o Lorde Sombrio Sith.
         </p>
         <p class="lead">
           Palpatine, isto é, Darth Sidious lança Relâmpagos da Força na direção de Yoda que é jogado para trás. Após recuperar-se, Yoda responde ao ataque do Imperador, lançando-o longe com Empurrão da Força.
@@ -333,7 +333,7 @@
       </div>
       <div class="container conteudo">
         <blockquote class="blockquote">
-          "Você era o escolhido! Foi dito que você iria destruir os Sith, não se unir a eles. Trazer o equilíbrio para força, não joga-la nas trevas!"
+          "Você era o escolhido! Foi dito que você iria destruir os Sith, não se unir a eles. Trazer o equilíbrio para Força, não joga-la nas trevas!"
           <footer class="blockquote-footer">
             <cite class="blockquote-cite">
               Kenobi, Obi-Wan
@@ -499,7 +499,7 @@
       </div>
       <div class="parallax img1">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Que a força esteja com você!</h1>
+          <h1 class="titulo display-2">Que a Força esteja com você!</h1>
         </div>
       </div>
       <div class="container">
