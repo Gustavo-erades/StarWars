@@ -71,13 +71,13 @@
       <!-- conteúdo card 3 -->
       <div class="container conteudo">
         <p class="lead">
-          A República Galáctica está em meio a uma guerra épica com a Confederação de Sistemas Independentes sob a liderança do Lorde Sith Dookan. O lider cibórgue do Exército da Confederação, General Grievous infiltrou em Coruscant e capturou o Supremo Chanceler Palpatine, líder do Senado Galáctico.
+          A República Galáctica está em meio a uma guerra épica com a Confederação de Sistemas Independentes sob a liderança do Lorde Sith Dookan. O lider cibórgue do Exército da Confederação, General Grievous se infiltrou em Coruscant e capturou o Supremo Chanceler Palpatine, líder do Senado Galáctico.
         </p>
         <p class="lead">
-          Enquanto o Exército Droide tenta fugir de Coruscant, uma grande batalha espacial irrompe com os Cavaleiros Jedi Anakin Skywalker e Obi-Wan Kenobi liderando uma missão para resgatar o Chanceler. Os Jedi lutam pela armada Separatista. No processo, o caça de Obi-Wan é danificado por droides buzz, R4 é destruída, e Anakin, que tenta atirar neles para expulsá-los, apenas faz a situação ficar pior. Ele consegue salvar Obi-Wan e os dois Jedi fazem um pouso de emergência no hangar do Cruzador da Federação de Comércio Mão Invisível, a nave-capitânia dos Separatistas.
+          Enquanto o Exército Droide tenta fugir de Coruscant, uma grande batalha espacial irrompe com os Cavaleiros Jedi Anakin Skywalker e Obi-Wan Kenobi liderando uma missão para resgatar o Chanceler. No processo, o caça de Obi-Wan é danificado por droides buzz e Anakin, que tenta atirar neles para expulsá-los, apenas faz a situação ficar pior. Ele consegue salvar Obi-Wan e os dois Jedi fazem um pouso de emergência no hangar do Cruzador da Federação de Comércio Mão Invisível, a nave-capitânia dos Separatistas.
         </p>
         <p class="lead">
-          Anakin e Obi-Wan progridem pelos corredores, lutando com um exército de droides no caminho. Enquanto isso, R2-D2 ajuda Obi-Wan e Anakin enquanto se defendia de um par de super droides de batalha.
+          Auxiliados por R2-D2, Anakin e Obi-Wan progridem pelos corredores lutando com um exército de super droides de batalha no caminho.
         </p>
       </div>
       <!-- conteúdo parallax 4 -->
@@ -89,13 +89,13 @@
       <!-- conteúdo card 4 -->
       <div class="container conteudo">
         <p class="lead">
-          Os Jedi chegam até o Quartel do General, encontrando o capturado Chanceler Palpatine. Eles confrontam Dookan, em um duelo de sabres. Durante a batalha, Obi-Wan ficou inconsciente após um ataque com a Força de Dookan.
+          Os Jedi chegam até o Quartel do General, encontrando o capturado Chanceler Palpatine. Eles confrontam Dookan, em um duelo de sabres. Durante a batalha, Obi-Wan fica inconsciente após um ataque com a Força de Dookan.
         </p>
         <p class="lead">
-          Anakin então continua o duelo, ganhando-o ao cortar a mão de Dookan e pegar o sabre do Lorde Sith. Com Dookan de joelhos, Anakin, após muito encorajamento de Palpatine, decapita o Conde.
+          Anakin continua o duelo e consegue cortar a mão de Dookan e pegar o sabre do Lorde Sith. Com Dookan de joelhos, Anakin, após muito encorajamento de Palpatine, decapita o Conde.
         </p>
         <p class="lead">
-          Uma explosão ocorre na parte traseira da nave, trazida pelo ataque do Destróier Estelar classe Venator Guarlara, causando a Mão Invisível uma descida incontrolável em Coruscant. Mesmo sendo persuardido por Palpatine, Anakin carregou Kenobi nas costas, protegendo Chanceler. Pouco depois Obi-Wan recuperou a consciência.
+          Uma explosão ocorre na parte traseira da nave, trazida pelo ataque do Destróier Estelar classe Venator Guarlara, causando a Mão Invisível uma descida incontrolável em Coruscant. Mesmo sendo persuardido por Palpatine a deixar seu mestre, Anakin carrega Kenobi nas costas e protege o Chanceler ao mesmo tempo. Pouco depois Obi-Wan recupera a consciência.
         </p>
       </div>
       <!-- conteúdo parallax 5 -->
@@ -107,10 +107,13 @@
       <!-- conteúdo card 5 -->
       <div class="container conteudo">
         <p class="lead">
-          Após Grievous e a equipe de comando recuperarem o controle da nave utilizando os propulsores de emergência, ele ordena que dois Jedi e seus companheiros sejam capturados. Ele ativou uma armadilha de Escudos de Raio, que fez eles serem capturados e levados à ponte sob custódia. Mas R2 criou uma distração, o que deu tempo suficiente para os Jedi recuperarem seus sabres e se libertarem.
+          Após Grievous e a equipe de comando recuperarem o controle da nave utilizando os propulsores de emergência, ele ordena que os dois Jedi e seus companheiros sejam capturados. Ele ativou uma armadilha de Escudos de Raio, que faz eles serem capturados e levados à ponte sob custódia. Mas R2 cria uma distração, ganhando tempo suficiente para os Jedi recuperarem seus sabres e se libertarem.
         </p>
         <p class="lead">
-          Grievous então manda seus MagnaGuardas IG-100 atrás dos Jedi. Obi-Wan rapidamente decapita um deles com sua lâmina, mas o droide continua. Obi-Wan ataca-o novamente e o droide entra em colapso. Anakin cuida dos droides de batalha que estavam levando Palpatine. Então, os Jedi se aproximam de Grievous, mas ele quebra o vidro com a Barra Elétrica de seu guarda e é levado para fora. Usando um cabo, ele retorna para a nave e usa um Pod de emergência.Lançando todas as outras capsulas, ele foge para uma das naves da Federação. Mais uma vez, a nave começa a cair numa queda-livre na órbita de Coruscant. Anakin toma o controle e a pilota, ajudado por speeders de emergência, tentando pousá-la em uma das plataformas de pouso industriais de Coruscant.
+          Grievous então manda seus MagnaGuardas IG-100 atrás dos Jedi. Obi-Wan rapidamente decapita um deles com sua lâmina, mas o droide continua. Obi-Wan ataca-o novamente e o droide entra em colapso. Anakin cuida dos droides de batalha que estavam levando Palpatine. Então, os Jedi se aproximam de Grievous, mas ele quebra o vidro com a Barra Elétrica de seu guarda e é levado para fora. Usando um cabo, ele retorna para a nave e usa um Pod de emergência.Lançando todas as outras capsulas, ele foge para uma das naves da Federação. 
+        </p>
+        <p class="lead">
+          Mais uma vez, a nave começa a cair numa queda-livre na órbita de Coruscant. Anakin toma o controle e a pilota, ajudado por speeders de emergência, tentando pousá-la em uma das plataformas de pouso industriais de Coruscant.
         </p>
       </div>
       <!-- conteúdo parallax 6 -->
