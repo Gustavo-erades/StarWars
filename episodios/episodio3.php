@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="pt-br">
   <?php
+    session_start();
+    include_once("../conexaoBd/conexao.php");
+    include_once("../funcoesPHP/gerenciarAcessos.php");
     include_once("../objetos/objEpisodio3.php");
   ?>
   <head>
@@ -513,11 +516,20 @@
               <a class="nav-link px-2 text-muted">&copy; 2023 por Gustavo Êrades </a>
             </li>
           </ul>
-          <span id="span-footer-redes">
-            fale comigo: 
-            <a href="https://www.linkedin.com/in/gustavo-%C3%AA-22a357231/" target="_blank"  class="footer-redes"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="mailto:eradesvilarinho@gmail.com" target="_blank" class="footer-redes"><i class="fa-solid fa-envelope"></i></a>
-          </span>
+          <div class="grid">
+            <div class="row">
+              <span id="span-footer-redes" class="col-xl-6">
+                fale comigo: 
+                <a href="https://www.linkedin.com/in/gustavo-%C3%AA-22a357231/" target="_blank" class="footer-redes"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:eradesvilarinho@gmail.com" target="_blank" class="footer-redes"><i class="fa-solid fa-envelope"></i></a>
+              </span>
+              <span id="span-footer-acessos" class="col-xl-6">
+                <span>
+                  <?=$quantidade?> acessos. 
+                </span>
+              </span>
+            </div>
+          </div>
         </footer>
       </div>
       <a href="#start" id="de_volta_ao_topo">&#9650;</a>
