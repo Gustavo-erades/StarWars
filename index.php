@@ -54,18 +54,18 @@
       <div class="container conteudo">
         <h2 class="d-none d-md-block">Há Muito tempo atrás, numa galáxia muito, muito distante....</h2>
         <h2 class="d-block d-md-none">Há Muito tempo atrás, numa galáxia  distante....</h2>
-        <p class="lead">
+        <p data-tilt class="lead">
           Star Wars é uma franquia de filmes, séries, revistas em quadrinhos e desenhos animados. Uma trama política espacial com direito a 
           espadas brilhantes, naves espaciais, robôs, alienígenas, viagens na velocidade da luz, exércitos de droides e explosões. A trama 
           idealizada por George Lucas foi iniciada no fim da década de 1970 com o filme Star Wars: Uma Nova Esperança. 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
             O primeiro filme acompanhava um jovem com uma ligação mistica com a galáxia (Luke Skywalker), um contrabandista espacial e seu fiel escudeiro 
             (Han Solo e Chewbacca), uma princesa de um planeta distante (Leia Organa) e dois robôs (C-3P0 e R2-D2), o quarteto viajava pela galáxia 
             lutando contra o temível império e as tropas de clones do terrível Darth Vader e do Imperador Palpatine. Com esse filme, chamado 
             posteriormente de Episódio IV, uma das maiores franquias da história do cinema começou. 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
             Portanto, Jovem padawan, caso queira conhecer a história do início ao fim da era jedi, da ascensão à queda do temível império, da origem ao fim daquele que amedrontou a galáxia por anos conhecido como Darth Vader, então acompanhe a história dos seis primeiros episódios da saga Star Wars e, como diziam os velhos mestre jedi, que a Força esteja com você!
         </p>
       </div>
@@ -78,20 +78,20 @@
       <!-- conteúdo card 2-->
       <div class="container conteudo">
         <h2>O início da jornada</h2>
-        <p class="lead">
+        <p data-tilt class="lead">
           George Walton Lucas Junior foi o grande idealizador do universo de Star Wars, seja como produtor, roteirista ou diretor, ele 
           esteve presente durante todo o desenvolvimento dos seis primeiros filmes da saga. George Lucas fazia parte da nova geração de 
           diretores de cinema na década de 1970 e escreveu o roteiro de um filme que teria 6 horas de duração, após receber diversos "não" 
           de estúdios que não apoiavam a ideia, acabou dividindo essas seis horas em seis filmes (surgia aí os seis primeiros filmes da 
           saga). 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Após diveros problemas com o estúdio, equipe de produção, prazos e elenco a história de Star Wars finalmente começou em 
           1977, começando já com o quarto capítulo e segiu até 1983, durante esse período foi produzida a primeira trilogia que ficou 
           conhecida como "trilogia clássica". Em 1999 chegou aos cinemas o filme "Star Wars: A Ameaça fantasma" e esse filme deu início a 
           trilogia que se passaria antes dos três filmes originais e ficaria conhecida como "trilogia prequel".
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Esses seis primeiros filmes modelaram todo o universo de star wars e são eles que contam a história princial dessa saga, das batalhas entre Jedis e Siths, da queda da república e dos confrontos entre rebeldes e o império até a derrocada do lado sombrio da Força.
         </p>
       </div>
@@ -103,7 +103,7 @@
       </div>
       <!-- conteúdo card 3 -->
       <div class="container conteudo">
-        <p class="lead">
+        <p data-tilt class="lead">
           O tempo em Star Wars é contado como ABY | DBY, ou seja, antes e depois da batalha de Yavin, batalha essa que foi o maior 
           confronto entre a Aliança Rebelde e o Império Galático na Guerra Civil Galática, foi nessa batalha que a primeira estrela da 
           morte foi destruida. O episódio IV conta a história dessa batalha e, devido a sua importância, a data dessa batalha é considerada 
@@ -111,15 +111,15 @@
           Star Wars é dividido em 7 principais eras:
         </p>
         <ul class="lead">
-          <li>era Pré-República</li>
-          <li>era da Velha República</li>
-          <li>era da Ascensão do Império</li>
-          <li>era da Rebelião</li>
-          <li>era da Nova República</li>
-          <li>era da Nova Ordem Jedi</li>
-          <li>era do Legado</li>
+          <li data-tilt>era Pré-República</li>
+          <li data-tilt>era da Velha República</li>
+          <li data-tilt>era da Ascensão do Império</li>
+          <li data-tilt>era da Rebelião</li>
+          <li data-tilt>era da Nova República</li>
+          <li data-tilt>era da Nova Ordem Jedi</li>
+          <li data-tilt>era do Legado</li>
         </ul>
-        <p class="lead">A trilogia prequel se passa no final da era da Ascensão do Império e a trilogia clássica se passa no período da era da Rebelião.</p>
+        <p data-tilt class="lead">A trilogia prequel se passa no final da era da Ascensão do Império e a trilogia clássica se passa no período da era da Rebelião.</p>
       </div>
       <!-- conteúdo parallax 4 -->
       <div class="parallax img4">
@@ -153,7 +153,7 @@
               </p>
               <a class="btn btn-warning" href="./episodios/episodio1.php" id="linkEpisodio">Ver história</a>
             </div>
-            <img src="./imagens/ep1.png" alt="A ameaça fantasma" class="align-self-center" id="imagemEpisodio">
+            <img  src="./imagens/ep1.png" alt="A ameaça fantasma" class="align-self-center" id="imagemEpisodio">
           </div>
         </div>
       </div>
@@ -208,12 +208,12 @@
             <cite class="blockquote-cite"> Kenobi, Obi-Wan</cite>
           </footer>
         </blockquote>
-        <p class="lead">
+        <p data-tilt class="lead">
           A Força é a fonte de poder no universo de Star Wars, seja você um lorde sith, um mestre jedi, um caçador de recompensas, 
           android ou qualquer outro, qualquer ser tem ligação com a Força e pode usá-la! O que diferencia é a capacidade que o ser tem de se conectar 
           com ela. 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Nas células dos seres vivos existe um microorganismo microscópico chamado de Midi-Chlorians, esse microorganismo 
           facilita a interação com a Força e contabilazando o tanto desses organismos existentes no seres vivos é possível medir a sensibilidade 
           de cada um à Força, porém, há formas artificiais de se ligar a Força e utilizar seu poder.
@@ -228,25 +228,25 @@
       <!-- conteúdo card 9 -->
       <div class="container conteudo">
         <h2>A Força possui dois lados...</h2>
-        <p class="lead">
+        <p data-tilt class="lead">
           A forma com que um indivíduo se conecta e usa a Força impacta diretamente em sua personalidade e vice versa. A Força se divide em dois lados:
         </p>
         <ul class="lead">
-          <li>Ashla -> lado luminoso</li>
-          <li>Bogan -> lado sombrio</li>
+          <li data-tilt >Ashla -> lado luminoso</li>
+          <li data-tilt >Bogan -> lado sombrio</li>
         </ul>
-        <p class="lead">
+        <p data-tilt class="lead">
           O lado sombrio da Força é, de forma geral, ultilizado pelos lordes Sith (Darth Vader, Darth Maul, Darth Tyranus).Os usuários desse lado costumam ser mais agressivos e letais em seus ataques, acessam a Força pelo ódio e sentimentos negativos. 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Em contra partida, o outro lado da Força é acessado por meio da meditação e concentração extrema. Os mestres jedi (Yoda, Obi-Wan, Mace Windu) evitam usar a Força para ferir e preferem ser letais apenas em último caso,  pregam o afastamento emocional e usam seus poderes jedi para buscar o equilíbrio e bem-estar da galáxia.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Por seguirem filosofias tão diferentes os mestre jedi e os lordes sith travam batalhas que se rastam por gerações, no fim, só 
           conseguem concordar em uma coisa: o perigo que o amor pode trazer. Para o lado sombrio o amor poder trazer compaixão e afeto, para 
           o lado jedi o amor pode trazer sentimentos ruins como ciúme e raiva.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Porém, o que Star Wars mostra durante toda a saga é que ambos os lados existem dentro dos seres e o melhor caminho para uso da 
           Força é buscar o equilíbrio entre eles, assim o usuário pode combinar as habilidades dos dois lados se tornando um usuário poderoso da Força, como fez Luke Skywalker.
         </p>
@@ -259,20 +259,20 @@
       </div>
       <!-- conteúdo card 10 -->
       <div class="container conteudo">
-        <p class="lead">
+        <p data-tilt class="lead">
           Os sabres de luz são espadas de plasma feitas a partir de um cristal raro que é energizado com o poder do usuário do sabre, 
           assim o sabre recebe sua cor (verde, azul, roxo, vermelho), por isso os usuários do lado sombrio costumam possuir um sabre de luz 
           vermelho, pois energizam o cristal com sentimentos negativos. 
           Skaywalker.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           É por isso também que os sabres de luz costumam carregar a energia 
           do usuário original, energia essa que pode ser sentida por pessoas sensitivas a Força, a exemplo do sabre de luz de Anakin Skywalker
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Há, porém, na galáxia sabres de luz artificiais e mesmo não sendo um usuário da Força é possivel usar a espada luminosa.
         </p>
-        <p class="lead"> 
+        <p data-tilt class="lead"> 
           O sabre serve tanto para ataque quanto para defesa, há diversas formas de usá-los em combate e formatos(uma, duas e até três pontas), podem bloquear tiros de blasters, cortar praticamnete tudo e, claro, são extremamente letais. Até por esse motivo é mais comum ver apenas usuários 
           legítimos da Força os ultilizando, o que fez com que a arma se tornasse quase que a identificação de um usuário da Força.
         </p>
@@ -323,5 +323,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/loading.js"></script>
+    <script src="./js/vanilla-tilt.min.js"></script>
   </body>
 </html>

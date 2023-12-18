@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="../css/style.css" media="all">
     <link rel="stylesheet" href="../css/responsividade.css" media="all">
     <link rel="stylesheet" href="../css/styleLoading.css">
+    <link rel="stylesheet" href="../css/styleCreditos.css">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../imagens/icone5.png" type="image/x-icon">
-    <title>Star Wars</title>
+    <title>Star Wars - Créditos</title>
   </head>
   <body>
    <div id="preload">
@@ -50,10 +51,10 @@
       </div>
       <div class="parallax img1 cartaDev">
             <p class="lead">
-                "Olá padawan, agradeço por ter me acompanhado durante essa longa tragetória pela galáxia. Aqui dou os devidos créditos àqueles que me ajudaram a contar a história de uma galáxia distante de maneira resumida, interessante e bonita visualmente. Dou os créditos ainda aos sites de onde retirei os textos e demais dados utilizados durante a construção desse projeto. Saiba, leitor, que esse site nada mais é do que um espécie de "reboot" do projeto final da matéria de Desenvolvimento Web do curso de Análise e Desenvolviento de Sistemas, feito no meu segundo semestre, no ano de 2022. Caso, por curiosidade, queira conferir a primeira versão desse projeto basta <a href=""> clicar aqui</a>. Espero que acompanhar essa história tenha sido tão prazeroso para você quanto foi para mim desenvolver. Esse projeto me custou tempo e pôs minhas habilidades sobre desenvolvimento web (e conhecimento sobre o vasto universo de Star Wars) a prova! Espero que tenha valido a pena. Bem, no rodapé dessa página há links para meu GitHub e demais redes sociais, te aguardo em uma próxima jornada padawan, quem sabe nos vejemos de novo caso haja algum <em>Despertar da Força</em>..."
+                "Olá padawan, agradeço por ter me acompanhado durante essa longa tragetória pela galáxia. Aqui dou os devidos créditos àqueles que me ajudaram a contar a história de uma galáxia distante de maneira resumida, interessante e bonita visualmente. Dou os créditos ainda aos sites de onde retirei os textos e demais dados utilizados durante a construção desse projeto. Saiba, leitor, que esse site nada mais é do que um espécie de "reboot" do projeto final da matéria de Desenvolvimento Web do curso de Análise e Desenvolviento de Sistemas, feito no meu segundo semestre, no ano de 2022. Caso, por curiosidade, queira conferir a primeira versão desse projeto basta <a href="https://gustavo-erades.github.io/Site-StarWars-AneisDePoder/Index.html"> clicar aqui</a>. Espero que acompanhar essa história tenha sido tão prazeroso para você quanto foi para mim desenvolver. Esse projeto me custou tempo e pôs minhas habilidades sobre desenvolvimento web (e conhecimento sobre o vasto universo de Star Wars) a prova! Espero que tenha valido a pena. Bem, no rodapé dessa página há links para meu GitHub e demais redes sociais, te aguardo em uma próxima jornada padawan, quem sabe nos vejemos de novo caso haja algum <em>Despertar da Força</em>..."
             </p>
             <footer class="blockquote-footer">
-                <cite class="blockquote-cite">Gustavo Êrades, o desenvolvedor, 2023</cite>
+                <cite class="blockquote-cite centro">Gustavo Êrades, o desenvolvedor, 2023</cite>
             </footer>
         </div>
       <!-- imagem parallax 2 -->
@@ -92,7 +93,7 @@
       <!-- conteúdo card 4 -->
       <div class="container conteudo">
         <p class="lead">
-            Os Gifs utilizados no site foram todos retirados do Google e são apenas links para tais gifs, portanto peço que, caso haja algum erro no background que continha esses gifs, entre em contato comigo para que possa resolver o problema (no rodapé dessa página há meu email para entrar em contato). As fontes vinheram do site DaFonte. Na seção "Links" há um link que redireciona para o "dafonte.com". 
+            Os Gifs utilizados no site foram todos retirados do Google e são apenas links para tais gifs, portanto peço que, caso haja algum erro no background que continha esses gifs, entre em contato comigo para que possa resolver o problema (no rodapé dessa página há meu email para entrar em contato). As fontes vinheram do site DaFonte. Na seção "Links" há um link que redireciona para o "Dafont.com". 
         </p>
       </div>
        <!-- conteúdo parallax 7 -->
@@ -104,7 +105,7 @@
       <!-- conteúdo card 7 -->
       <div class="container conteudo">
         <p class="lead">
-            Esse projeto, inicialmente, era o projeto final da matéria de Desenvolvimento Web da faculdade e portanto havia um grupo, composto por 4 pessoas e orientados por um professor, que desenvolveu a primeira versão desse site. Gustavo Emanoel, Gustavo Êrades, Victor Samuel e Vinícius Fernades orientados pelo professor <a>Lucas Maurício Martins</a>, eram os integrantes desse grupo. Na seção "Links" há links que redirecionam ao GitHub dos integrantes.
+            Esse projeto, inicialmente, era o projeto final da matéria de Desenvolvimento Web da faculdade e portanto havia um grupo, composto por 4 pessoas e orientados por um professor, que desenvolveu a primeira versão desse site. <a href="https://github.com/GustavoAdornelas" target="_blank">Gustavo Emanoel</a>, <a href="https://github.com/Gustavo-erades" target="_blank">Gustavo Êrades</a>, <a href="https://github.com/Aluno18" target="_blank">Victor Samuel</a> e Vinícius Fernades orientados pelo professor <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=5DF24C44E8A612F0451DD4DCD829B871.buscatextual_0" target="_blank">Lucas Maurício Martins</a>, eram os integrantes desse grupo.
         </p>
       </div>
       <!-- conteúdo parallax 6 -->
@@ -115,7 +116,53 @@
       </div>
       <!-- conteúdo card 6 -->
       <div class="container conteudo">
-        
+        <ul class="lead">
+          <li> 
+            <a target="_blank" href="https://www.omdbapi.com/">
+              API omdbapi
+            </a>  
+          </li>
+          <li> 
+            <a target="_blank" href="https://swapi.dev/">
+              API swapi
+            </a>  
+          </li>
+          <li> 
+            <a target="_blank" href="https://micku7zu.github.io/vanilla-tilt.js/">
+              Vanilla Js
+            </a>  
+          </li>
+          <li> 
+            <a target="_blank" href="https://getbootstrap.com/">
+              Bootstrap
+            </a>  
+          </li>
+          <li>
+             <a target="_blank" href="https://fontawesome.com/search?q=starwars&o=r">
+              FontAwesome
+            </a>  
+          </li>
+          <li>
+             <a target="_blank" href="https://icons8.com/icons/set/Star-wars">
+              Icons8
+            </a> 
+          </li>
+          <li> 
+            <a target="_blank" href="https://html-css-js.com/html/character-codes/">
+              entidades HTML
+            </a>  
+          </li>
+          <li>
+            <a target="_blank" href="https://www.dafont.com/pt/sf-distant-symbols.font">
+              Dafont
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/Gustavo-erades/StarWars">
+              Repositório GitHub
+            </a>
+          </li>
+        </ul>
       </div>
       <!-- conteúdo parallax 8 -->
       <div class="parallax img1">
@@ -137,9 +184,9 @@
         <p class="lead">
             No dia 9 de novembro de 2023, aproximadamente às quatro da manhã, perdi meu amigo. Esse projeto não é feito apenas para estudo, não é feito para que eu passe o tempo. Realmente me diverti refazendo esse site do zero (agora com bem mais experiência), mas esse projeto tem uma finalidade, ou melhor, um destinatário. Não estávamos nos falando tanto, e não nos viamos há algum tempo. Decidi refazer o projeto que fizemos juntos para que pudéssemos nos reencontrar e conversar mais vezes, mas nem sempre tudo acontece como esperamos não é? Bem, dedico cada linha de código, imagem, texto e horas não dormidas a você Vini. Sinto falta de você mano, mas sei que vamos nos encontrar novamente, afinal, você me deve uma revanche no xadrez!  Que a força esteja com você onde quer que esteja meu querido amigo e também com você, caro leitor, que chegou até aqui.
         </p>
-        <div style="text-align:center;">
+        <div class="centro">
             <img src="../imagens/vini.jpg" alt="Em memória de Vinícius Fernandes Pereira Alves" width="250px">
-            <p class="lead" style="text-align:center">23/02/1997 - 09/11/2023</p>
+            <p class="lead centro">23/02/1997 - 09/11/2023</p>
         </div>
 
       </div>
