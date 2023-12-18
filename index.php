@@ -2,6 +2,7 @@
 <html lang="pt-br">
   <?php
     session_start();
+    include_once("./conexaoBd/conexao.php");
     include_once("./funcoesPHP/gerenciarAcessos.php");
   ?>
   <head>
@@ -42,7 +43,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a href="./erro404.html" class="nav-link">Créditos</a>
+            <a href="./paginas/creditos.php" class="nav-link">Créditos</a>
           </li>
           <li class="nav-item">
             <a href="./erro404.html" class="nav-link">Sobre</a>

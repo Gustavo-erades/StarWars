@@ -1,5 +1,5 @@
 <?php 
-    include_once("./conexaoBd/conexao.php");
+    
     if(!isset($_SESSION["acesso_registrado"])){
         $ip=$_SERVER['REMOTE_ADDR'];
         $navegador=$_SERVER['HTTP_USER_AGENT'];

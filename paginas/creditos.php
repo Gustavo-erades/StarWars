@@ -1,5 +1,9 @@
 <!doctype html>
 <html lang="pt-br">
+  <?php
+    include_once("../conexaoBd/conexao.php");
+    include_once("../funcoesPHP/gerenciarAcessos.php");
+  ?>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -160,6 +164,11 @@
                 fale comigo: 
                 <a href="https://www.linkedin.com/in/gustavo-%C3%AA-22a357231/" target="_blank" class="footer-redes"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="mailto:eradesvilarinho@gmail.com" target="_blank" class="footer-redes"><i class="fa-solid fa-envelope"></i></a>
+              </span>
+              <span id="span-footer-acessos" class="col-xl-6">
+                <span>
+                  <?=$quantidade?> acessos. 
+                </span>
               </span>
             </div>
           </div>
