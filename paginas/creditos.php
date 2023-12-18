@@ -43,18 +43,14 @@
           </li>
         </ul><!-- fim da barra de navegação -->
       </div>
-      <!-- conteúdo card 1 -->
-      <div class="container conteudo">
-        <p class="lead">
-            Olá padawan, agradeço por ter me acompanhado durante essa longa tragetória pela galáxia. Aqui dou os devidos créditos àqueles que me ajudaram a contar a história de uma galáxia distante de maneira resumida, interessante e bonita visualmente. Dou os créditos ainda aos sites de onde retirei os textos e demais dados utilizados durante a construção desse projeto. Saiba, leitor, que esse site nada mais é do que um espécie de "reboot" do projeto final da matéria de Desenvolvimento Web do curso de Análise e Desenvolviento de Sistemas, feito no meu segundo semestre, no ano de 2022. Caso, por curiosidade, queira conferir a primeira versão desse projeto basta <a href=""> clicar aqui</a>.
-        </p>
-        <p class="lead">
-            Espero que acompanhar essa história tenha sido tão prazeroso para você quanto foi para mim desenvolver. Esse projeto me custou tempo e pôs minhas habilidades sobre desenvolvimento (e conhecimento sobre o vasto universo de Star Wars) a prova! Espero que tenha valido a pena. Bem, no rodapé dessa página há links para meu GitHub e demais redes sociais, te aguardo em uma próxima jornada padawan, quem sabe eu atualize os episódios 
-        </p>
-        <footer class="blockquote-footer">
-            <cite class="blockquote-cite">Gustavo Êrades, o desenvolvedor</cite>
-        </footer>
-      </div>
+      <div class="parallax img1 cartaDev">
+            <p class="lead">
+                "Olá padawan, agradeço por ter me acompanhado durante essa longa tragetória pela galáxia. Aqui dou os devidos créditos àqueles que me ajudaram a contar a história de uma galáxia distante de maneira resumida, interessante e bonita visualmente. Dou os créditos ainda aos sites de onde retirei os textos e demais dados utilizados durante a construção desse projeto. Saiba, leitor, que esse site nada mais é do que um espécie de "reboot" do projeto final da matéria de Desenvolvimento Web do curso de Análise e Desenvolviento de Sistemas, feito no meu segundo semestre, no ano de 2022. Caso, por curiosidade, queira conferir a primeira versão desse projeto basta <a href=""> clicar aqui</a>. Espero que acompanhar essa história tenha sido tão prazeroso para você quanto foi para mim desenvolver. Esse projeto me custou tempo e pôs minhas habilidades sobre desenvolvimento (e conhecimento sobre o vasto universo de Star Wars) a prova! Espero que tenha valido a pena. Bem, no rodapé dessa página há links para meu GitHub e demais redes sociais, te aguardo em uma próxima jornada padawan, quem sabe nos vejemos de novo caso haja algum <em>Despertar da Força</em>...
+            </p>
+            <footer class="blockquote-footer">
+                <cite class="blockquote-cite">Gustavo Êrades, o desenvolvedor, 2023</cite>
+            </footer>
+        </div>
       <!-- imagem parallax 2 -->
       <div class="parallax img1">
         <div class="conteudo-titulo">
@@ -63,8 +59,8 @@
       </div>
       <!-- conteúdo card 2-->
       <div class="container conteudo">
-        <p>
-            Todos os textos de todos os episódios e da página de Home desse trabalho foram retirados da página de fãs do Star Wars, analisados/reescritos por nós e editados no Word para depois serem colocados na página web. na aba de Links, Há um link para a página do site Star Wars Fandom.
+        <p class="lead">
+            Todos os textos de todos os episódios e da página de Home desse trabalho foram retirados da página de fãs do Star Wars, analisados e reescritos por mim para depois serem colocados na página web. na aba de Links, Há um link para a página do site Star Wars Fandom.
         </p>
       </div>
       <!-- imagem parallax 3 -->
@@ -75,21 +71,35 @@
       </div>
       <!-- conteúdo card 3 -->
       <div class="container conteudo">
-        <p>
-            Todas as imagens usadas nesse trabalho, tanto para o fundo quanto para as capas dos filmes, foram retiradas do Google imagens e ajustadas/editadas por nós e depois colocadas no site.
-            Os ícones utilizados no trabalho foram todos retirados do Bootstrap, Google imagens, Icons8 e Html Special Character Codes. Na aba de links, há links que levam para alguns desses ícones.
+        <p class="lead">
+            As imagens utilizadas vinheram, em suma maioria, do Google imagens e da API "omdbapi". Quanto aos ícones, viheram do site Icons8, Favicon e FontAwesome. Na sessão Links, há links direcionados a esses sites.
+        </p>
+        <p class="lead">
+            OBS: há uma API gratuita e referente especificamente a Star Wars, ela é bem detalhada e dá informações sobre as produções, atores e personagens. No entanto, optei por nã usá-la devida a lentidão que o site tinha com o uso dessa API. Na sessão links há um link direcionado a essa API.
         </p>
       </div>
       <!-- conteúdo parallax 4 -->
       <div class="parallax img1">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Vídeos</h1>
+          <h1 class="titulo display-2">Vídeos e fontes</h1>
         </div>
       </div>
       <!-- conteúdo card 4 -->
-      <div class="conteudo">
-        <p>
-            Para a construção do html e css do site e das poucas coisas feitas com javascript, foram utilizados, além do conteúdo das aulas presenciais, alguns vídeos do Youtube que auxiliaram na parte criativa e de confecção do site. Os vídeos serviram tanto de inspiração quanto como de instruções para a elaboração do trabalho. Na aba de links, há links que levam para alguns desses vídeos.
+      <div class="container conteudo">
+        <p class="lead">
+            Os Gifs utilizados no site foram todos retirados do Google e são apenas links para tais gifs, portanto peço que, caso haja algum erro no background que continha esses gifs, entre em contato comigo para que possa resolver o problema (no rodapé dessa página há meu email para entrar em contato). As fontes vinheram do site DaFonte. Na sessão Links há um link que redireciona para o "dafonte.com". 
+        </p>
+      </div>
+       <!-- conteúdo parallax 7 -->
+       <div class="parallax img1">
+        <div class="conteudo-titulo">
+          <h1 class="titulo display-2">A equipe anterior</h1>
+        </div>
+      </div>
+      <!-- conteúdo card 7 -->
+      <div class="container conteudo">
+        <p class="lead">
+            Esse projeto, inicialmente, era o projeto final da matéria de Desenvolvimento Web da faculdade e portanto havia um grupo, composto por 4 pessoas e orientados por um professor, que desenvolveu a primeira versão desse site. Gustavo Emanoel, Gustavo Êrades, Victor Samuel e Vinícius Fernades orientados pelo professor <a>Lucas Maurício Martins</a>, eram os integrantes desse grupo. Na sessão Links há links que redirecionam ao GitHub dos integrantes.
         </p>
       </div>
       <!-- conteúdo parallax 6 -->
@@ -99,18 +109,34 @@
         </div>
       </div>
       <!-- conteúdo card 6 -->
-      <div class="conteudo">
+      <div class="container conteudo">
         
       </div>
-      <!-- conteúdo parallax 7 -->
+      <!-- conteúdo parallax 8 -->
       <div class="parallax img1">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2"></h1>
+          <h1 class="titulo display-2">Em memória de</h1>
         </div>
       </div>
-      <!-- conteúdo card 7 -->
-      <div class="conteudo">
-        
+      <!-- conteúdo card 8 -->
+      <div class="container conteudo">
+        <blockquote class="blockquote">
+            "Morte é uma parte natural da vida. Alegre-se para aqueles à sua volta que se transformam na Força."
+            <footer class="blockquote-footer">
+                <cite class="blockquote-cite">Yoda, Mestre Jedi</cite>
+            </footer>
+        </blockquote>
+        <p class="lead">
+            A maior parte desse trabalho, se não todo, foi feita em colaboração com Vinícius Fernandes. Ele melhorou o design, trouxe novas ideias, modernizou o site, desenvolveu algumas páginas de episódios, liderou a equipe e, principalmente, foi meu amigo. Convivemos por pouco tempo. Começamos o curso de Análise e Desenvolvimento de Sistemas juntos, mas só realmente nos aproximamos durante o segundo semestre. Entre xadrez, brawhalla, código e conversas aleatórias fomos nos tornando amigos. Infelizmente, no final do ano de 2022 ele descobriu um câncer.
+        </p>
+        <p class="lead">
+            No dia 9 de novembro de 2023, aproximadamente às quatro da manhã, perdi meu amigo. Esse projeto não é feito apenas para estudo, não é feito para que eu passe o tempo. Realmente me diverti refazendo esse site do zero (agora com bem mais experiência), mas esse projeto tem uma finalidade, ou melhor, um destinatário. Não estávamos nos falando tanto, e não nos viamos há algum tempo. Decidi refazer o projeto que fizemos juntos para que pudéssemos nos reencontrar e conversar mais vezes, mas nem sempre tudo acontece como esperamos não é? Bem, dedico cada linha de código, imagem, texto e horas não dormidas a você Vini. Sinto falta de você mano, mas sei que vamos nos encontrar novamente, afinal, você me deve uma revanche no xadrez!  Que a força esteja com você onde quer que esteja meu querido amigo e também com você, caro leitor, que chegou até aqui.
+        </p>
+        <div style="border:1px solid red;text-align:center;">
+            <img src="../imagens/vini.jpg" alt="Em memória de Vinícius Fernandes Pereira Alves" width="250px" style="border:1px solid green;">
+            <p class="lead" style="border:1px solid green;text-align:center">23/02/1997 - 09/11/2023</p>
+        </div>
+
       </div>
       <!-- conteúdo parallax 11 -->
       <div class="parallax img1">
