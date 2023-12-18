@@ -61,7 +61,7 @@
       <!-- conteúdo card 1-->
       <div class="container conteudo">
         <h2>Contexto</h2>
-        <p class="lead">
+        <p data-tilt class="lead">
           Uma inquietação toma conta do Senado Galáctico. Milhares de sistemas solares declararam suas intenções em deixar a República. Esse movimento separatista, sob a liderança do misterioso Conde Dookan, tem criado dificuldades para o limitado número de Cavaleiros Jedi manter a paz e a ordem na galáxia. Senadora Amidala, a antiga rainha de Naboo, está retornando ao Senado Galáctico para a votação da proposta crítica de criação de um Exército da República para auxiliar os sobrecarregados Jedi....
         </p>
       </div>
@@ -73,13 +73,13 @@
       </div>
       <!-- conteúdo card 3 -->
       <div class="container conteudo">
-        <p class="lead">
+        <p data-tilt class="lead">
           A República Galáctica está em crise. Um movimento separatista (secretamente formado pelo ex-Jedi Conde Dookan) ameaçou a paz. A Senadora Padmé Amidala, ex-Rainha de Naboo, retorna ao Senado Galáctico para oferecer um voto contra a criação de um exército da República.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Naquela noite, uma misteriosa caçadora de recompensas, a mandaloriana Zam Wessel, faz um atentado à vida de Amidala e o Conselho Jedi pede a Obi-Wan para seguir a assassina. Enquanto isso, é dado a Anakin a tarefa de proteger a Senadora e escoltá-la de volta para seu planeta natal, Naboo. Anakin recebe bem a oportunidade e está contente de estar sozinho nessa missão. O Representante de Naboo, Jar Jar Binks, assume as tarefas da Senadora durante sua ausência.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Em sua chegada, mais uma tentativa de assassinato. Como resultado, o Supremo Chanceler Palpatine pede que os Jedi Obi-Wan Kenobi e Anakin Skywalker que protejam a senadora Amidala até a votação.
         </p>
       </div>
@@ -91,16 +91,16 @@
       </div>
       <!-- conteúdo card 4 -->
       <div class="container conteudo">
-        <p class="lead">
+        <p data-tilt class="lead">
           Durante a investigação, Obi-Wan é levado para o misterioso planeta Kamino (que não estava nos arquivos da República), onde ele descobre um exército de clones secretamente sendo desenvolvidos para a República. Os nativos dizem que o exército foi pedido há dez anos antes por um Jedi chamado Zaifo Vias — considerado morto pelo Conselho Jedi. 
         </p>
-        <p>
+        <p data-tilt>
           Um caçador de recompensas mandaloriano chamado Jango Fett foi contratado para ser a predefinição dos clones. Obi-Wan encontra Fett em Kamino, e acredita ser ele o assassino que procura. Depois de uma tentativa de captura falha de Obi-Wan, ele coloca um dispositivo de rastreamento em sua nave e o segue para o planeta Geonosis.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Em Geonosis, Obi-Wan escuta uma conversa entre Conde Dookan e o vice-rei Nute Gunray e descobre que eles estão por trás do movimento separatista e construíram um novo exército de droides. Ele também descobre que Gunray estava por trás da tentativa de assassinato de Padmé Amidala, como vingança da Batalha de Naboo. 
         </p>
-        <p>
+        <p data-tilt>
           Obi-Wan manda uma mensagem gravada para o Conselho Jedi para informá-los sobre o que acabou de ouvir um pouco antes de ser capturado.
         </p>
       </div>
@@ -112,16 +112,16 @@
       </div>
       <!-- conteúdo card 5 -->
       <div class="container conteudo">
-        <p class="lead">
+        <p data-tilt class="lead">
           Enquanto isso, Anakin e Padmé têm ficado muito tempo juntos em Naboo. Eles haviam se beijado em um dos primeiros dias no planeta e, numa noite, Anakin revela seu amor profundo por ela. Embora sentisse o mesmo por ele, Padmé resiste, dizendo que seria impossível os dois ficarem juntos, já que ela é uma Senadora e ele um Jedi. Anakin se revolta por isso, e experiencia um conflito interno sobre seu desejo por ela e seus deveres como Jedi.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Anakin também é perturbado por um sentimento que sua mãe está em perigo grave e parte para Tatooine com Padmé (desobedeçendo as ordens de Obi-Wan de ficar em Naboo). Ao chegar, ele descobre que sua mãe foi sequestrada um mês atrás pelos Tuskens. 
         </p>
-        <p>
+        <p data-tilt>
           Anakin vai atrás dos Tuskens e encontra sua mãe, porém ela morre em seus braços ao ser acertada por um deles. Enraivado, o jedi mata toda a comunidade Tusken. 
         </p>
-        <p>
+        <p data-tilt>
           De volta em Coruscant, Yoda sente uma grande escuridão na Força, vindo do jovem Skywalker.
         </p>
       </div>
@@ -133,13 +133,13 @@
       </div>
       <!-- conteúdo card 6 -->
       <div class="container conteudo">
-          <p class="lead">
+          <p data-tilt class="lead">
             Agora que o Conselho Jedi sabe do exército de Dookan, o Jedi Mace Windu lidera uma equipe para Geonosis. Sem que eles soubessem, Anakin e Padmé também vão resgatar Obi-Wan. Enquanto isso, o Representante Binks pede para que Chanceler Palpatine tenha poderes de emergência, já que a existência do exército de droides foi descoberta pelo Senado e pode ser o prelúdio de uma guerra.
           </p>
-          <p class="lead">
+          <p data-tilt class="lead">
             Anakin e Padmé chegam ao planeta, mas são rapidamente capturados e sentenciados à morte, junto à Obi-Wan. Antes de serem levados à arena para morrerem, Padmé admite a Anakin que o ama também. Durante a tentativa de fuga dos três, o Mestre Windu chega com seus Jedi, que batalham com os droides de Dookan. 
           </p>
-          <p class="lead">
+          <p data-tilt class="lead">
             Mesmo com Windu matando Jango Fett, a derrota parecia iminente, porém Yoda chega com o novo Exército de clones da República. Uma grande batalha se inicia entre o exército de clones da República e as forças droides Separatistas.
           </p>
       </div>
@@ -157,16 +157,16 @@
             <cite class="blockquote-cite">Yoda, Mestre Jedi</cite>
           </footer>
         </blockquote>
-        <p class="lead">
+        <p data-tilt class="lead">
           Conde Dookan tenta escapar, mas Anakin e Obi-Wan o seguem até um hangar secreto, onde eles começam um combate. Infelizmente, eles não eram páreos para o conhecimento de Dookan da Força, que então machuca Obi-Wan e corta a mão direita de Anakin com o Sabre de luz. Yoda aparece bem na hora em que eles iam ser executados, e os dois mestres da Força entram num combate de sabres-de-luz.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Depois de Yoda se revelar superior, Dookan tenta derrubar uma pilastra nos dois Jedi caídos, e usa desta distração para fugir, enquanto Yoda usa a Força para tirar a pilastra de cima de Obi-Wan e Anakin.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           De volta a Coruscant, Obi-Wan informa ao Conselho Jedi do aviso de Dookan que Darth Sidious está controlando o Senado. Yoda hesita ao acreditar nisso, alegando que o Lado Sombrio é capaz de criar medo e desconfiança. Ele e Windu decidem, no entanto, que devem ficar de olho no Senado.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Anakin e Padmé se casam secretamente em Naboo, apenas com R2-D2 e C-3PO como testemunhas, violando o código jedi.
         </p>
       </div>

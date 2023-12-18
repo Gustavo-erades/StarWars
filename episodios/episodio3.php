@@ -432,11 +432,11 @@
               <div class="row">
                 <span class="col-4 spanAPI">
                   <h4 class="tituloAPI">Diretor</h4>
-                  <p data-tilt><?= $filme->getDiretor()?></p>
+                  <p><?= $filme->getDiretor()?></p>
                 </span>
                 <span class="col-4 spanAPI">
                   <h4 class="tituloAPI">Roteirista</h4>
-                  <p data-tilt><?= $filme->getRoterista()?></p>
+                  <p><?= $filme->getRoterista()?></p>
                 </span>
                 <span class="col-4 spanAPI">
                   <h4 class="tituloAPI">Atores</h4>
@@ -451,16 +451,16 @@
               <div class="row">
                 <span class="col-4 spanAPI">
                   <h4 class="tituloAPI">Bilheteria</h4>
-                  <p data-tilt><?= $filme->getBilheteria()?></p>
+                  <p><?= $filme->getBilheteria()?></p>
                 </span>
                 <span class="col-4 spanAPI">
                 <h4 class="tituloAPI">Lançamento</h4>
-                  <p data-tilt><?= $filme->getDataLancamento()?></p>
+                  <p><?= $filme->getDataLancamento()?></p>
                 </span>
                 </span>
                 <span class="col-4 spanAPI">
                   <h4 class="tituloAPI">Duração</h4>
-                  <p data-tilt><?= $filme->getDuracao()?></p>
+                  <p><?= $filme->getDuracao()?></p>
                 </span>
               </div>
             </div>
@@ -478,25 +478,25 @@
           <div class="row">
             <span class="col-4 spanAPI">
               <h4 class="tituloAPI">IMDB</h4>
-              <p data-tilt><?= $filme->getNotaIMDB()?></p>
+              <p><?= $filme->getNotaIMDB()?></p>
             </span>
             <span class="col-4 spanAPI">
               <h4 class="tituloAPI">Roten Tomatoes</h4>
-              <p data-tilt><?= $filme->getnotaRotenTomatoes()?></p>
+              <p><?= $filme->getnotaRotenTomatoes()?></p>
             </span>
             <span class="col-4 spanAPI">
               <h4 class="tituloAPI">Metacritic</h4>
-              <p data-tilt><?= $filme->getnotaMetaCritica()?></p>
+              <p><?= $filme->getnotaMetaCritica()?></p>
             </span>
           </div>
         </div>         
-        <p data-tilt class="lead">
+        <p class="lead">
           <?= $filme->getQtVotosIMDB()?> Votos no Internet Movie Database
         </p>
-        <p data-tilt class="lead">
+        <p class="lead">
           Código no Internet Movie Database: <?=$filme->getIdIMDB()?>
         </p>
-        <p data-tilt class="lead">
+        <p class="lead">
           <a href="https://www.imdb.com/title/<?=$filme->getIdIMDB()?>/" target="_blank" id="idIMDB">confira aqui a avaliação no IMDB desse filme</a>
         </p>
       </div>

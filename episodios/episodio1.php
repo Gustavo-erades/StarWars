@@ -61,7 +61,7 @@
       <!-- conteúdo card 1-->
       <div class="container conteudo  preload">
         <h2>Contexto</h2>
-        <p class="lead">
+        <p data-tilt class="lead">
           A República Galáctica está em grande tumulto. Em disputa estão os impostos sobre as rotas comerciais para os sistemas estelares exteriores. Na esperança de resolver o assunto com um bloqueio de implacáveis naves de guerra, a gananciosa federação de comércio interrompe todos os carregamentos para o pequeno planeta Naboo. Enquanto o Congresso da República debate incessantemente esta alarmante cadeia de acontecimentos, o Supremo Chanceler mandava secretamente dois Cavaleiros Jedi, guardiões da paz e da justiça na galáxia, para resolver o conflito.
         </p>
       </div>
@@ -73,7 +73,7 @@
       </div>
       <!-- conteúdo card 3 -->
       <div class="container conteudo  preload">
-        <p class="lead">
+        <p data-tilt class="lead">
           O ano 32 ABY é marcado pela disputa comercial entre a Federação de Comércio e o Planeta Naboo que se encontra bloqueado para fins comerciais. Na tentativa de resolver o conflito Chanceler Finis Valorum da República Galáctica secretamente envia dois Jedi, Qui-Gon Jinn e seu Padawan Obi-Wan Kenobi, como embaixadores à nave-capitânia Saak'ak para encontrar com o Vice-rei da Federação de Comércio Nute Gunray.
         </p>
         <blockquote class="blockquote">
@@ -82,7 +82,7 @@
             <cite class="blockquote-cite"> Kenobi, Obi-Wan</cite>
           </footer>
         </blockquote>
-        <p class="lead">
+        <p data-tilt class="lead">
           A mando do misterioso Darth Sidious, com quem mantém relação secreta, a Federação de Comércio ordena a morte dos dois Jedi e inicia a invasão ao planeta Naboo. Assim, a nave dos embaixadores, a Radiant VII, é destruída. Qui-Gon e Obi-Wan escapam da tentativa de assassinato da Federação enfrentando droides de batalha, mas se vêem obrigados a fugir para Naboo.
         </p>
       </div>
@@ -94,10 +94,10 @@
       </div>
       <!-- conteúdo card 4 -->
       <div class="container conteudo  preload">
-        <p class="lead">
+        <p data-tilt class="lead">
           Na superfície do planeta, os Jedi encontram o nativo local Jar Jar Binks, após ter sua vida salva por Qui-Gon, os leva para Otoh Gunga, uma cidade Gungan debaixo d'água, para escapar do exército da Federação de Comércio. Enquanto isso, a Federação invade Naboo e captura a líder do planeta, a Rainha Amidala. Os Jedi têm uma audiência com o líder Gungan, Rugor Nass, e pedem o apoio dos Gungans para ajudar as pessoas de Naboo. Sem muita disposição para ajudar, oferece apenas um bongo para que os Jedi cheguem à Theed. 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Ao chegarem à capital de Naboo, os Jedi, acompanhados de Jar Jar Binks, resgatam a Rainha Amidala do exército da Federação de Comércio. Eles planejam ir até Coruscant, o planeta capital da República Galáctica, para pedir ajuda ao Senado.
         </p>
       </div>
@@ -109,13 +109,13 @@
       </div>
       <!-- conteúdo card 5 -->
       <div class="container conteudo  preload">
-        <p class="lead">
+        <p data-tilt class="lead">
           A nave da Rainha sofre danos graves ao tentar furar o bloqueio da Federação de Comércio que orbita Naboo. No entanto um droide chamado R2-D2 heroicamente consegue fazer reparos suficientes, possibilitando a entrada no hiper-espaço. Ao saber da fuga, Darth Sidious envia seu aprendiz, Darth Maul, para matar os dois Jedi e recapturar a Rainha.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Devido ao ataque, a nave é forçada a fazer escala no planeta deserto de Tatooine para reparos. Enquanto procuram pelas partes necessárias, eles fazem amizade com o pequeno Anakin Skywalker, um garoto escravo, cujo mestre é Watto, um Toydariano dono de um ferro-velho. Anakin tem dons para pilotagem e mecânica (ele construiu quase completamente um droide chamado C-3PO). Qui-Gon Jinn sente uma forte presença da Força em Anakin, e percebe que ele pode ser o Escolhido, que irá trazer equilíbrio à Força.
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Ao inscrever Anakin numa corrida de pods, Qui-Gon faz uma aposta com Watto, na qual fica acertado que, caso o garoto vença a corrida, o Toydariano concederia as peças necessárias para o conserto da nave e libertaria Anakin. Se o menino perdesse, a nave seria de Watto. Com a vitória de Anakin, Qui-Gon conversa com a mãe de Anakin sobre as habilidades do garoto e ela acaba autorizando que o filho vá para Coruscant, para ser apresentado ao Conselho Jedi.
         </p>
       </div>
@@ -127,10 +127,10 @@
       </div>
       <!-- conteúdo card 6 -->
       <div class="container conteudo preload">
-          <p class="lead">
+          <p data-tilt class="lead">
             Em Coruscant, Qui-Gon Jinn informa ao Conselho Jedi sobre o misterioso ataque sofrido por ele em Tatooine. Devido ao fato do atacante ter profundos conhecimento da Força, o Conselho teme que esse acontecimento indique o reaparecimento dos Sith, uma ordem de seguidores do Lado Sombrio da Força que todos pensavam haver se extinguido há tempos. Qui-Gon também relata ao Conselho o encontro com Anakin, na esperança que este seja aceito para o treinamento Jedi. 
           </p>
-          <p class="lead">
+          <p data-tilt class="lead">
             Após os testes com o jovem Skywalker e deliberações a respeito, o Conselho nega permissão para treinamento alegando que, de acordo com o Código Jedi, Anakin é muito velho para ser treinado. A decisão também levou em consideração o sentimento de medo no garoto.
           </p>
       </div>
@@ -142,13 +142,13 @@
       </div>
       <!-- conteúdo card 7 -->
       <div class="container conteudo  preload">
-        <p class="lead">
+        <p data-tilt class="lead">
           Sem ver nenhuma outra alternativa e, dada sua frustração com a falta de atitude do Senado, a Rainha decide retornar ao seu planeta natal para repelir a invasão ao lado de seu povo. Os dois Jedi são designados para acompanhar a Rainha de volta para Naboo, tanto para protegê-la como para tentar obter mais informações sobre o possível envolvimento dos Sith. 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           De volta a Naboo, Rainha Amidala consegue convencer os Gungans a formarem uma aliança e lutarem juntos contra a Federação de Comércio. Os Gungans se defendem da artilharia dos droides usando o escudo de tecnologia Gungan. 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Porém os droides de batalha entram em ação e começam a subjugar os Gungans. A derrota para a aliança parece iminente. Mas a vitória é conseguida quando o pequeno Anakin Skywalker acidentalmente pilota um caça em meio a batalha na órbita de Naboo e destrói a Nave de Comando dos Droides da Federação, desativando o exército de droides. Enquanto isso, a Rainha Amidala e sua frota invadem o palácio e capturam Nute Gunray.
         </p>
       </div>
@@ -160,13 +160,13 @@
       </div>
       <!-- conteúdo card 8 -->
       <div class="container conteudo preload">
-        <p class="lead">
+        <p data-tilt class="lead">
           Ao mesmo tempo, Darth Maul entrou em combate com Qui-Gon e Obi-Wan usando seu sabre de luz duplo. Durante a luta, Obi-Wan acaba se separando de seu mestre pelo campo de Força na entrada da sala de geradores. Jinn e o Sith continuam sua batalha observados por Obi-Wan. 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Em meio ao confronto, Maul atinge Qui-Gon Jinn no rosto e, aproveitando o atordoamento de seu adversário, acerta-o no peito com o sabre de luz, ferindo-o mortalmente. Obi-Wan luta com Darth Maul vigorosamente, conseguindo, inclusive, partir o sabre-duplo de Maul ao meio. 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           O sith e o padawan lutam na sala de geradores com ataques mortais, mas Obi-Wan Kenobi sai vitorioso ao cortar Darth Maul ao meio e deixar que seu cadáver caia num poço profundo no centro da sala. Qui-Gon, em suas últimas palavras antes de partir, pede que Obi-Wan treine Anakin e faça dele um jedi.
         </p>
       </div>
@@ -184,13 +184,13 @@
             <cite class="blockquote-cite">Yoda, Mestre Jedi</cite>
           </footer>
         </blockquote>
-        <p class="lead">
+        <p data-tilt class="lead">
           Após a batalha, na qual derrotou sozinho um Sith, o Conselho Jedi nomeou Obi-Wan como um Cavaleiro Jedi. Kenobi informa para Yoda sobre o pedido de Qui-Gon acerca do jovem Anakin Skywalker. O Mestre Jedi relutantemente o permite treinar o garoto. Durante a cerimônia de cremação do corpo de Qui-Gon Jinn, Mace Windu e Yoda concordam que o incidente foi definitivamente causado pelos Sith. 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Yoda e Mace Windu, dois mestres jedi experientes, têm um mal pressentimenteo sobre o futuro da galáxia e acreditam que há mais usuários do lado sombrio da Força a serem descobertos. 
         </p>
-        <p class="lead">
+        <p data-tilt class="lead">
           Palpatine, o recém-eleito novo Chanceler, chega à Naboo para parabenizar a Rainha Amidala em sua vitória contra a Federação, enquanto Nute Gunray é mandado para ser sentenciado por seus crimes.
         </p>
       </div>
