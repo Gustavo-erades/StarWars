@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
   <?php
+    session_start();
     include_once("../conexaoBd/conexao.php");
     include_once("../funcoesPHP/gerenciarAcessos.php");
   ?>
