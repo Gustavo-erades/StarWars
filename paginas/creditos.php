@@ -45,75 +45,68 @@
       </div>
       <!-- conteúdo card 1 -->
       <div class="container conteudo">
-       
+        <p class="lead">
+            Olá padawan, agradeço por ter me acompanhado durante essa longa tragetória pela galáxia. Aqui dou os devidos créditos àqueles que me ajudaram a contar a história de uma galáxia distante de maneira resumida, interessante e bonita visualmente. Dou os créditos ainda aos sites de onde retirei os textos e demais dados utilizados durante a construção desse projeto. Saiba, leitor, que esse site nada mais é do que um espécie de "reboot" do projeto final da matéria de Desenvolvimento Web do curso de Análise e Desenvolviento de Sistemas, feito no meu segundo semestre, no ano de 2022. Caso, por curiosidade, queira conferir a primeira versão desse projeto basta <a href=""> clicar aqui</a>.
+        </p>
+        <footer class="blockquote-footer">
+            <cite class="blockquote-cite">Gustavo Êrades, o desenvolvedor</cite>
+        </footer>
       </div>
       <!-- imagem parallax 2 -->
       <div class="parallax img1">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Divirta-se padawan!</h1>
+          <h1 class="titulo display-2">Textos</h1>
         </div>
       </div>
       <!-- conteúdo card 2-->
       <div class="container conteudo">
+        <p>
+            Todos os textos de todos os episódios e da página de Home desse trabalho foram retirados da página de fãs do Star Wars, analisados/reescritos por nós e editados no Word para depois serem colocados na página web. na aba de Links, Há um link para a página do site Star Wars Fandom.
+        </p>
       </div>
       <!-- imagem parallax 3 -->
       <div class="parallax img1">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Uma história Star Wars</h1>
+          <h1 class="titulo display-2">Imagens</h1>
         </div>
       </div>
       <!-- conteúdo card 3 -->
       <div class="container conteudo">
+        <p>
+            Todas as imagens usadas nesse trabalho, tanto para o fundo quanto para as capas dos filmes, foram retiradas do Google imagens e ajustadas/editadas por nós e depois colocadas no site.
+            Os ícones utilizados no trabalho foram todos retirados do Bootstrap, Google imagens, Icons8 e Html Special Character Codes. Na aba de links, há links que levam para alguns desses ícones.
+        </p>
       </div>
       <!-- conteúdo parallax 4 -->
       <div class="parallax img1">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Trilogia Prequel</h1>
+          <h1 class="titulo display-2">Vídeos</h1>
         </div>
       </div>
       <!-- conteúdo card 4 -->
       <div class="conteudo">
-       
+        <p>
+            Para a construção do html e css do site e das poucas coisas feitas com javascript, foram utilizados, além do conteúdo das aulas presenciais, alguns vídeos do Youtube que auxiliaram na parte criativa e de confecção do site. Os vídeos serviram tanto de inspiração quanto como de instruções para a elaboração do trabalho. Na aba de links, há links que levam para alguns desses vídeos.
+        </p>
       </div>
       <!-- conteúdo parallax 6 -->
       <div class="parallax img1">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Trilogia clássica</h1>
+          <h1 class="titulo display-2">Links</h1>
         </div>
       </div>
       <!-- conteúdo card 6 -->
       <div class="conteudo">
         
       </div>
-      <!-- conteúdo parallax 8 -->
+      <!-- conteúdo parallax 7 -->
       <div class="parallax img1">
         <div class="conteudo-titulo">
-          <h1 class="titulo display-2">A Força</h1>
+          <h1 class="titulo display-2"></h1>
         </div>
       </div>
-      <!-- conteúdo card 8 -->
-      <div class="container conteudo">
-        
-      </div>
-      <!-- conteúdo parallax 9 -->
-      <div class="parallax img1">
-        <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Jedi x Sith</h1>
-        </div>
-      </div>
-      <!-- conteúdo card 9 -->
-      <div class="container conteudo">
-      
-       
-      </div>
-      <!-- conteúdo parallax 10 -->
-      <div class="parallax img1">
-        <div class="conteudo-titulo">
-          <h1 class="titulo display-2">Os sabres de luz</h1>
-        </div>
-      </div>
-      <!-- conteúdo card 10 -->
-      <div class="container conteudo">
+      <!-- conteúdo card 7 -->
+      <div class="conteudo">
         
       </div>
       <!-- conteúdo parallax 11 -->
