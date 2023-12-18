@@ -44,7 +44,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a href="../erro404.html" class="nav-link">Créditos</a>
+            <a href="../paginas/creditos.php" class="nav-link">Créditos</a>
           </li>
           <li class="nav-item">
             <a href="../erro404.html" class="nav-link">Sobre</a>
