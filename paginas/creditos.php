@@ -72,10 +72,10 @@
       <!-- conteúdo card 3 -->
       <div class="container conteudo">
         <p class="lead">
-            As imagens utilizadas vinheram, em suma maioria, do Google imagens e da API "omdbapi". Quanto aos ícones, viheram do site Icons8, Favicon e FontAwesome. Na sessão Links, há links direcionados a esses sites.
+            As imagens utilizadas vinheram, em suma maioria, do Google imagens e da API "omdbapi". Quanto aos ícones, viheram do site Icons8, Favicon e FontAwesome. Na seção "Links", há links direcionados a esses sites.
         </p>
         <p class="lead">
-            OBS: há uma API gratuita e referente especificamente a Star Wars, ela é bem detalhada e dá informações sobre as produções, atores e personagens. No entanto, optei por nã usá-la devida a lentidão que o site tinha com o uso dessa API. Na sessão links há um link direcionado a essa API.
+            OBS: há uma API gratuita e referente especificamente a Star Wars, ela é bem detalhada e dá informações sobre as produções, atores e personagens. No entanto, optei por nã usá-la devida a lentidão que o site tinha com o uso dessa API. Na seção "Links" há um link direcionado a essa API.
         </p>
       </div>
       <!-- conteúdo parallax 4 -->
@@ -87,7 +87,7 @@
       <!-- conteúdo card 4 -->
       <div class="container conteudo">
         <p class="lead">
-            Os Gifs utilizados no site foram todos retirados do Google e são apenas links para tais gifs, portanto peço que, caso haja algum erro no background que continha esses gifs, entre em contato comigo para que possa resolver o problema (no rodapé dessa página há meu email para entrar em contato). As fontes vinheram do site DaFonte. Na sessão Links há um link que redireciona para o "dafonte.com". 
+            Os Gifs utilizados no site foram todos retirados do Google e são apenas links para tais gifs, portanto peço que, caso haja algum erro no background que continha esses gifs, entre em contato comigo para que possa resolver o problema (no rodapé dessa página há meu email para entrar em contato). As fontes vinheram do site DaFonte. Na seção "Links" há um link que redireciona para o "dafonte.com". 
         </p>
       </div>
        <!-- conteúdo parallax 7 -->
@@ -99,7 +99,7 @@
       <!-- conteúdo card 7 -->
       <div class="container conteudo">
         <p class="lead">
-            Esse projeto, inicialmente, era o projeto final da matéria de Desenvolvimento Web da faculdade e portanto havia um grupo, composto por 4 pessoas e orientados por um professor, que desenvolveu a primeira versão desse site. Gustavo Emanoel, Gustavo Êrades, Victor Samuel e Vinícius Fernades orientados pelo professor <a>Lucas Maurício Martins</a>, eram os integrantes desse grupo. Na sessão Links há links que redirecionam ao GitHub dos integrantes.
+            Esse projeto, inicialmente, era o projeto final da matéria de Desenvolvimento Web da faculdade e portanto havia um grupo, composto por 4 pessoas e orientados por um professor, que desenvolveu a primeira versão desse site. Gustavo Emanoel, Gustavo Êrades, Victor Samuel e Vinícius Fernades orientados pelo professor <a>Lucas Maurício Martins</a>, eram os integrantes desse grupo. Na seção "Links" há links que redirecionam ao GitHub dos integrantes.
         </p>
       </div>
       <!-- conteúdo parallax 6 -->
@@ -132,9 +132,9 @@
         <p class="lead">
             No dia 9 de novembro de 2023, aproximadamente às quatro da manhã, perdi meu amigo. Esse projeto não é feito apenas para estudo, não é feito para que eu passe o tempo. Realmente me diverti refazendo esse site do zero (agora com bem mais experiência), mas esse projeto tem uma finalidade, ou melhor, um destinatário. Não estávamos nos falando tanto, e não nos viamos há algum tempo. Decidi refazer o projeto que fizemos juntos para que pudéssemos nos reencontrar e conversar mais vezes, mas nem sempre tudo acontece como esperamos não é? Bem, dedico cada linha de código, imagem, texto e horas não dormidas a você Vini. Sinto falta de você mano, mas sei que vamos nos encontrar novamente, afinal, você me deve uma revanche no xadrez!  Que a força esteja com você onde quer que esteja meu querido amigo e também com você, caro leitor, que chegou até aqui.
         </p>
-        <div style="border:1px solid red;text-align:center;">
-            <img src="../imagens/vini.jpg" alt="Em memória de Vinícius Fernandes Pereira Alves" width="250px" style="border:1px solid green;">
-            <p class="lead" style="border:1px solid green;text-align:center">23/02/1997 - 09/11/2023</p>
+        <div style="text-align:center;">
+            <img src="../imagens/vini.jpg" alt="Em memória de Vinícius Fernandes Pereira Alves" width="250px">
+            <p class="lead" style="text-align:center">23/02/1997 - 09/11/2023</p>
         </div>
 
       </div>
