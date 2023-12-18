@@ -48,7 +48,7 @@
         <p class="lead">
             Olá padawan, agradeço por ter me acompanhado durante essa longa tragetória pela galáxia. Aqui dou os devidos créditos àqueles que me ajudaram a contar a história de uma galáxia distante de maneira resumida, interessante e bonita visualmente. Dou os créditos ainda aos sites de onde retirei os textos e demais dados utilizados durante a construção desse projeto. Saiba, leitor, que esse site nada mais é do que um espécie de "reboot" do projeto final da matéria de Desenvolvimento Web do curso de Análise e Desenvolviento de Sistemas, feito no meu segundo semestre, no ano de 2022. Caso, por curiosidade, queira conferir a primeira versão desse projeto basta <a href=""> clicar aqui</a>.
         </p>
-        <p>
+        <p class="lead">
             Espero que acompanhar essa história tenha sido tão prazeroso para você quanto foi para mim desenvolver. Esse projeto me custou tempo e pôs minhas habilidades sobre desenvolvimento (e conhecimento sobre o vasto universo de Star Wars) a prova! Espero que tenha valido a pena. Bem, no rodapé dessa página há links para meu GitHub e demais redes sociais, te aguardo em uma próxima jornada padawan, quem sabe eu atualize os episódios 
         </p>
         <footer class="blockquote-footer">
