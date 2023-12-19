@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="pt-br">
   <?php
-    /*session_start();
+    session_start();
     include_once("../conexaoBd/conexao.php");
-    include_once("../funcoesPHP/gerenciarAcessos.php");*/
+    include_once("../funcoesPHP/gerenciarAcessos.php");
   ?>
   <head>
     <meta charset="utf-8">
@@ -88,9 +88,7 @@
                 </span>
                 <span id="span-footer-acessos" class="col-xl-6">
                     <span>
-                        <!--
-                    <?php /*$quantidade*/?> acessos. 
--->
+                        <?php $quantidade?> acessos. 
                     </span>
                 </span>
                 </div>
