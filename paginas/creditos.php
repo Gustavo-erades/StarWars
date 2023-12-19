@@ -53,8 +53,8 @@
             <p class="lead">
                 "Olá padawan, agradeço por ter me acompanhado durante essa longa tragetória pela galáxia. Aqui dou os devidos créditos àqueles que me ajudaram a contar a história de uma galáxia distante de maneira resumida, interessante e bonita visualmente. Dou os créditos ainda aos sites de onde retirei os textos e demais dados utilizados durante a construção desse projeto. Saiba, leitor, que esse site nada mais é do que um espécie de "reboot" do projeto final da matéria de Desenvolvimento Web do curso de Análise e Desenvolviento de Sistemas, feito no meu segundo semestre, no ano de 2022. Caso, por curiosidade, queira conferir a primeira versão desse projeto basta <a href="https://gustavo-erades.github.io/Site-StarWars-AneisDePoder/Index.html"> clicar aqui</a>. Espero que acompanhar essa história tenha sido tão prazeroso para você quanto foi para mim desenvolver. Esse projeto me custou tempo e pôs minhas habilidades sobre desenvolvimento web (e conhecimento sobre o vasto universo de Star Wars) a prova! Espero que tenha valido a pena. Bem, no rodapé dessa página há links para meu GitHub e demais redes sociais, te aguardo em uma próxima jornada padawan, quem sabe nos vejemos de novo caso haja algum <em>Despertar da Força</em>..."
             </p>
-            <footer class="blockquote-footer">
-                <cite class="blockquote-cite centro">Gustavo Êrades, o desenvolvedor, 2023</cite>
+            <footer class="blockquote-footer centro">
+                <cite class="blockquote-cite">Gustavo Êrades, o desenvolvedor, 2023</cite>
             </footer>
         </div>
       <!-- imagem parallax 2 -->
@@ -188,7 +188,6 @@
             <img src="../imagens/vini.jpg" alt="Em memória de Vinícius Fernandes Pereira Alves" width="250px">
             <p class="lead centro">23/02/1997 - 09/11/2023</p>
         </div>
-
       </div>
       <!-- conteúdo parallax 11 -->
       <div class="parallax img1">
