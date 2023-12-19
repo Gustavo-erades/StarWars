@@ -8,7 +8,7 @@
  HTML, CSS, JavaScript, PHP, MySql, Bootstrap, Vanilla JS 
  ## Front-end
  ## Back-end
-  #### O back-end é feito com o uso de php na versão 8.2.11. 
+ ### O back-end é feito com o uso de php na versão 8.2.11. 
   Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>, para fazer a conexão com um banco de dados e para gerenciar as sessões.
-  ####  O banco de dados armazena alguns dados das sessões criadas. IP, Navegador, data e hora do acesso são armazenados.
+ ###  O banco de dados armazena alguns dados das sessões criadas. IP, Navegador, data e hora do acesso são armazenados.
   O SGBD usado, na implementação foi o MySQL Workbench, mas ao subir para o servidor gratuito 00WebHost o banco foi migrado para o PHPMyAdmin
