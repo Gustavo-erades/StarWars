@@ -1,11 +1,11 @@
+<?php
+  session_start();
+  include_once("../conexaoBd/conexao.php");
+  include_once("../funcoesPHP/gerenciarAcessos.php");
+  include_once("../objetos/objEpisodio1.php");
+?>
 <!doctype html>
 <html lang="pt-br">
-  <?php
-    session_start();
-    include_once("../conexaoBd/conexao.php");
-    include_once("../funcoesPHP/gerenciarAcessos.php");
-    include_once("../objetos/objEpisodio1.php");
-  ?>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
