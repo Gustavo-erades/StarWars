@@ -1,5 +1,5 @@
  # Uma história Star Wars
- link do site: <a href="https://umahistoriastarwars.000webhostapp.com/">umahistoriastarwars</a>
+ link do site: <a href="https://umahistoriastarwars.000webhostapp.com/" target="_blank">umahistoriastarwars</a>
  ####
  Esse projeto é uma releitura do meu projeto final da matéria de Desenvolvmento Web da faculdade. Segue o link do projeto antigo:
  ####
