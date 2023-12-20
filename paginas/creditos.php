@@ -42,10 +42,10 @@
             </div>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link active">Créditos</a>
+            <a href="creditos.php" class="nav-link active">Créditos</a>
           </li>
           <li class="nav-item">
-            <a href="../erro404.html" class="nav-link">Sobre</a>
+            <a href="#" class="nav-link">Sobre</a>
           </li>
         </ul><!-- fim da barra de navegação -->
       </div>
