@@ -51,7 +51,7 @@
       </div>
       <div class="parallax img1 cartaDev">
             <p class="lead">
-                Olá, me chamo Gustavo Êrades Vilarinho Silva e estou atualmente (2023) no quarto semestre do curso de Análise e Desenvolvimento de Sistemas. Esse site foi feito completamente por mim baseado no projeto final da matéria de desenvolvimento web que cursei no segundo semestre. O site foi construído com o uso da linguagem PHP, linguagem na qual estou buscando me especializar, além das tecnologias mais clichês da web: HTML, CSS, JavaScript e o framework Bootstrap. Esse projeto inclui consumo de API (omdbapi), conexão com banco de dados (MySQL), uso de sessões (para contagem de acessos à página) e aplicação de conceitos de POO. A API usada foi escolhida por conta da sua velocidade em relação a swapi (que é uma API específica de Star Wars), como SGBD foi utilizado o MySql na implementação, mas no momento da hospedagem o banco foi migrado para o PHPMyAdmin. Bem, segue o link do repositório do projeto com o código e demais detalhes técnicos: <a target="_blank" href="https://github.com/Gustavo-erades/StarWars">repositório</a>.
+                Olá, me chamo Gustavo Êrades Vilarinho Silva e estou atualmente (2023) no quarto semestre do curso de Análise e Desenvolvimento de Sistemas. Esse site foi feito completamente por mim baseado no projeto final da matéria de desenvolvimento web que cursei no segundo semestre. O site foi construído com o uso da linguagem PHP, linguagem na qual estou buscando me especializar, além das tecnologias mais clichês da web: HTML, CSS, JavaScript e o framework Bootstrap. Esse projeto inclui consumo de API, conexão com banco de dados, uso de sessõese aplicação de conceitos de POO. Bem, segue o link do repositório do projeto com o código e demais detalhes técnicos: <a target="_blank" href="https://github.com/Gustavo-erades/StarWars">repositório</a>.
             </p>
             <p class="lead">
                 Bom, sobre mim, gosto de jogar xadrez(<a target="_blank" href="https://lichess.org/@/VemTranquilovisk">lichess.org</a>), basquete, desenhar e, claro, programar. Amo café, o mundo geek de maneira geral e escutar música, principalmente rock (<a target="_blank" href="https://open.spotify.com/playlist/6eO31rfQ0aIGyGVUB1H7eK?si=aa8f0662fb594b84">spotify</a>). Fui voluntário na Campus Party 5 de Brasília e também na terceira edição de Goiás (ambas no ano de 2023), fui monitor da matéria de Desenvolvimento Web e adiquiri certa experiência em docência com isso.
@@ -62,6 +62,9 @@
             <p class="lead">
                 Bom, espero que tenha se divertido relembrando a história de Star Wars assim como me diverti e, caso esse seja seu primeiro contato com esse universo, seja bem vindo(a) fico feliz em poder te guiar nessa jornada pelo hiperespaço. Até um próximo projeto e que a força esteja com você!
             </p>
+            <footer class="blockquote-footer centro">
+              <cite class="blockquote-cite">Gustavo Êrades, o desenvolvedor, 2023</cite>
+            </footer>
         </div>
         <!-- conteúdo parallax 11 -->
         <div class="parallax img1">
@@ -88,7 +91,7 @@
                 </span>
                 <span id="span-footer-acessos" class="col-xl-6">
                     <span>
-                        <?php $quantidade?> acessos. 
+                        <?=$quantidade?> acessos. 
                     </span>
                 </span>
                 </div>
