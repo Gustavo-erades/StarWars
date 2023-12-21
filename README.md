@@ -12,8 +12,8 @@
  ![Bootstrap](https://img.shields.io/badge/bootstrap-151515?style=for-the-badge&logo=bootstrap&logoColor=whitee)&nbsp;
  ![MySql](https://img.shields.io/badge/mysql-151515?style=for-the-badge&logo=mysql&logoColor=white)&nbsp;
 ### OBS: para versionamento do projeto foi utilizado o GitHub
-> Lembrando que o PHP é uma linguagem <sub>server-side</sub>, portanto caso deseje fazer clone do projeto ou mexer em seu código de alguma maneira você precisa de uma **solução AMP** como o ***XAMPP*** ou o ***WAMP***. Usar o servidor interno do php só funcionará caso você deixe as linhas que mexem com banco de dados comentadas.
-> por exemplo, você pode abrir seu terminal e escrever ***php -S localhost:8080***, mas precisará comentar a tag php de criação de sessão (antes do ***<!DOCTYPE html>*** das páginas) e a tag ***<?=$quantidade?>*** (presente no rodapé das páginas) para que não ocorra nenhum erro.
+> Lembrando que o PHP é uma linguagem ***server-side***, portanto caso deseje fazer clone do projeto ou mexer em seu código de alguma maneira você precisa de uma **solução AMP** como o ***XAMPP*** ou o ***WAMP***. Usar o servidor interno do php só funcionará caso você deixe as linhas que mexem com banco de dados comentadas.
+> por exemplo, você pode abrir seu terminal e escrever ***php -S localhost:8080***, mas precisará comentar a tag php de criação de sessão (antes do '***<!DOCTYPE html>***' das páginas) e a tag ***<?=$quantidade?>*** (presente no rodapé das páginas) para que não ocorra nenhum erro.
 ## Front-end
 ## Back-end
 1. ###  PHP (versão 8.2.11) 
