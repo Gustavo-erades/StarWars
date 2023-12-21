@@ -25,14 +25,14 @@ Para o Front usei o padrão HTML, CSS, JavaScript e o framework Bootstrap. O Boo
 O JS foi usado para retornar a página que o usuário estava anteriormente (com o `history.go(-1)` no botão "voltar" da página de erro 404), para criar a dinâmica das sinopses dos episódios na index e para a lógica do preload (com o R2-d2 passeando na tela). Além disso também foi utilizado o Vanilla Js para o efeito ao passar o mouse pelos parágrafos.
 - Na index, quando uma aba é selecionada nas seções "Trilogia Prequel" e "Trilogia Clássica", o JavaScript captura o número do episódio e troca os textos, imagem e classe da aba ativa, dando assim a noçãoo de navegação.
 - Cada página é divida em duas divs, uma que contém todo o conteúdo da página e possui display none, e outra que contém o conteúdo do preload (nesse caso apenas o dróide R2-D2) e possui display block. Quando a página é carregada o JS exibe a animação do R2-D2 (feita com o uso do css) e inverte os valores dos displays para mostrar efetivamente o conteúdo da página, fazendo assim o preload. Segue o código JS desse preload:
-  '''
+  ```
   var i = setInterval(function () {
     clearInterval(i);
     document.getElementById("loading").style.display = "none";
     document.getElementById("preload").style.display = "block";
    
-	}, 2000);
-  '''
+   }, 2000);
+  ```
 - O <a href="https://micku7zu.github.io/vanilla-tilt.js/">Vanilla JS</a> é responsável pelo efeito que mexe os parágrafos ao passar o mouse por cima deles. Apenas foi preciso importar o arquivo JS baixado no link anterior e por o atributo `data-tilt` nos parágrafos.
 ## Back-end
 1. ###  PHP (versão 8.2.11) 
