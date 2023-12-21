@@ -16,7 +16,24 @@
 > por exemplo, você pode abrir seu terminal e escrever `php -S localhost:8080`, mas precisará comentar a tag php de criação de sessão (antes do `<!DOCTYPE html>` das páginas) e a tag `<?=$quantidade?>` (presente no rodapé das páginas) para que não ocorra nenhum erro.
 ## Front-end
 1. ###  O feijão com arroz da web
-2. ### JavaScript
+Para o Front usei o padrão HTML, CSS, JavaScript e o framework Bootstrap. O Bootstrap serviu para agilizar a estilização do site, por ser uma ferramenta simples, o processo de desenvolvimento do ront foi relativamente rápido. Porém, também personalizei e modifiquei alguns estilos padrões do framework para dar uma cara nova às páginas. Foi utilizado o efeito parallax em todas as páginas e a responsividade foi feita por meio de breakpoints.
+>Todos os gifs usados nas páginas são links para gifs da internet, portanto caso haja algum erro no carregamento desses gifs peço que entre em contato comigo para que eu possa resolver o problema, obrigado.
+>Esse site também não possui nenhum fim lucrativo, portanto não estou ganhando em cima da imagem de autoria de outra pessoa. Porém, se você possui autoria sobre alguma iagem/vídeo utilizado no site, por favor, entre em contato comigo que retiro sua imagem e substituo por outra de livre uso, obrigado.
+
+3. ### JavaScript
+
+O JS foi usado para retornar a página que o usuário estava anteriormente (com o `history.go(-1)` no botão "voltar" da página de erro 404), para criar a dinâmica das sinopses dos episódios na index e para a lógica do preload (com o R2-d2 passeando na tela). Além disso também foi utilizado o Vanilla Js para o efeito ao passar o mouse pelos parágrafos.
+- Na index, quando uma aba é selecionada nas seções "Trilogia Prequel" e "Trilogia Clássica", o JavaScript captura o número do episódio e troca os textos, imagem e classe da aba ativa, dando assim a noçãoo de navegação.
+- Cada página é divida em duas divs, uma que contém todo o conteúdo da página e possui display none, e outra que contém o conteúdo do preload (nesse caso apenas o dróide R2-D2) e possui display block. Quando a página é carregada o JS exibe a animação do R2-D2 (feita com o uso do css) e inverte os valores dos displays para mostrar efetivamente o conteúdo da página, fazendo assim o preload. Segue o código JS desse preload:
+  '''
+  var i = setInterval(function () {
+    clearInterval(i);
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("preload").style.display = "block";
+   
+	}, 2000);
+  '''
+- O <a href="https://micku7zu.github.io/vanilla-tilt.js/">Vanilla JS</a> é responsável pelo efeito que mexe os parágrafos ao passar o mouse por cima deles. Apenas foi preciso importar o arquivo JS baixado no link anterior e por o atributo `data-tilt` nos parágrafos.
 ## Back-end
 1. ###  PHP (versão 8.2.11) 
 Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>, para fazer a conexão com o banco de dados e para gerenciar as sessões.
