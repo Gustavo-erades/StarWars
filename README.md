@@ -15,6 +15,8 @@
 > Lembrando que o PHP é uma linguagem ***server-side***, portanto caso deseje fazer clone do projeto ou mexer em seu código de alguma maneira você precisa de uma **solução AMP** como o ***XAMPP*** ou o ***WAMP***. Usar o servidor interno do php só funcionará caso você deixe as linhas que mexem com banco de dados comentadas.
 > por exemplo, você pode abrir seu terminal e escrever `php -S localhost:8080`, mas precisará comentar a tag php de criação de sessão (antes do `<!DOCTYPE html>` das páginas) e a tag `<?=$quantidade?>` (presente no rodapé das páginas) para que não ocorra nenhum erro.
 ## Front-end
+1. ###  O feijão com arroz da web
+2. ### JavaScript
 ## Back-end
 1. ###  PHP (versão 8.2.11) 
 Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>, para fazer a conexão com o banco de dados e para gerenciar as sessões.
