@@ -3,8 +3,7 @@
  ####
  ![home](https://github.com/Gustavo-erades/StarWars/assets/108373134/79aa5077-a1e3-4f55-a19f-08e8ded906c0)
  ####
- Esse projeto é uma releitura do meu projeto final da matéria de Desenvolvmento Web da faculdade. Segue o link do projeto antigo:
-
+ Esse projeto é uma releitura do meu projeto final da matéria de Desenvolvmento Web da faculdade. Segue o link do projeto antigo: <a href="https://gustavo-erades.github.io/Site-StarWars-AneisDePoder/Index.html">AneisdoPoderStarWars</a>
  ## Tecnologias 
  HTML, CSS, JavaScript, PHP, MySql, Bootstrap, Vanilla JS 
  ## Front-end
