@@ -195,3 +195,10 @@ div#conteudoPagina{
 .fa-github{
     font-size:2.5em
 }
+.sobre{
+    background: url("../imagens/fundo_estrelado.png"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
