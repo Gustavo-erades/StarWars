@@ -6,17 +6,19 @@
  Esse projeto é uma releitura do meu projeto final da matéria de Desenvolvmento Web da faculdade. Segue o link do projeto antigo: <a href="https://gustavo-erades.github.io/Site-StarWars-AneisDePoder/Index.html">AneisdoPoderStarWars</a>
  ## Tecnologias 
 MySql, Bootstrap
-1. ![HTML](https://img.shields.io/badge/HTML-151515?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
-2. ![CSS](https://img.shields.io/badge/CSS-151515?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
-3. ![JavaScript](https://img.shields.io/badge/JavaScript-151515?style=for-the-badge&logo=javascript&logoColor=white)&nbsp;
-4. ![PHP](https://img.shields.io/badge/PHP-151515?style=for-the-badge&logo=php&logoColor=white)&nbsp;
-5. <img width="48" height="48" src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo"/>
-6. <img width="48" height="48" src="https://img.icons8.com/color/48/bootstrap--v2.png" alt="bootstrap--v2"/>
+ ![HTML](https://img.shields.io/badge/HTML-151515?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
+ ![CSS](https://img.shields.io/badge/CSS-151515?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
+ ![JavaScript](https://img.shields.io/badge/JavaScript-151515?style=for-the-badge&logo=javascript&logoColor=white)&nbsp;
+ ![PHP](https://img.shields.io/badge/PHP-151515?style=for-the-badge&logo=php&logoColor=white)&nbsp;
+ ![Bootstrap](https://img.shields.io/badge/bootstrap-151515?style=for-the-badge&logo=bootstrap&logoColor=whitee)&nbsp;
+ ![MySql](https://img.shields.io/badge/mysql-151515?style=for-the-badge&logo=mysql&logoColor=white)&nbsp;
 ### OBS: para versionamento do projeto foi utilizado o GitHub
 ## Front-end
 ## Back-end
 1. ###  PHP (versão 8.2.11) 
-Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>, para fazer a conexão com um banco de dados e para gerenciar as sessões.
+Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>, para fazer a conexão com o banco de dados e para gerenciar as sessões.
+ ##### - Consumo da API
+ A API utilizada foi a <a href="https://www.omdbapi.com/">omdbapi</a>. Ela foi escolhida por sua velocidade em relação a <a href="https://www.omdbapi.com/](https://swapi.dev/)">swapi</a> que é uma API específica para o universo de Star Wars. 
 
 
   
