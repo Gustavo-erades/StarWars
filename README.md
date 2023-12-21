@@ -24,7 +24,7 @@ Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>,
  - Nos ObjEpisodioX.php é chamada a função "consumirAPI.php" e essa função recebe como parâmetro o número do episódio que deve ser buscado na API, após isso o objeto é instânciado e, por meio dos métodos setters, os atributos desse objeto são preenchidos com as seguintes informações: atores do filme, duração do filme, direção do filme, blheteria, data de lançamento, URl da imagem de capa do filme, nota no IMDB, nota no MetaCritic, nota no Roten Tomatoes, número de votos no IMDB, id para pesquisa do referido filme no IMDB e roteirista/s do filme;
  - Os dados retornados da API, como a data, são formatados por meio de funções presentes no arquivo "formatarvalores.php" presente na pasta "funcoesPHP";
  - Nos episodioX.php o objeto do referido filme é chamado com seus atributos (usando os métodos getters) nos lugares determinados (nas seções produção e notas).
- '''
+```
   <?php 
       function consumirAPI($num_episodio){
             $urlFilme="http://www.omdbapi.com/?t=star+wars+episode+$num_episodio&apikey=23877d14";
@@ -32,12 +32,12 @@ Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>,
             return $dadosFilme;
       }
   ?>
- '''
+ ```
  ##### - Sessões PHP
  Cada página, seja ela um episódio, sobre, créditos ou a index, possui um contador de acessos em seu rodapé. Esse contador de acessos serve para saber quantas pessoas acessaram o site. Porém, não é feita só uma contagem pois também são armazenados alguns dados no banco de dados como: data e hora do acesso, ip do dispositivo usado no acesso e navegador usado noa acesso;
   - Em cada página, é validado se existe uma sessão já iniciada. Caso haja, nada acontece, mas caso contrário, uma sessão se inicia e os dados são capturados e inseridos no banco de dados;
   - Uma query 'SELECT * FROM' é executada e a quantidade de linhas retornadas é contada e armazenada na variável **$quantidade**, essa variável apenas é printada no rodapé das páginas, mostrando assim  a quantidade de acessos ao site;
-    '''
+```
     <?php 
     if(!isset($_SESSION["acesso_registrado"])){
         $ip=$_SERVER['REMOTE_ADDR'];
@@ -49,12 +49,12 @@ Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>,
     $sqlConsulta="SELECT * FROM acessos;";
     $quantidade=mysqli_num_rows($conexao->query($sqlConsulta));
     ?>
-    '''
+```
     
 2. ### SQL do banco de dados
 O SGBD utilizado na fase de implementação foi o MySql, mas no momento da hospedagem do projeto na **00WebHost**, o banco foi migrado para o PHPMyAdmin.
 Segue o código SQL da criação das tabelas do banco de dados:
-  '''
+```
   create database starWars;
   use starWars;
   create table acessos(
@@ -64,7 +64,7 @@ Segue o código SQL da criação das tabelas do banco de dados:
     diaHora datetime not null,
     primary key (id)
   );
-  '''
+```
 
 
   
