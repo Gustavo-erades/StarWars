@@ -6,18 +6,17 @@
  Esse projeto é uma releitura do meu projeto final da matéria de Desenvolvmento Web da faculdade. Segue o link do projeto antigo: <a href="https://gustavo-erades.github.io/Site-StarWars-AneisDePoder/Index.html">AneisdoPoderStarWars</a>
  ## Tecnologias 
 MySql, Bootstrap
-![HTML](https://img.shields.io/badge/HTML-151515?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
-![CSS](https://img.shields.io/badge/CSS-151515?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
-![JavaScript](https://img.shields.io/badge/JavaScript-151515?style=for-the-badge&logo=javascript&logoColor=white)&nbsp;
-![PHP](https://img.shields.io/badge/PHP-151515?style=for-the-badge&logo=php&logoColor=white)&nbsp;
+1. ![HTML](https://img.shields.io/badge/HTML-151515?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
+2. ![CSS](https://img.shields.io/badge/CSS-151515?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
+3. ![JavaScript](https://img.shields.io/badge/JavaScript-151515?style=for-the-badge&logo=javascript&logoColor=white)&nbsp;
+4. ![PHP](https://img.shields.io/badge/PHP-151515?style=for-the-badge&logo=php&logoColor=white)&nbsp;
+5. <img width="48" height="48" src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo"/>
+6. <img width="48" height="48" src="https://img.icons8.com/color/48/bootstrap--v2.png" alt="bootstrap--v2"/>
+### OBS: para versionamento do projeto foi utilizado o GitHub
+## Front-end
+## Back-end
+1. ###  PHP (versão 8.2.11) 
+Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>, para fazer a conexão com um banco de dados e para gerenciar as sessões.
 
- ## Front-end
- ## Back-end
- ### O back-end é feito com o uso de php na versão 8.2.11. 
- Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>, para fazer a conexão com um banco de dados e para gerenciar as sessões.
- ### Embora haja a utilização de conceitos de POO, a conexão com o banco de dados é feita com o uso do mysqli e não de PDO.
- Porém, para cada episódio é criado um objeto que armazena as informações retornads da API como: número do episódio, duração do filme, diretor, atores principais, imagem de capa do filme, etc.
- ###  O banco de dados armazena alguns dados das sessões criadas. IP, Navegador, data e hora do acesso são armazenados.
- O SGBD usado, na implementação foi o MySQL Workbench, mas ao subir para o servidor gratuito 00WebHost o banco foi migrado para o PHPMyAdmin.
 
   
