@@ -5,7 +5,6 @@
  ####
  Esse projeto é uma releitura do meu projeto final da matéria de Desenvolvmento Web da faculdade. Segue o link do projeto antigo: <a href="https://gustavo-erades.github.io/Site-StarWars-AneisDePoder/Index.html">AneisdoPoderStarWars</a>
  ## Tecnologias 
-MySql, Bootstrap
  ![HTML](https://img.shields.io/badge/HTML-151515?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
  ![CSS](https://img.shields.io/badge/CSS-151515?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
  ![JavaScript](https://img.shields.io/badge/JavaScript-151515?style=for-the-badge&logo=javascript&logoColor=white)&nbsp;
