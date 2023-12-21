@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../css/styleCreditos.css">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../imagens/icone5.png" type="image/x-icon">
-    <title>Star Wars - Créditos</title>
+    <title>Star Wars - Sobre</title>
   </head>
   <body>
    <div id="preload">
@@ -49,7 +49,7 @@
           </li>
         </ul><!-- fim da barra de navegação -->
       </div>
-      <div class="cartaDev sobre">
+      <div class="cartaDev-sobre">
             <p class="lead">
                 Olá, me chamo Gustavo Êrades Vilarinho Silva e estou atualmente (2023) no quarto semestre do curso de Análise e Desenvolvimento de Sistemas. Esse site foi feito completamente por mim baseado no projeto final da matéria de desenvolvimento web que cursei no segundo semestre. O site foi construído com o uso da linguagem PHP, linguagem na qual estou buscando me especializar, além das tecnologias mais clichês da web: HTML, CSS, JavaScript e o framework Bootstrap. Esse projeto inclui consumo de API, conexão com banco de dados, uso de sessõese aplicação de conceitos de POO. Bem, segue o link do repositório do projeto com o código e demais detalhes técnicos: <a target="_blank" href="https://github.com/Gustavo-erades/StarWars">repositório</a>.
             </p>
