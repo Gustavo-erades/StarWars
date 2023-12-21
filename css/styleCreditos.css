@@ -9,3 +9,10 @@ li a:hover{
     text-decoration: underline;
     color:rgba(39, 116, 248, 0.589);
 }
+.cartaDev-sobre{
+    background: url("../imagens/fundo_estrelado.png"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
