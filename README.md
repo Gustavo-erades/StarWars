@@ -12,11 +12,11 @@
  ![Bootstrap](https://img.shields.io/badge/bootstrap-151515?style=for-the-badge&logo=bootstrap&logoColor=whitee)&nbsp;
  ![MySql](https://img.shields.io/badge/mysql-151515?style=for-the-badge&logo=mysql&logoColor=white)&nbsp;
 ### OBS: para versionamento do projeto foi utilizado o GitHub
-> Lembrando que o PHP é uma linguagem ***server-side***, portanto caso deseje fazer clone do projeto ou mexer em seu código de alguma maneira você precisa de uma **solução AMP** como o ***XAMPP*** ou o ***WAMP***. Usar o servidor interno do php só funcionará caso você deixe as linhas que mexem com banco de dados comentadas.
+> Lembrando que o PHP é uma linguagem ***server-side***, portanto caso deseje fazer clone do projeto ou mexer em seu código de alguma maneira você vai precisar de uma **solução AMP** como o ***XAMPP*** ou o ***WAMP***. Usar o servidor interno do php só funcionará caso você deixe as linhas que mexem com banco de dados comentadas.
 > por exemplo, você pode abrir seu terminal e escrever `php -S localhost:8080`, mas precisará comentar a tag php de criação de sessão (antes do `<!DOCTYPE html>` das páginas) e a tag `<?=$quantidade?>` (presente no rodapé das páginas) para que não ocorra nenhum erro.
 ## Front-end
 1. ###  O feijão com arroz da web
-Para o Front usei o padrão HTML, CSS, JavaScript e o framework Bootstrap. O Bootstrap serviu para agilizar a estilização do site, por ser uma ferramenta simples, o processo de desenvolvimento do ront foi relativamente rápido. Porém, também personalizei e modifiquei alguns estilos padrões do framework para dar uma cara nova às páginas. Foi utilizado o efeito parallax em todas as páginas e a responsividade foi feita por meio de breakpoints.
+Para o Front usei o padrão HTML, CSS, JavaScript e o framework Bootstrap. O Bootstrap serviu para agilizar a estilização do site, por ser uma ferramenta simples, o processo de desenvolvimento do Front-end foi relativamente rápido. Porém, também personalizei e modifiquei alguns estilos padrões do framework para dar uma cara nova às páginas. Foi utilizado o efeito parallax em todas as páginas e a responsividade foi feita por meio de breakpoints.
 >Todos os gifs usados nas páginas são links para gifs da internet, portanto caso haja algum erro no carregamento desses gifs peço que entre em contato comigo para que eu possa resolver o problema, obrigado.
 >Esse site também não possui nenhum fim lucrativo, portanto não estou ganhando em cima da imagem de autoria de outra pessoa. Porém, se você possui autoria sobre alguma imagem/vídeo utilizado no site, por favor, entre em contato comigo para que eu retire sua imagem e  possa a substituir por outra de livre uso, obrigado.
 
