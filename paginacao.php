@@ -3,34 +3,34 @@
 switch ($_GET['cod']) {
 
     case '0':
-        $conteudo = "/index.php";
+        $conteudo = "index.php";
     break;
 
     case '1':
-        $conteudo = "/episodio1.php";
+        $conteudo = "./episodios/episodio1.php";
     break;
 
     case '2':
-        $conteudo = "/episodio2.php";
+        $conteudo = "./episodio2.php";
     break;
 
     case '3':
-        $conteudo = "/episodio3.php";
+        $conteudo = "./episodio3.php";
     break;
 
     case '404':
-        $conteudo = "/erro404.html";
+        $conteudo = "erro404.html";
     break;
 
     case '7':
-        $conteudo = "/creditos.php";
+        $conteudo = "./paginas/creditos.php";
     break;
 
     case '8':
-        $conteudo = "/sobre.php";
+        $conteudo = "./paginas/sobre.php";
     break;
     default:
-        $conteudo = "/index.php";
+        $conteudo = "index.php";
     break;
     
 }
