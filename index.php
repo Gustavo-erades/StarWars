@@ -27,28 +27,10 @@
         </div>
         <br>
         <!-- barra de navegação (menu hambúrger e dropdown) -->
-        <ul class="nav nav-pills justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle bg-transparent" data-toggle="dropdown" >Episódios</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./episodios/episodio1.php">Episódio I</a>
-              <a class="dropdown-item" href="./episodios/episodio2.php">Episódio II</a>
-              <a class="dropdown-item"  href="./episodios/episodio3.php">Episódio III</a>
-              <a href="./erro404.html" class="dropdown-item">Episódio IV</a>
-              <a href="./erro404.html" class="dropdown-item">Episódio V</a>
-              <a href="./erro404.html" class="dropdown-item">Episódio VI</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a href="./paginas/creditos.php" class="nav-link">Créditos</a>
-          </li>
-          <li class="nav-item">
-            <a href="./paginas/sobre.php" class="nav-link">Sobre</a>
-          </li>
-        </ul><!-- fim da barra de navegação -->
+        <?php
+          require_once("../menu.php");
+        ?>
+        <!-- fim da barra de navegação -->
       </div>
       <!-- conteúdo card 1 -->
       <div class="container conteudo">
