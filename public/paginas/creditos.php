@@ -1,7 +1,7 @@
 <?php
   session_start();
-  include_once("../database/conexaoBd/conexao.php");
-  include_once("../helpers/funcoesPHP/gerenciarAcessos.php");
+  include_once("../app/database/conexaoBd/conexao.php");
+  include_once("../app/helpers/funcoesPHP/gerenciarAcessos.php");
 ?>
 <!doctype html>
 <html lang="pt-br">

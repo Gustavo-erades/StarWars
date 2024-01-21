@@ -1,22 +1,22 @@
 <?php
   session_start();
-  include_once("../conexaoBd/conexao.php");
-  include_once("../funcoesPHP/gerenciarAcessos.php");
-  include_once("../objetos/objEpisodio3.php");
+  include_once("../app/database/conexaoBd/conexao.php");
+  include_once("../app/helpers/funcoesPHP/gerenciarAcessos.php");
+  include_once("../app/helpers/objetos/objEpisodio3.php");
 ?>
 <!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css" media="all">
-    <link rel="stylesheet" href="../css/styleEpisodio3.css" media="all">
-    <link rel="stylesheet" href="../css/episodios.css" media="all">
-    <link rel="stylesheet" href="../css/responsividadeEpisodio.css" media="all">
-    <link rel="stylesheet" href="../css/styleLoading.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css" media="all">
+    <link rel="stylesheet" href="../assets/css/styleEpisodio3.css" media="all">
+    <link rel="stylesheet" href="../assets/css/episodios.css" media="all">
+    <link rel="stylesheet" href="../assets/css/responsividadeEpisodio.css" media="all">
+    <link rel="stylesheet" href="../assets/css/styleLoading.css">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="../imagens/icone3.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/imagens/icone3.png" type="image/x-icon">
     <title>Star Wars- Episódio III</title>
   </head>
   <body>
@@ -407,7 +407,7 @@
       <div class="container conteudo">
         <div class="grid" id="conteudoAPI">
           <div class="row">
-            <div class="d-none d-lg-block   col-lg-2">
+            <div class="d-none d-lg-block col-lg-2">
               <img src="<?=$filme->getUrlImagem()?>" alt="poster star wars a ameaça fantasma" class="align-self-center" id="imagemEpisodio">
             </div>
             <div class="col-12 col-lg-10">
@@ -518,7 +518,7 @@
     </div>
     <!-- loading -->
     <div id="loading">
-        <img src="../imagens/icons8-r2d2-96.png" alt="Droide R2D2 passeando por aí">
+        <img src="../assets/imagens/icons8-r2d2-96.png" alt="Droide R2D2 passeando por aí">
         <blockquote>
             Carregando, por favor aguarde &#128512; 
         </blockquote>
@@ -526,8 +526,8 @@
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/loading.js"></script>
-    <script src="../js/vanilla-tilt.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/loading.js"></script>
+    <script src="../assets/js/vanilla-tilt.min.js"></script>
   </body>
 </html>
