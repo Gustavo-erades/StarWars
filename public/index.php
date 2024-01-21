@@ -28,7 +28,7 @@
         <br>
         <!-- barra de navegação (menu hambúrger e dropdown) -->
         <?php
-          require_once("menu.php");
+          require_once("./paginas/componentes/menu.php");
         ?>
         <!-- fim da barra de navegação -->
       </div>
