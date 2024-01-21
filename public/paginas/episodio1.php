@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="../assets/css/styleEpisodio1.css" media="all">
     <link rel="stylesheet" href="../assets/css/episodios.css" media="all">
     <link rel="stylesheet" href="../assets/css/responsividadeEpisodio.css" media="all">
+    <!--
     <link rel="stylesheet" href="../assets/css/styleLoading.css">
+    !-->
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../assets/imagens/icone3.png" type="image/x-icon">
     <title>Star Wars- Episódio I</title>
