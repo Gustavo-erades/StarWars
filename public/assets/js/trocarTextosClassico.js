@@ -10,14 +10,14 @@ function trocarTextoEpisodio4(){
     subtituloClassico.textContent="Uma nova esperança";
     textoClassico.textContent="É um período de guerra civil. Partindo de uma base secreta, naves rebeldes atacam e conquistam sua primeira vitória contra o perverso império galáctico. Durante a batalha, espiões rebeldes conseguem roubar os planos secretos da arma decisiva do império, a Estrela da Morte, uma estação espacial blindada com poder suficiente para destruir um planeta inteiro. Perseguida pelos sinistros agentes do Império, a princesa Leia Organa se apressa para voltar à sua casa. A bordo de sua nave estelar, ela protege os planos roubados que podem salvar seu povo e restaurar a liberdade à galáxia...";
     linkClassico.setAttribute("link","erro404.html");
-    imgClassico.setAttribute("src","./imagens/ep4.png");
+    imgClassico.setAttribute("src","./assets/imagens/ep4.png");
 }
 function trocarTextoEpisodio5(){
     tituloClassico.textContent="Episódio V";
     subtituloClassico.textContent="O império contra-ataca";
     textoClassico.textContent="É um período crítico para as Forças Rebeldes. Embora a Estrela da Morte tenha sido destruída na batalha de Yavin, as Tropas Imperiais conseguem expulsar os Rebeldes de sua base secreta e os perseguem por toda a galáxia. Fugindo da terrível Frota Imperial, um grupo de Rebeldes chefiados por Luke Skywalker, estabelece uma nova base secreta no remoto mundo gelado de Hoth. O senhor do mal, Lorde Darth Vader, obcecado pela idéia de encontrar o jovem Skywalker, despachou um Destroier Estelar Imperial enviando milhares de sondas remotas para os pontos mais longínquos do espaço....";
     linkClassico.setAttribute("link","erro404.html");
-    imgClassico.setAttribute("src","./imagens/ep5.png");
+    imgClassico.setAttribute("src","./assets/imagens/ep5.png");
 
 }
 function trocarTextoEpisodio6(){
@@ -25,7 +25,7 @@ function trocarTextoEpisodio6(){
     subtituloClassico.textContent="Retorno de jedi";
     textoClassico.textContent="Luke Skywalker voltou ao seu planeta natal, Tatooine, na tentativa de salvar seu amigo Han Solo das garras do desprezível bandido Jabba, o Hutt. Luke ainda não sabe que o Império Galático iniciou secretamente a construção de uma nova estação espacial bélica, mais poderosa que a primeira Estrela da Morte. Quando estiver pronta, esta arma definitivamente significará o fim do pequeno grupo de rebeldes que luta para devolver a liberdade à galáxia....";
     linkClassico.setAttribute("link","erro404.html");
-    imgClassico.setAttribute("src","./imagens/ep6.png");
+    imgClassico.setAttribute("src","./assets/imagens/ep6.png");
 
 }
 // seleciona os botões 
