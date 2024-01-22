@@ -1,9 +1,8 @@
 <?php
   session_start();
-  $path=$_SERVER["DOCUMENT_ROOT"].'/testes/StarWars/';
-  include_once($path.'app/database/conexaoBd/conexao.php');
-  include_once($path.'app/helpers/funcoesPHP/gerenciarAcessos.php');
-  include_once($path.'app/helpers/objetos/objEpisodio1.php');
+  include_once($_SESSION["pathConBd"]);
+  include_once($_SESSION["pathAcessos"]);
+  include_once($_SESSION["path"].'app/helpers/objetos/objEpisodio1.php');
 ?>
 <!doctype html>
 <html lang="pt-br">
@@ -30,7 +29,7 @@
         <br>
         <!-- barra de navegação (menu hambúrger e dropdown) -->
         <?php
-          require_once("./componentes/menu.php");
+          require_once($_SESSION["pathMenu"]);
         ?>
         <!-- fim da barra de navegação -->
       </div>
