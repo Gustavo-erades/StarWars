@@ -1,8 +1,9 @@
 <?php
-  /*session_start();
-  include_once("../app/database/conexaoBd/conexao.php");
-  include_once("../app/helpers/funcoesPHP/gerenciarAcessos.php");
-  include_once("../app/helpers/objetos/objEpisodio1.php");*/
+  session_start();
+  $path=$_SERVER["DOCUMENT_ROOT"].'/testes/StarWars/';
+  include_once($path.'app/database/conexaoBd/conexao.php');
+  include_once($path.'app/helpers/funcoesPHP/gerenciarAcessos.php');
+  include_once($path.'app/helpers/objetos/objEpisodio1.php');
 ?>
 <!doctype html>
 <html lang="pt-br">
@@ -14,9 +15,7 @@
     <link rel="stylesheet" href="../assets/css/styleEpisodio1.css" media="all">
     <link rel="stylesheet" href="../assets/css/episodios.css" media="all">
     <link rel="stylesheet" href="../assets/css/responsividadeEpisodio.css" media="all">
-    <!--
-    <link rel="stylesheet" href="../assets/css/styleLoading.css">
-    !-->
+    <link rel="stylesheet" href=<?= $path.'public/assets/css/styleLoading.css'?>>
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../assets/imagens/icone3.png" type="image/x-icon">
     <title>Star Wars- Episódio I</title>
