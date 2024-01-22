@@ -7,32 +7,31 @@ switch ($_GET['cod']) {
     break;
 
     case '1':
-        $conteudo = $_SESSION("path").'paginas/episodio1.php';
+        $conteudo = $_SESSION("path").'public/paginas/episodio1.php';
     break;
 
     case '2':
-        $conteudo = $_SESSION("path").'paginas/episodio2.php';
+        $conteudo = $_SESSION("path").'public/paginas/episodio2.php';
     break;
 
     case '3':
-        $conteudo = $_SESSION("path").'paginas/episodio3.php';
+        $conteudo = $_SESSION("path").'public/paginas/episodio3.php';
     break;
 
     case '404':
-        $conteudo = $_SESSION("path").'erro404.html';
+        $conteudo = $_SESSION("path").'public/erro404.html';
     break;
 
     case '7':
-        $conteudo = $_SESSION("path").'./paginas/creditos.php';
+        $conteudo = $_SESSION("path").'public/paginas/creditos.php';
     break;
 
     case '8':
-        $conteudo = $_SESSION("path").'./paginas/sobre.php';
+        $conteudo = $_SESSION("path").'public/paginas/sobre.php';
     break;
     default:
         $conteudo = $_SESSION("path").'public/index.php';
     break;
     
 }
-header("Location:$conteudo");
 ?>
