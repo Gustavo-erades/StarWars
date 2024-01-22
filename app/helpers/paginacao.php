@@ -3,34 +3,34 @@ session_start();
 switch ($_GET['cod']) {
 
     case '0':
-        $conteudo = $_SESSION("path").'public/index.php';
+        echo 0;
     break;
 
     case '1':
-        $conteudo = $_SESSION("path").'public/paginas/episodio1.php';
+        echo $_SESSION["path"]."/public/index.php";
     break;
 
     case '2':
-        $conteudo = $_SESSION("path").'public/paginas/episodio2.php';
+        echo 2;
     break;
 
     case '3':
-        $conteudo = $_SESSION("path").'public/paginas/episodio3.php';
+        echo 3;
     break;
 
     case '404':
-        $conteudo = $_SESSION("path").'public/erro404.html';
+        echo 404;
     break;
 
     case '7':
-        $conteudo = $_SESSION("path").'public/paginas/creditos.php';
+        echo 7;
     break;
 
     case '8':
-        $conteudo = $_SESSION("path").'public/paginas/sobre.php';
+        echo 7;
     break;
     default:
-        $conteudo = $_SESSION("path").'public/index.php';
+        echo 404;
     break;
     
 }
