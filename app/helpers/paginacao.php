@@ -7,7 +7,7 @@ switch ($_GET['cod']) {
     break;
 
     case '1':
-        echo $_SESSION["path"]."/public/index.php";
+        echo 1;
     break;
 
     case '2':
