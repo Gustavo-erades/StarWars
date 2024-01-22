@@ -30,7 +30,7 @@ switch ($_GET['cod']) {
         $conteudo = $_SESSION("path").'./paginas/sobre.php';
     break;
     default:
-        $conteudo = $_SESSION("path").'index.php';
+        $conteudo = $_SESSION("path").'public/index.php';
     break;
     
 }
