@@ -1,7 +1,7 @@
 //seleciona os botões
-const botaoEpisodio1=document.querySelector("#episodio1");
-const botaoEpisodio2=document.querySelector("#episodio2");
-const botaoEpisodio3=document.querySelector("#episodio3");
+const botaoEpisodio1=document.querySelector("#episodio01");
+const botaoEpisodio2=document.querySelector("#episodio02");
+const botaoEpisodio3=document.querySelector("#episodio03");
 //seleciona os elementos
 const titulo=document.querySelector("#tituloEpisodio");
 const subtitulo=document.querySelector("#subtituloEpisodio");

@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="./assets/css/responsividade.css" media="all">
     <link rel="stylesheet" href="./assets/css/styleLoading.css">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
-    <script src="./assets/js/trocarTextosPrequel.js" defer></script>
-    <script src="./assets/js/trocarTextosClassico.js" defer></script>
+    <script src="./assets/js/textosClassico.js" defer></script>
+    <script src="./assets/js/textosPrequel.js" defer></script>
     <link rel="shortcut icon" href="./assets/imagens/icone5.png" type="image/x-icon">
     <title>Star Wars</title>
   </head>
@@ -120,13 +120,13 @@
           <div class="card-header">
             <ul class="nav nav-tabs card-header-tabs bg-transparent justify-content-center">
               <li class="nav-item">
-                <a class="nav-link active" id="episodio1">Episódio I</a>
+                <a class="nav-link active" id="episodio01">Episódio I</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="episodio2">Episódio II</a>
+                <a class="nav-link" id="episodio02">Episódio II</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="episodio3">Episódio III</a>
+                <a class="nav-link" id="episodio03">Episódio III</a>
               </li>
             </ul>
           </div>
@@ -156,13 +156,13 @@
           <div class="card-header">
             <ul class="nav nav-tabs card-header-tabs bg-transparent justify-content-center">
               <li class="nav-item">
-                <a class="nav-link active" id="episodio4">Episódio IV</a>
+                <a class="nav-link active" id="episodio04">Episódio IV</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="episodio5">Episódio V</a>
+                <a class="nav-link" id="episodio05">Episódio V</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="episodio6">Episódio VI</a>
+                <a class="nav-link" id="episodio06">Episódio VI</a>
               </li>
             </ul>
           </div>
