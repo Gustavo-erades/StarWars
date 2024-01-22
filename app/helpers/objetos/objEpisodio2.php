@@ -1,8 +1,9 @@
 <?php 
     // inclui os arquivos para trabalhar com a API, mexer com classes e converter a data
-    include_once("../APIs/API_filmes.php");
-    include_once("../classes/Filmes.php");
-    include_once("../funcoesPHP/formatarValores.php");
+    $path=$_SERVER["DOCUMENT_ROOT"].'/testes/StarWars/';
+    include_once($path.'app/APIs/API_filmes.php');
+    include_once($path.'app/classes/Filmes.php');
+    include_once($path.'app/helpers/funcoesPHP/formatarValores.php');
     // usa os métodos setters para armazenar valores específicos retornados da API
     $filme= new Filmes();
     $dados=consumirAPI("II");

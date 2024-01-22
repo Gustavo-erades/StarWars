@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../assets/css/styleEpisodio1.css" media="all">
     <link rel="stylesheet" href="../assets/css/episodios.css" media="all">
     <link rel="stylesheet" href="../assets/css/responsividadeEpisodio.css" media="all">
-    <link rel="stylesheet" href=<?= $path.'public/assets/css/styleLoading.css'?>>
+    <link rel="stylesheet" href="../assets/css/styleLoading.css">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../assets/imagens/icone3.png" type="image/x-icon">
     <title>Star Wars- Episódio I</title>
@@ -296,7 +296,7 @@
       <a href="#start" id="de_volta_ao_topo">&#9650;</a>
     </div>
     <!-- loading -->
-    <div id="loading" style="display: block">
+    <div id="loading">
         <img src="../assets/imagens/icons8-r2d2-96.png" alt="Droide R2D2 passeando por aí">
         <blockquote style="font-size: 1.3em;">
             Carregando, por favor aguarde &#128512; 
