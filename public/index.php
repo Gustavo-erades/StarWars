@@ -133,7 +133,7 @@
                 A Federação de Comércio entra em conflito com a República Galática ao bloquear as rotas comerciais do planeta Naboo, o que gera conflitos entre o planeta e a Federação.
                 Secretamente, dois jedis são mandados para resolver o conflito que aparenta ser mais profundo. A mando do lorde sith Darth Sidius a Federação envia Darth Maul para assassinar o mestre jedi Qui-Gon e seu padawan Obi-Wan ao mesmo tempo que inicia uma invasão militar em Naboo.  
               </p>
-              <a class="btn btn-warning" href="./paginas/episodios/episodio1.php" id="linkEpisodio">Ver história</a>
+              <a class="btn btn-warning" href="./paginas/episodio1.php" id="linkEpisodio">Ver história</a>
             </div>
             <img  src="./assets/imagens/ep1.png" alt="A ameaça fantasma" class="align-self-center" id="imagemEpisodio">
           </div>
