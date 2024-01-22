@@ -1,37 +1,39 @@
 <?php
-session_start();
 switch ($_GET['cod']) {
 
     case '0':
-        echo 0;
+       $conteudo=$_SESSION["path"].'public/home.php';
+       
     break;
 
     case '1':
-        echo 1;
+        $conteudo=$_SESSION["path"].'public/paginas/creditos.php';
     break;
 
     case '2':
-        echo 2;
+        $conteudo=$_SESSION["path"].'public/paginas/sobre.php';
     break;
 
-    case '3':
-        echo 3;
+    case 'ep1':
+        $conteudo=$_SESSION["path"].'public/paginas/episodio1.php';
+    break;
+
+    case 'ep2':
+        $conteudo=$_SESSION["path"].'public/paginas/episodio2.php';
+    break;
+
+    case 'ep3':
+        $conteudo=$_SESSION["path"].'public/paginas/episodio3.php';
     break;
 
     case '404':
-        echo 404;
+        $conteudo=$_SESSION["path"].'public/erro404.html';
     break;
 
-    case '7':
-        echo 7;
-    break;
-
-    case '8':
-        echo 7;
-    break;
     default:
-        echo 404;
+        $conteudo=$_SESSION["path"].'public/home.php';
     break;
     
 }
+header("Locale:$conteudo");
 ?>

@@ -4,9 +4,11 @@
   $_SESSION["path"]=$path;
   $_SESSION["pathConBd"]=$path.'app/database/conexaoBd/conexao.php';
   $_SESSION["pathAcessos"]=$path.'app/helpers/funcoesPHP/gerenciarAcessos.php';
-  $_SESSION["pathMenu"]=$path.'public/paginas/componentes/menu.php';
+  $_SESSION["pathPaginacao"]=$path.'app/helpers/paginacao.php';
+  $_SESSION["pathMenu"]=$path.'public/paginas/comsponentes/menu.php';
   include_once($_SESSION["pathConBd"]);
   include_once($_SESSION["pathAcessos"]);
+  include_once($_SESSION["pathPaginacao"]);
 ?>
 <!doctype html>
 <html lang="pt-br">

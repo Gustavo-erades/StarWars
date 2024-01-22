@@ -2,6 +2,7 @@
   session_start();
   include_once($_SESSION["pathConBd"]);
   include_once($_SESSION["pathAcessos"]);
+  require_once($_SESSION["pathPaginacao"]);
   include_once($_SESSION["path"].'app/helpers/objetos/objEpisodio1.php');
 ?>
 <!doctype html>
