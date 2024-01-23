@@ -8,6 +8,5 @@
     $_SESSION["pathPaginacao"]=$path.'app/helpers/paginacao.php';
     $_SESSION["pathMenu"]=$path.'public/paginas/componentes/menu.php';
 
-    /*include_once("../paginas/componentes/menu.php");*/
     include_once($_SESSION["pathPaginacao"]);
     include($conteudo);
