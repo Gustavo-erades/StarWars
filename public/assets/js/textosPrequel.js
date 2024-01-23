@@ -13,7 +13,7 @@ function trocarTextoEpisodio1(){
     titulo.textContent="Episodio I";
     subtitulo.textContent="A ameaça fantasma";
     paragrafo.textContent="A Federação de Comércio entra em conflito com a República Galática ao bloquear as rotas comerciais do planeta Naboo, o que gera conflitos entre o planeta e a Federação. Secretamente, dois jedis são mandados para resolver o conflito que aparenta ser mais profundo. A mando do lorde sith Darth Sidius a Federação envia Darth Maul para assassinar o mestre jedi Qui-Gon e seu padawan Obi-Wan ao mesmo tempo que inicia uma invasão militar em Naboo.";
-    link.setAttribute("href","episodio1.php");
+    link.setAttribute("href","index.php?cod=ep1");
     img.setAttribute("src","./assets/imagens/ep1.png");
 }
 // função que troca o texto (episódio 2)
@@ -21,7 +21,7 @@ function trocarTextoEpisodio2(){
     titulo.textContent="Episodio II";
     subtitulo.textContent="Ataque dos clones";
     paragrafo.textContent="Uma inquietação toma conta do Senado Galáctico. Milhares de sistemas solares declararam suas intenções em deixar a República. Esse movimento separatista, sob a liderança do misterioso Conde Dookan, tem criado dificuldades para o limitado número de Cavaleiros Jedi manter a paz e a ordem na galáxia. Senadora Amidala, a antiga rainha de Naboo está retornando ao Senado Galáctico para a votação da proposta crítica de criação de um Exército da República, para auxiliar os sobrecarregados Jedi....";
-    link.setAttribute("href","episodio2.php");
+    link.setAttribute("href","index.php?cod=ep2");
     img.setAttribute("src","./assets/imagens/ep2.png");
 }
 // função que troca o texto (episódio 3)
@@ -29,7 +29,7 @@ function trocarTextoEpisodio3(){
     titulo.textContent="Episodio III";
     subtitulo.textContent="A vingança dos Sith";
     paragrafo.textContent="Guerra! A República está desmoronando sob o ataque do impiedoso Lord Sith, Conde Dookan. Há heróis de ambos os lados. O Mal está por toda parte. Em uma manobra surpreendente, o diabólico líder Droide, General Grievous, invadiu a capital da República e sequestrou o Chanceler Palpatine, Líder do Senado Galáctico. Enquanto o Exército Separatista de Droides tenta escapar da capital sitiada com seu valioso refém, dois cavaleiros Jedi lideram uma missão desesperada para resgatar o Chanceler preso....";
-    link.setAttribute("href","episodio3.php");
+    link.setAttribute("href","index.php?cod=ep3");
     img.setAttribute("src","./assets/imagens/ep3.png");
 }
 // botão para o episódio 1
