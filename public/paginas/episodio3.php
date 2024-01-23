@@ -508,5 +508,6 @@
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/loading.js"></script>
     <script src="./assets/js/vanilla-tilt.min.js"></script>
+    <script src="./assets/js/consultaClasse.js"></script>
   </body>
 </html>

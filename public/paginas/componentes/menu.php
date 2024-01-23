@@ -3,9 +3,9 @@
         <a class="nav-link" href=<?=$_SERVER["PHP_SELF"].'?cod=0'?> id="menuHome">Home</a>
     </li>
     <li class="nav-item dropdown">
-        <a class="nav-link active dropdown-toggle bg-transparent" data-toggle="dropdown" id="dropdown">Episódios</a>
+        <a class="nav-link dropdown-toggle bg-transparent" data-toggle="dropdown" id="dropdown">Episódios</a>
         <div class="dropdown-menu">
-            <a href="<?=$_SERVER["PHP_SELF"].'?cod=ep1'?>" class="dropdown-item text-warning" id="menuEpisodio1">Episódio I</a>
+            <a href="<?=$_SERVER["PHP_SELF"].'?cod=ep1'?>" class="dropdown-item" id="menuEpisodio1">Episódio I</a>
             <a href="<?=$_SERVER["PHP_SELF"].'?cod=ep2'?>" class="dropdown-item" id="menuEpisodio2">Episódio II</a>
             <a href="<?=$_SERVER["PHP_SELF"].'?cod=ep3'?>" class="dropdown-item" id="menuEpisodio3">Episódio III</a>
             <a href="<?=$_SERVER["PHP_SELF"].'?cod=404'?>" class="dropdown-item" id="menuEpisodio4">Episódio IV</a>
