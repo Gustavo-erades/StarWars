@@ -179,9 +179,9 @@
       </div>
       <div class="container">
         <footer class="py-3 my-4">
-        <?php
-          require_once($_SESSION["pathFooter"]);
-        ?>
+          <?php
+            require_once($_SESSION["pathFooter"]);
+          ?>
         </footer>
       </div>
       <a href="#start" id="de_volta_ao_topo">&#9650;</a>
