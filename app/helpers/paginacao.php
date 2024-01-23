@@ -1,4 +1,5 @@
 <?php
+if(isset($_GET['cod'])?$_GET['cod']:$_GET['cod']=0);
 switch ($_GET['cod']) {
 
     case '0':
@@ -26,11 +27,11 @@ switch ($_GET['cod']) {
     break;
 
     case '404':
-        $conteudo=$_SESSION["path"].'public/erro404.html';
+        $conteudo=$_SESSION["path"].'public/paginas/erro404.html';
     break;
 
     default:
-        $conteudo=$_SESSION["path"].'public/paginas/home.php';
+        $conteudo=$_SESSION["path"].'public/paginas/paginas/home.php';
     break;
     
 }
