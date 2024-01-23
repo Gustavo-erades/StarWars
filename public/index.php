@@ -7,6 +7,7 @@
     $_SESSION["pathAcessos"]=$path.'app/helpers/funcoesPHP/gerenciarAcessos.php';
     $_SESSION["pathPaginacao"]=$path.'app/helpers/paginacao.php';
     $_SESSION["pathMenu"]=$path.'public/paginas/componentes/menu.php';
+    $_SESSION["pathFooter"]=$path.'public/paginas/componentes/footer.php';
 
     include_once($_SESSION["pathPaginacao"]);
     include($conteudo);
