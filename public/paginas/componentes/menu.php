@@ -1,6 +1,6 @@
 <ul class="nav nav-pills justify-content-center">
     <li class="nav-item">
-        <a class="nav-link" href=<?=$_SERVER["PHP_SELF"].'?cod=0'?>>Home</a>
+        <a class="nav-link" href=<?=$_SERVER["PHP_SELF"].'?cod=0'?> id="menuHome">Home</a>
     </li>
     <li class="nav-item dropdown">
         <a class="nav-link active dropdown-toggle bg-transparent" data-toggle="dropdown" id="dropdown">Episódios</a>
