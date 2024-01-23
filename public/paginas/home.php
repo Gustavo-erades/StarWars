@@ -1,11 +1,4 @@
 <?php
-  session_start();
-  $path=$_SERVER["DOCUMENT_ROOT"].'/testes/StarWars/';
-  $_SESSION["path"]=$path;
-  $_SESSION["pathConBd"]=$path.'app/database/conexaoBd/conexao.php';
-  $_SESSION["pathAcessos"]=$path.'app/helpers/funcoesPHP/gerenciarAcessos.php';
-  $_SESSION["pathPaginacao"]=$path.'app/helpers/paginacao.php';
-  $_SESSION["pathMenu"]=$path.'public/paginas/componentes/menu.php';
   include_once($_SESSION["pathConBd"]);
   include_once($_SESSION["pathAcessos"]);
   require_once($_SESSION["pathPaginacao"]);
@@ -15,14 +8,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css" media="all">
-    <link rel="stylesheet" href="./assets/css/responsividade.css" media="all">
-    <link rel="stylesheet" href="./assets/css/styleLoading.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css" media="all">
+    <link rel="stylesheet" href="../assets/css/responsividade.css" media="all">
+    <link rel="stylesheet" href="../assets/css/styleLoading.css">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
-    <script src="./assets/js/textosClassico.js" defer></script>
-    <script src="./assets/js/textosPrequel.js" defer></script>
-    <link rel="shortcut icon" href="./assets/imagens/icone5.png" type="image/x-icon">
+    <script src="../assets/js/textosClassico.js" defer></script>
+    <script src="../assets/js/textosPrequel.js" defer></script>
+    <link rel="shortcut icon" href="../assets/imagens/icone5.png" type="image/x-icon">
     <title>Star Wars</title>
   </head>
   <body>
@@ -140,9 +133,9 @@
                 A Federação de Comércio entra em conflito com a República Galática ao bloquear as rotas comerciais do planeta Naboo, o que gera conflitos entre o planeta e a Federação.
                 Secretamente, dois jedis são mandados para resolver o conflito que aparenta ser mais profundo. A mando do lorde sith Darth Sidius a Federação envia Darth Maul para assassinar o mestre jedi Qui-Gon e seu padawan Obi-Wan ao mesmo tempo que inicia uma invasão militar em Naboo.  
               </p>
-              <a class="btn btn-warning" href="./paginas/episodio1.php" id="linkEpisodio">Ver história</a>
+              <a class="btn btn-warning" href="episodio1.php" id="linkEpisodio">Ver história</a>
             </div>
-            <img  src="./assets/imagens/ep1.png" alt="A ameaça fantasma" class="align-self-center" id="imagemEpisodio">
+            <img  src="../assets/imagens/ep1.png" alt="A ameaça fantasma" class="align-self-center" id="imagemEpisodio">
           </div>
         </div>
       </div>
@@ -177,9 +170,9 @@
                 Os rebeldes liderados pela princesa Leia Organa conseguem roubar a planta de construção de uma arma bélica conhecida como Estrela da Morte e implantá-la no droide R2-D2 que segue para Tatooine buscando seu dono Obi-Wan Kenobi.
                 Após o assassinato brutal de seus tios, Luke Skywalker descobre o passado sobre os jedis e, junto de Obi-Wan, Leia e dois caçadores de recompensa (Han Solo e Chewbacca), tenta parar os planos maléficos do Império. 
               </p>
-              <a href="erro404.html" class="btn btn-warning" id="linkEpisodioClassico">Ver história</a>
+              <a href="../erro404.html" class="btn btn-warning" id="linkEpisodioClassico">Ver história</a>
             </div>
-            <img src="./assets/imagens/ep4.png" alt="Uma nova esperança" class="align-self-center" id="imgEpisodioClassico">
+            <img src="../assets/imagens/ep4.png" alt="Uma nova esperança" class="align-self-center" id="imgEpisodioClassico">
           </div>
         </div>
       </div>
@@ -302,7 +295,7 @@
    </div>
     <!-- loading -->
     <div id="loading">
-        <img src="./assets/imagens/icons8-r2d2-96.png" alt="Droide R2D2 passeando por aí">
+        <img src="../assets/imagens/icons8-r2d2-96.png" alt="Droide R2D2 passeando por aí">
         <blockquote>
             Carregando, por favor aguarde &#128512; 
         </blockquote>
@@ -310,8 +303,8 @@
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/loading.js"></script>
-    <script src="./assets/js/vanilla-tilt.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/loading.js"></script>
+    <script src="../assets/js/vanilla-tilt.min.js"></script>
   </body>
 </html>

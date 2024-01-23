@@ -2,8 +2,7 @@
 switch ($_GET['cod']) {
 
     case '0':
-       $conteudo=$_SESSION["path"].'public/home.php';
-       
+       $conteudo=$_SESSION["path"].'public/paginas/home.php';
     break;
 
     case '1':
@@ -31,9 +30,8 @@ switch ($_GET['cod']) {
     break;
 
     default:
-        $conteudo=$_SESSION["path"].'public/home.php';
+        $conteudo=$_SESSION["path"].'public/paginas/home.php';
     break;
     
 }
-header("Locale:$conteudo");
 ?>
