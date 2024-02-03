@@ -109,6 +109,8 @@ Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>,
     include_once($_SESSION["pathPaginacao"]);
     include($conteudo);
   ```
+Dessa maneira, na prática, o usuário acessa de fato apenas a pasta "public", mas não chega nem a acessar as páginas diretamente já que se mantém apenas na index por todo o tempo. Além de facilitar a manutenção no código, fazer isso também deu certo nível de segurança para o projeto ao segregar as páginas, componentes, consumo de API e classe/objetos.
+
  ##### - Consumo da API
  A API utilizada foi a <a href="https://www.omdbapi.com/">omdbapi</a>. Ela foi escolhida por sua velocidade em relação a <a href="https://www.omdbapi.com/](https://swapi.dev/)">swapi</a> que é uma API específica para o universo de Star Wars. 
  - Há uma classe "Filmes", essa classe contém os atributos que armazenaram os dados retornados pela API, cada episódio corresponde a uma instância dessa classe.
