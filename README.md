@@ -36,7 +36,79 @@ O JS foi usado para retornar a página que o usuário estava anteriormente (com 
 - O <a href="https://micku7zu.github.io/vanilla-tilt.js/">Vanilla JS</a> é responsável pelo efeito que mexe os parágrafos ao passar o mouse por cima deles. Apenas foi preciso importar o arquivo JS baixado no link anterior e por o atributo `data-tilt` nos parágrafos.
 ## Back-end
 1. ###  PHP (versão 8.2.11) 
-Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>, para fazer a conexão com o banco de dados e para gerenciar as sessões.
+Ele é usado para consumo da api <a href="https://www.omdbapi.com/">omdbapi</a>, para fazer a conexão com o banco de dados, para gerenciar as sessões e para gerenciar as páginas a partir da index.
+##### - Paginação na Index
+ Por questões de agilidade alguns componentes das páginas que se repetem ficam separados e são incluidos com `require_once()` nas páginas (como o menu e o footer). Isso facilitou pois caso seja necessário incluir algum componente no menu ou no footer eu só preciaria me preocupar com um único arquivo e não com todas as páginas, mas ainda havia o problemas dos paths dos links. Os paths usavam o caminho relativo e a depender da estrutura dos arquivos esses caminhos poderiam ficar deslocados. Para resolver isso e também para dar certo nível de segurança na aplicação, foi desenvolvido um index que guarda os paths necessários em variáveis de sessão e usa o script `paginacao.php` para controlar as páginas acessadas pelos usuários, dessa maneira os caminhos dos links do menu também podem manter-se como caminhos relativos pois todas as páginas ficam em um único lugar específico.
+- O script de paginação consiste em um switch case que armazena na variável $conteudo o nome da página que deverá ser inclusa naquele momento:
+  ```
+  <?php
+	if(isset($_GET['cod'])?$_GET['cod']:$_GET['cod']=0);
+	switch ($_GET['cod']) {
+
+	    case '0':
+	       $conteudo=$_SESSION["path"].'public/paginas/home.php';
+	    break;
+	
+	    case '1':
+	        $conteudo=$_SESSION["path"].'public/paginas/creditos.php';
+	    break;
+	
+	    case '2':
+	        $conteudo=$_SESSION["path"].'public/paginas/sobre.php';
+	    break;
+	
+	    case 'ep1':
+	        $conteudo=$_SESSION["path"].'public/paginas/episodio1.php';
+	    break;
+	
+	    case 'ep2':
+	        $conteudo=$_SESSION["path"].'public/paginas/episodio2.php';
+	    break;
+
+	    case 'ep3':
+	        $conteudo=$_SESSION["path"].'public/paginas/episodio3.php';
+	    break;
+	
+	    case '404':
+	        $conteudo=$_SESSION["path"].'public/paginas/erro404.html';
+	    break;
+	
+	    default:
+	        $conteudo=$_SESSION["path"].'public/paginas/paginas/home.php';
+	    break;
+    
+	}
+	?>
+  ```
+ Os links do menu redirecionam para a prórpia index com `$_PHP['PHP_SELF']` mas levando com parâmetro no GET o código da página, por meio desse script de switch a página index sabe o que deve mostrar.
+ - Exemplo dos links do menu:
+   ```
+   	<div class="dropdown-menu">
+            <a href="<?=$_SERVER["PHP_SELF"].'?cod=ep1'?>" class="dropdown-item" id="menuEpisodio1">Episódio I</a>
+            <a href="<?=$_SERVER["PHP_SELF"].'?cod=ep2'?>" class="dropdown-item" id="menuEpisodio2">Episódio II</a>
+            <a href="<?=$_SERVER["PHP_SELF"].'?cod=ep3'?>" class="dropdown-item" id="menuEpisodio3">Episódio III</a>
+            <a href="<?=$_SERVER["PHP_SELF"].'?cod=404'?>" class="dropdown-item" id="menuEpisodio4">Episódio IV</a>
+            <a href="<?=$_SERVER["PHP_SELF"].'?cod=404'?>" class="dropdown-item" id="menuEpisodio5">Episódio V</a>
+            <a href="<?=$_SERVER["PHP_SELF"].'?cod=404'?>" class="dropdown-item" id="menuEpisodio6">Episódio VI</a>
+        </div>
+   ```
+- Script da index.php:
+  ```
+  <?php 
+    session_start();
+
+    $path=$_SERVER["DOCUMENT_ROOT"].'/testes/StarWars/';
+    $_SESSION["path"]=$path;
+    $_SESSION["pathConBd"]=$path.'app/database/conexaoBd/conexao.php';
+    $_SESSION["pathAcessos"]=$path.'app/helpers/funcoesPHP/gerenciarAcessos.php';
+    $_SESSION["pathPaginacao"]=$path.'app/helpers/paginacao.php';
+    $_SESSION["pathMenu"]=$path.'public/paginas/componentes/menu.php';
+    $_SESSION["pathFooter"]=$path.'public/paginas/componentes/footer.php';
+    $_SESSION["pathLoad"]=$path.'public/paginas/componentes/loading.php';
+
+    include_once($_SESSION["pathPaginacao"]);
+    include($conteudo);
+  ```
  ##### - Consumo da API
  A API utilizada foi a <a href="https://www.omdbapi.com/">omdbapi</a>. Ela foi escolhida por sua velocidade em relação a <a href="https://www.omdbapi.com/](https://swapi.dev/)">swapi</a> que é uma API específica para o universo de Star Wars. 
  - Há uma classe "Filmes", essa classe contém os atributos que armazenaram os dados retornados pela API, cada episódio corresponde a uma instância dessa classe.
