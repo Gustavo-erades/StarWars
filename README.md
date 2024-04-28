@@ -20,7 +20,7 @@ Para o Front usei o padrão HTML, CSS, JavaScript e o framework Bootstrap. O Boo
 >Todos os gifs usados nas páginas são links para gifs da internet, portanto caso haja algum erro no carregamento desses gifs peço que entre em contato comigo para que eu possa resolver o problema, obrigado.
 >Esse site também não possui nenhum fim lucrativo, portanto não estou ganhando em cima da imagem de autoria de outra pessoa. Porém, se você possui autoria sobre alguma imagem/vídeo utilizado no site, por favor, entre em contato comigo para que eu retire sua imagem e  possa a substituir por outra de livre uso, obrigado.
 
-3. ### JavaScript
+2. ### JavaScript
 
 O JS foi usado para retornar a página que o usuário estava anteriormente (com o `history.go(-1)` no botão "voltar" da página de erro 404), para criar a dinâmica das sinopses dos episódios na index e para a lógica do preload (com o R2-d2 passeando na tela). Além disso também foi utilizado o Vanilla Js para o efeito ao passar o mouse pelos parágrafos.
 - Na index, quando uma aba é selecionada nas seções "Trilogia Prequel" e "Trilogia Clássica", o JavaScript captura o número do episódio e troca os textos, imagem e classe da aba ativa, dando assim a noçãoo de navegação.
