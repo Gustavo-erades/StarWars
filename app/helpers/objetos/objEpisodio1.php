@@ -1,5 +1,5 @@
 <?php 
-    $path=$_SERVER["DOCUMENT_ROOT"].'/testes/StarWars/';
+    $path=$_SERVER["DOCUMENT_ROOT"].'/StarWars/';
     // inclui os arquivos para trabalhar com a API, mexer com classes e converter a data
     include_once($path.'app/APIs/API_filmes.php');
     include_once($path.'app/classes/Filmes.php');

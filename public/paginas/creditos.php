@@ -8,13 +8,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css" media="all">
-    <link rel="stylesheet" href="./assets/css/responsividade.css" media="all">
-    <link rel="stylesheet" href="./assets/css/styleLoading.css">
-    <link rel="stylesheet" href="./assets/css/styleCreditos.css">
+    <link rel="stylesheet" href="./public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/assets/css/style.css" media="all">
+    <link rel="stylesheet" href="./public/assets/css/responsividade.css" media="all">
+    <link rel="stylesheet" href="./public/assets/css/styleLoading.css">
+    <link rel="stylesheet" href="./public/assets/css/styleCreditos.css">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="./assets/imagens/icone5.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./public/assets/imagens/icone5.png" type="image/x-icon">
     <title>Star Wars - Créditos</title>
   </head>
   <body>
@@ -33,7 +33,7 @@
       </div>
       <div class="cartaDev-sobre">
             <p class="lead">
-                "Olá padawan, agradeço por ter me acompanhado durante essa longa tragetória pela galáxia. Aqui dou os devidos créditos àqueles que me ajudaram a contar a história de uma galáxia distante de maneira resumida, interessante e bonita visualmente. Dou os créditos ainda aos sites de onde retirei os textos e demais dados utilizados durante a construção desse projeto. Saiba, leitor, que esse site nada mais é do que um espécie de "reboot" do projeto final da matéria de Desenvolvimento Web do curso de Análise e Desenvolviento de Sistemas, feito no meu segundo semestre, no ano de 2022. Caso, por curiosidade, queira conferir a primeira versão desse projeto basta <a href="https://gustavo-erades.github.io/Site-StarWars-AneisDePoder/Index.html"> clicar aqui</a>. Espero que acompanhar essa história tenha sido tão prazeroso para você quanto foi para mim desenvolver. Esse projeto me custou tempo e pôs minhas habilidades sobre desenvolvimento web (e conhecimento sobre o vasto universo de Star Wars) a prova! Espero que tenha valido a pena. Bem, no rodapé dessa página há links para meu GitHub e demais redes sociais, te aguardo em uma próxima jornada padawan, quem sabe nos vejemos de novo caso haja algum <em>Despertar da Força</em>..."
+                "Olá padawan, agradeço por ter me acompanhado durante essa longa tragetória pela galáxia. Aqui dou os devidos créditos àqueles que me ajudaram a contar a história de uma galáxia distante de maneira resumida, interessante e bonita visualmente. Dou os créditos ainda aos sites de onde retirei os textos e demais dados utilizados durante a construção desse projeto. Saiba, leitor, que esse site nada mais é do que um espécie de "reboot" do projeto final da matéria de Desenvolvimento Web do curso de Análise e Desenvolviento de Sistemas, feito no meu segundo semestre, no ano de 2022. Caso, por curiosidade, queira conferir a primeira versão desse projeto basta <a href="https://gustavo-erades.github.io/Site-StarWars-AneisDePoder/Index.html"> clicar aqui</a>. Espero que acompanhar essa história tenha sido tão prazeroso para você quanto foi para mim desenvolver. Esse projeto me custou tempo e pôs minhas habilidades sobre desenvolvimento web (e conhecimento sobre o vasto universo de Star Wars) a prova! Espero que tenha valido a pena. Bem, no rodapé dessa página há links para meu GitHub e demais redes sociais, te aguardo em uma próxima jornada padawan, quem sabe nos vejamos novamente em um <em>Despertar da Força</em>..."
             </p>
             <footer class="blockquote-footer centro">
                 <cite class="blockquote-cite">Gustavo Êrades, o desenvolvedor, 2023</cite>
@@ -167,7 +167,7 @@
           No dia 9 de novembro de 2023, aproximadamente às quatro da manhã, perdi meu amigo.  Realmente me diverti refazendo esse site do zero (agora com bem mais experiência), mas esse projeto tem uma finalidade, ou melhor, um destinatário. Não estávamos nos falando tanto, e não nos viamos há algum tempo. Decidi refazer o projeto que fizemos juntos no segundo semestre para que pudéssemos nos reencontrar e conversar mais vezes, mas nem sempre tudo acontece como esperamos, não é? Bem, dedico cada linha de código, imagem, texto e horas não dormidas a você Vini. Sinto sua falta, mas sei que vamos nos encontrar novamente, afinal você me deve uma revanche no xadrez!  Que a força esteja contigo e também com você, caro leitor, que chegou até aqui.
         </p>
         <div class="centro">
-            <img src="./assets/imagens/vini.jpg" alt="Em memória de Vinícius Fernandes Pereira Alves" width="250px">
+            <img src="./public/assets/imagens/vini.jpg" alt="Em memória de Vinícius Fernandes Pereira Alves" width="250px">
             <p class="lead centro">23/02/1997 - 09/11/2023</p>
         </div>
       </div>
@@ -195,8 +195,8 @@
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/loading.js"></script>
-    <script src="./assets/js/consultaClasse.js"></script>
+    <script src="./public/assets/js/bootstrap.min.js"></script>
+    <script src="./public/assets/js/loading.js"></script>
+    <script src="./public/assets/js/consultaClasse.js"></script>
   </body>
 </html>

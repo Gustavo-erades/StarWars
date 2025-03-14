@@ -1,7 +1,7 @@
 <?php 
     session_start();
 
-    $path=$_SERVER["DOCUMENT_ROOT"].'/testes/StarWars/';
+    $path=$_SERVER["DOCUMENT_ROOT"].'/StarWars/';
     $_SESSION["path"]=$path;
     $_SESSION["pathConBd"]=$path.'app/database/conexaoBd/conexao.php';
     $_SESSION["pathAcessos"]=$path.'app/helpers/funcoesPHP/gerenciarAcessos.php';

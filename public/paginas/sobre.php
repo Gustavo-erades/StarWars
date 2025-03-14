@@ -8,13 +8,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css" media="all">
-    <link rel="stylesheet" href="./assets/css/responsividade.css" media="all">
-    <link rel="stylesheet" href="./assets/css/styleLoading.css">
-    <link rel="stylesheet" href="./assets/css/styleCreditos.css">
+    <link rel="stylesheet" href="./public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/assets/css/style.css" media="all">
+    <link rel="stylesheet" href="./public/assets/css/responsividade.css" media="all">
+    <link rel="stylesheet" href="./public/assets/css/styleLoading.css">
+    <link rel="stylesheet" href="./public/assets/css/styleCreditos.css">
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="./assets/imagens/icone5.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./public/assets/imagens/icone5.png" type="image/x-icon">
     <title>Star Wars - Sobre</title>
   </head>
   <body>
@@ -72,8 +72,8 @@
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/loading.js"></script>
-    <script src="./assets/js/consultaClasse.js"></script>
+    <script src="./public/assets/js/bootstrap.min.js"></script>
+    <script src="./public/assets/js/loading.js"></script>
+    <script src="./public/assets/js/consultaClasse.js"></script>
   </body>
 </html>

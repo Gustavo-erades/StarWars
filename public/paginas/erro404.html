@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/styleLoading.css">
+    <link rel="stylesheet" href="./public/assets/css/styleLoading.css">
     <title>Erro 404</title>
     <style>
         @font-face{
             font-family: "bebas kai";
-            src:url("./assets/fontes/BebasKai.ttf");
+            src:url("./public/assets/fontes/BebasKai.ttf");
         }
         body{
-            background: #000 url("./assets/imagens/fundo_estrelado.png") fixed;
+            background: #000 url("./public/assets/imagens/fundo_estrelado.png") fixed;
             background-size: cover;
             text-align: center;
             font-family:"bebas kai";
@@ -81,7 +81,7 @@
             Essa página ainda está sendo desenvolvida em uma galáxia muito distante...
         </p>
         <blockquote>
-            "Paciência, jovem padawan, deve ter!"
+            "Paciência jovem padawan deve ter!"
             <cite>- Gustavo Êrades, o desenvolvedor, 2023</cite>
         </blockquote>
         <button onclick="voltar()">
@@ -89,7 +89,7 @@
         </button>
     </div>
     <div id="loading">
-        <img src="./assets/imagens/icons8-r2d2-96.png" alt="Droide R2D2 passeando por aí">
+        <img src="./public/assets/imagens/icons8-r2d2-96.png" alt="Droide R2D2 passeando por aí">
         <blockquote style="font-size: 1.3em;">
             Carregando, por favor aguarde &#128512; 
         </blockquote>
@@ -99,6 +99,6 @@
             history.go(-1);
         }
     </script>
-    <script src="./assets/js/loading.js"></script>
+    <script src="./public/assets/js/loading.js"></script>
 </body>
 </html>

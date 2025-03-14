@@ -15,7 +15,7 @@
         </span>
         <span id="span-footer-acessos" class="col-xl-6">
             <span>
-                <?=$quantidade?> acessos. 
+                <?=$quantidade?> acesso<?=$quantidade>1?'s':''?>. 
             </span>
             </span>
     </div>
