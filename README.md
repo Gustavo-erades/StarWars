@@ -145,7 +145,7 @@ Dessa maneira, na prática, o usuário acessa de fato apenas a pasta "public", m
 ```
     
 2. ### SQL do banco de dados
-O SGBD utilizado na fase de implementação foi o MySql, mas no momento da hospedagem do projeto na **00WebHost**, o banco foi migrado para o PHPMyAdmin.
+O SGBD utilizado na fase de implementação foi o MySql, mas no momento da hospedagem do projeto na **infinity free**, o banco foi migrado para o PHPMyAdmin.
 Segue o código SQL da criação das tabelas do banco de dados:
 ```
   create database starWars;
